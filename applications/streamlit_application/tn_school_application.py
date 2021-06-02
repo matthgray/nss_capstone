@@ -25,7 +25,15 @@ fig_zip
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
 selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,default='Metro Nashville Public Schools')
-county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
+#county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
+
+#select high school or k8
+sort_school = sorted(tn_data.pool.unique())
+selected_from_school= st.sidebar.multiselect('filter by school',sort_school,default='HS')
+#select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
+
+
+df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) & (tn_data.pool.isin(selected_from_school))]
 
 # select a metric
 unique_metric = sorted(tn_data.columns.unique())
@@ -36,18 +44,18 @@ selected_metric = st.sidebar.multiselect('choose a metric', unique_metric,defaul
 #st.line_chart(filter_metric)
 
 #unique_pos = ['RB','QB','WR','FB','TE']
-#fig = px.bar(filter_metric, x=selected_metric, y='school_name')
-#fig
+fig = px.bar(df_selected_school, x='pct_chronically_absent_2020', y='school_name')
+fig
 
 
 # Filtering data
 #df_selected = tn_data[(county_selected) & (filter_metric)]
 
 
-#figed = px.treemap(county_selected, path=['school_name'], values='dropout_rate',hover_data=['district_name','graduation rate '])
+#figed = px.treemap(df_selected_school, path=['school_name'], values='pct_chronically_absent_2020')
 #figed
+#hover_data=['percent_retained','score_achievment']
 
-
-st.dataframe(county_selected)
+st.dataframe(df_selected_school)
 
 #st.write(county_selected.percent_scoring_21_or_higher.describe(),county_selected.percent_scoring_below_19.describe())
