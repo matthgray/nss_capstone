@@ -53,7 +53,23 @@ def build_model(df):
     st.markdown('**2.1. Training set**')
     Y_pred_train = rf.predict(X_train)
     st.write('Area Under the Curve:')
-    st.info( metrics.auc(Y_train, Y_pred_train) )
+    st.info( metrics.roc_auc_score(Y_train, Y_pred_train) )
+
+    fpr, tpr, thresholds = roc_curve(Y_train, Y_pred_train)
+    fig1 = px.area(
+    x=fpr, y=tpr,
+    title=f'ROC Curve (AUC={auc(fpr, tpr):.4f})',
+    labels=dict(x='False Positive Rate', y='True Positive Rate'),
+    width=700, height=500
+    )
+    fig1.add_shape(
+    type='line', line=dict(dash='dash'),
+    x0=0, x1=1, y0=0, y1=1
+    )
+
+    fig1.update_yaxes(scaleanchor="x", scaleratio=1)
+    fig1.update_xaxes(constrain='domain')
+    fig1
 
     #st.write('Error (MSE or MAE):')
     #st.info( mean_squared_error(Y_train, Y_pred_train) )
@@ -61,7 +77,7 @@ def build_model(df):
     st.markdown('**2.2. Test set**')
     Y_pred_test = rf.predict(X_test)
     st.write('Area Under the Curve:')
-    st.info(metrics.auc(Y_test, Y_pred_test))
+    st.info(metrics.roc_auc_score(Y_test, Y_pred_test))
 
 
     fpr, tpr, thresholds = roc_curve(Y_test, Y_pred_test)

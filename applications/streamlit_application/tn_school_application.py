@@ -20,16 +20,17 @@ df=pd.read_csv('streamlit_county_data.csv')
 st.markdown('''# TN SCHOOLS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.write('''# Schools who spend the most per student and have the largest percentage of funding with local budget ''')
-fig_zip_score = px.scatter_mapbox(df, lat="latitude", lon="longitude",color='score_achievement', size="pct_chronically_absent_2020",
-                  color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
-                  mapbox_style="carto-positron")
-fig_zip_score
 
 
 fig_zip = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='Total_Expenditures_Per_School', size="State_Percentage",
                   color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
                   mapbox_style="carto-positron")
 fig_zip
+
+fig_zip_score = px.scatter_mapbox(df, lat="latitude", lon="longitude",color='score_achievement', size="pct_chronically_absent_2020",
+                  color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
+                  mapbox_style="carto-positron")
+fig_zip_score
 
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
