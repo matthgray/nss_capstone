@@ -60,7 +60,7 @@ fig_zip_score
 #st.dataframe(df_selected_school)
 
 st.write('''# Schools with the highest achievement score from 2019 by county:''')
-figed = px.treemap(df_selected_school, path=['district_name','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'])
+figed = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'])
 figed
 
 
