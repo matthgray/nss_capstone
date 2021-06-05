@@ -10,6 +10,7 @@ from matplotlib import pyplot as plt
 
 #data
 df=pd.read_csv('tn_reg_ml_data.csv')
+df=df.drop(['dropout_rate','percentage of ready graduates','number of students total'],axis=1)
 
 st.write("# Predicting a schools graduation rate")
 #---------------------------------#

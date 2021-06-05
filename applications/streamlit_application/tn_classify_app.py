@@ -10,7 +10,7 @@ from sklearn import metrics
 import matplotlib.pyplot as plt
 
 df=pd.read_csv('school_classification_data.csv')
-
+df=df.drop(['dropout_rate','percentage of ready graduates','number of students total'],axis=1)
 st.set_page_config(page_title='The Machine Learning for TN Education',
     layout='wide')
 
