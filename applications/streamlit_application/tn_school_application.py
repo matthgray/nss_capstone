@@ -12,6 +12,7 @@ import numpy as np
 #url='https://raw.githubusercontent.com/matthgray/nss_capstone/mg_eda/data/clean_data/clean_data.csv'
 tn_data = pd.read_csv('streamlit_application_data_3.csv')
 finance_data = pd.read_csv('tn_map_data.csv')
+tn_data = tn_data.dropna()
 
 
 #----------------------------------------------------------------#
@@ -52,15 +53,17 @@ fig_zip_score = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",
                   mapbox_style="carto-positron")
 fig_zip_score
 
+st.dataframe(df_selected_school)
 
-st.write('''# Schools with the highest achievement score from 2019 by zipcode:''')
-figed = px.treemap(df_selected_school, path=['zipcode','school_name'], values='score_achievement',hover_data=['zipcode'])
+st.write('''# Schools with the highest achievement score from 2019 by county:''')
+figed = px.treemap(df_selected_school, path=['district_name','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'])
 figed
 
 
 st.write('''# Schools with highest percentage of students absent & teachers retained: ''')
-fig = px.bar(df_selected_school.sort_values('pct_chronically_absent_2020'), x='pct_chronically_absent_2020', y='school_name',
-              color='percent_retained',hover_data=['zipcode'],
-              labels={'school_name':'SCHOOLS','pct_chronically_absent_2020':'PERCENTAGE OF STUDENTS ABSENT','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'},
-              height=400)
-fig
+teacher_retention=df_selected_school['percent_retained'].mean()
+figed = px.treemap(df_selected_school, path=['district_name','zipcode','school_name'] , values='percent_ca2019',color='school_name',hover_data=['zipcode','district_name'])
+figed
+
+fig_teacher = px.histogram(df_selected_school.sort_values('percent_ca2019'), x="percent_ca2019",y='school_name', color="district_name")
+fig_teacher
