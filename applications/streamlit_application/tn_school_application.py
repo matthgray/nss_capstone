@@ -21,7 +21,7 @@ tn_data = tn_data.dropna()
 st.markdown('''# TN SCHOOLS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
-st.write('''# Score achievement and per pupil spending in 2019 by county''')
+st.write('''# Score achievement and per pupil spending in 2019 by county:''')
 
 #------------------------------------------------------------#
 # filters
@@ -51,13 +51,13 @@ fig_zip = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color=
                   mapbox_style="carto-positron")
 fig_zip
 
-st.write('''# Score achievement and local spending by county  ''')
+st.write('''# Score achievement and local spending by county:  ''')
 fig_zip_score = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",
                   color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
                   mapbox_style="carto-positron")
 fig_zip_score
 
-st.dataframe(df_selected_school)
+#st.dataframe(df_selected_school)
 
 st.write('''# Schools with the highest achievement score from 2019 by county:''')
 figed = px.treemap(df_selected_school, path=['district_name','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'])
