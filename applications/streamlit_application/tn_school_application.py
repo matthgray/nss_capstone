@@ -27,17 +27,21 @@ st.write('''# Score achievement and per pupil spending in 2019 by county''')
 # filters
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
-selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,default='Metro Nashville Public Schools')
+selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,default=['Metro Nashville Public Schools','Shelby County Schools'])
 #county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
 
 #select high school or k8
-sort_school = sorted(tn_data.pool.unique())
-selected_from_school= st.sidebar.multiselect('filter by school',sort_school,default='K8')
+sort_grade = sorted(tn_data.pool.unique())
+selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,default='K8')
+#select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
+
+sort_school = sorted(tn_data.school_name.unique())
+selected_from_school= st.sidebar.multiselect('filter by school',sort_school,default=['May Werthan Shayne Elementary School','Granbery Elementary','Pennington Elementary'])
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
 
-
-df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) & (tn_data.pool.isin(selected_from_school))]
+school_selected_df= tn_data[(tn_data.school_name.isin(selected_from_school))]
+df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) & (tn_data.pool.isin(selected_from_grade))]
 
 #------------------------------------------------------------------#
 # graphs
@@ -60,10 +64,17 @@ figed = px.treemap(df_selected_school, path=['district_name','school_name'], val
 figed
 
 
-st.write('''# Schools with highest percentage of students absent & teachers retained: ''')
-teacher_retention=df_selected_school['percent_retained'].mean()
-figed = px.treemap(df_selected_school, path=['district_name','zipcode','school_name'] , values='percent_ca2019',color='school_name',hover_data=['zipcode','district_name'])
-figed
+st.write('''# Schools with highest percentage of students absent: ''')
 
-fig_teacher = px.histogram(df_selected_school.sort_values('percent_ca2019'), x="percent_ca2019",y='school_name', color="district_name")
-fig_teacher
+#fig_teacher = px.treemap(df_selected_school, path=['district_name','zipcode','school_name'] , values='percent_ca2019',color='school_name',hover_data=['zipcode','district_name'])
+#fig_teacher
+
+fig_absent = px.histogram(df_selected_school.sort_values('percent_ca2019'), x="percent_ca2019",y='school_name', color="district_name")
+
+fig_absent
+st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
+figy = px.bar(school_selected_df.sort_values('teacher'), x='teacher', y='school_name',
+              color='percent_retained',hover_data=['zipcode','enrollment_2019'],
+              labels={'school_name':'SCHOOLS','pct_chronically_absent_2020':'PERCENTAGE OF STUDENTS ABSENT','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'},
+              height=400)
+figy
