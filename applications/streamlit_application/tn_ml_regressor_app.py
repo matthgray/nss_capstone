@@ -67,13 +67,15 @@ def build_model(df):
     st.subheader('3. Model Parameters')
     st.write(rf.get_params())
     st.subheader('4. Important features')
+
     sorted_idx = rf.feature_importances_.argsort()
-    fig=px.bar(df.columns[sorted_idx], rf.feature_importances_[sorted_idx])
-    fig
-    st.info(df.shape)
-    st.dataframe(df)
 
-
+    #st.dataframe(X)
+    plt.rcParams.update({'figure.figsize': (12.0, 8.0)})
+    plt.rcParams.update({'font.size': 14})
+    st.set_option('deprecation.showPyplotGlobalUse', False)
+    plt.barh(X_train.columns[sorted_idx], rf.feature_importances_[sorted_idx])
+    st.pyplot()
 #---------------------------------#
 
 # Sidebar - Specify parameter settings
@@ -94,5 +96,8 @@ with st.sidebar.subheader('2.2. General Parameters'):
     parameter_n_jobs = st.sidebar.select_slider('Number of jobs to run in parallel (n_jobs)', options=[1, -1])
 
 #---------------------------------#
+
 if st.button('Press to build a model'):
+    st.balloons()
+    st.success('Congratulation!')
     build_model(df)

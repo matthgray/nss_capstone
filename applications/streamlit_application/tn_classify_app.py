@@ -39,7 +39,7 @@ def build_model(df):
 
     rf = RandomForestClassifier(n_estimators=parameter_n_estimators,
         random_state=parameter_random_state,
-        max_features=parameter_max_features,
+        #max_features=parameter_max_features,
         criterion=parameter_criterion,
         min_samples_split=parameter_min_samples_split,
         min_samples_leaf=parameter_min_samples_leaf,
@@ -52,8 +52,8 @@ def build_model(df):
 
     st.markdown('**2.1. Training set**')
     Y_pred_train = rf.predict(X_train)
-    st.write('Area Under the Curve:')
-    st.info( metrics.roc_auc_score(Y_train, Y_pred_train) )
+    #st.write('Area Under the Curve:')
+    #st.info( metrics.roc_auc_score(Y_train, Y_pred_train) )
 
     fpr, tpr, thresholds = roc_curve(Y_train, Y_pred_train)
     fig1 = px.area(
@@ -76,8 +76,8 @@ def build_model(df):
 
     st.markdown('**2.2. Test set**')
     Y_pred_test = rf.predict(X_test)
-    st.write('Area Under the Curve:')
-    st.info(metrics.roc_auc_score(Y_test, Y_pred_test))
+    #st.write('Area Under the Curve:')
+    #st.info(metrics.roc_auc_score(Y_test, Y_pred_test))
 
 
     fpr, tpr, thresholds = roc_curve(Y_test, Y_pred_test)
@@ -109,8 +109,8 @@ with st.sidebar.header('2. Set Parameters'):
     split_size = st.sidebar.slider('Data split ratio (% for Training Set)', 10, 90, 80, 5)
 
 with st.sidebar.subheader('2.1. Learning Parameters'):
-    parameter_n_estimators = st.sidebar.slider('Number of estimators (n_estimators)', 0, 1000, 100,10)
-    parameter_max_features = st.sidebar.select_slider('Max features (max_features)', options=['auto'])
+    parameter_n_estimators = st.sidebar.slider('Number of estimators (n_estimators)',0,1000,100,100)
+    #parameter_max_features = st.sidebar.select_slider('Max features (max_features)', options=['auto'])
     parameter_min_samples_split = st.sidebar.slider('Minimum number of samples required to split an internal node (min_samples_split)', 1, 10, 2, 1)
     parameter_min_samples_leaf = st.sidebar.slider('Minimum number of samples required to be at a leaf node (min_samples_leaf)', 1, 10, 2, 1)
 
@@ -125,4 +125,4 @@ with st.sidebar.subheader('2.2. General Parameters'):
 st.subheader('1. Dataset')
 
 if st.button('Press to build a classification model'):
-build_model(df)
+        build_model(df)
