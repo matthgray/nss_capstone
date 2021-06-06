@@ -10,7 +10,9 @@ import numpy as np
 # read data
 # url
 #url='https://raw.githubusercontent.com/matthgray/nss_capstone/mg_eda/data/clean_data/clean_data.csv'
+# data for achievement scores, teacher Retention,etc 
 tn_data = pd.read_csv('streamlit_application_data_3.csv')
+# data for ppe and budgets
 finance_data = pd.read_csv('tn_map_data.csv')
 tn_data = tn_data.dropna()
 
