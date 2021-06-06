@@ -24,7 +24,8 @@ st.markdown('''# TN SCHOOLS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
 
-
+#st.dataframe(tn_data)
+#st.info(tn_data.dtypes)
 #------------------------------------------------------------#
 # filters
 # filter by county
@@ -34,7 +35,10 @@ selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,de
 
 #select high school or k8
 sort_grade = sorted(tn_data.pool.unique())
-selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,default='K8')
+selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,sort_grade)
+
+
+
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
 sort_school = sorted(tn_data.school_name.unique())
@@ -46,17 +50,24 @@ default=['Granbery Elementary','John Sevier Elementary','Trousdale Co Elementary
 school_selected_df= tn_data[(tn_data.school_name.isin(selected_from_school))]
 df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) & (tn_data.pool.isin(selected_from_grade))]
 
+
+# handle counties with not HS or K8
+#if df_selected_school.pool = NaN:
+    #st.success("Success!")
+#else:
+    #st.error('A county does not have a high school or K8 school. Please try removing one and see if that works.')
+
 #------------------------------------------------------------------#
 # graphs
 
-st.dataframe(finance_data)
+
 st.write('''# Score achievement and local spending by county:  ''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
                   hover_data=["district_ppe","state_funding_percent"],color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
                   mapbox_style="carto-positron")
 local_fig
 
-#st.dataframe(df_selected_school)
+
 
 st.write('''# Schools with the highest achievement score from 2019 by county:''')
 achieve_fig = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'],title="Achievement score by county")
