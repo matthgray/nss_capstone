@@ -24,7 +24,7 @@ st.markdown('''# TN SCHOOLS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
 
-#st.dataframe(tn_data)
+st.dataframe(tn_data)
 #st.info(tn_data.dtypes)
 #------------------------------------------------------------#
 # filters
@@ -77,15 +77,15 @@ achieve_fig
 st.write('''# Schools with highest percentage of students absent: ''')
 
 
-fig_absent = px.histogram(df_selected_school.sort_values('percent_ca2019'), x="percent_ca2019",y='school_name', color="district_name",title="Chronically Absent per school",
+fig_absent = px.histogram(df_selected_school.sort_values('percent_retained'), x="percent_retained",y='school_name', color="district_name",title="Chronically Absent per school",
 hover_data=["score_achievement","zipcode"],
 labels={'school_name':'SCHOOLS','percent_ca2019':'PERCENTAGE OF STUDENTS ABSENT'})
 
 fig_absent
 
 st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
-teacher_fig = px.bar(school_selected_df.sort_values('teacher'), x='teacher', y='school_name',title="Number of teachers per school and the schools teacher retention",
-              color='percent_retained',hover_data=['enrollment_2019','score_achievement','percent_ca2019','district_name'],
-              labels={'school_name':'SCHOOLS','pct_chronically_absent_2020':'PERCENTAGE OF STUDENTS ABSENT','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'},
+teacher_fig = px.bar(school_selected_df.sort_values('enrollment_2019'), x='enrollment_2019', y='school_name',title="Number of teachers per school and the schools teacher retention",
+              color='percent_ca2019',hover_data=['enrollment_2019','score_achievement','percent_ca2019','district_name'],
+              labels={'school_name':'SCHOOLS','enrollment_2019':'STUDENT ENROLLMENT','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'},
               height=400)
 teacher_fig
