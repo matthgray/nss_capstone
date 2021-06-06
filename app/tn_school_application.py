@@ -29,7 +29,7 @@ st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/d
 # filters
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
-selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,default=['Metro Nashville Public Schools','Shelby County Schools','Maryville City Schools'])
+selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,default=['Metro Nashville Public Schools','Trousdale County Schools','Maryville City Schools'])
 #county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
 
 #select high school or k8
@@ -38,7 +38,8 @@ selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,default
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
 sort_school = sorted(tn_data.school_name.unique())
-selected_from_school= st.sidebar.multiselect('filter by school',sort_school,default=['May Werthan Shayne Elementary School','Granbery Elementary','Pennington Elementary'])
+selected_from_school= st.sidebar.multiselect('filter by school',sort_school,
+default=['Granbery Elementary','John Sevier Elementary','Trousdale Co Elementary'])
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
 
@@ -66,13 +67,14 @@ st.write('''# Schools with highest percentage of students absent: ''')
 
 
 fig_absent = px.histogram(df_selected_school.sort_values('percent_ca2019'), x="percent_ca2019",y='school_name', color="district_name",title="Chronically Absent per school",
+hover_data=["score_achievement","zipcode"],
 labels={'school_name':'SCHOOLS','percent_ca2019':'PERCENTAGE OF STUDENTS ABSENT'})
 
 fig_absent
 
 st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
 teacher_fig = px.bar(school_selected_df.sort_values('teacher'), x='teacher', y='school_name',title="Number of teachers per school and the schools teacher retention",
-              color='percent_retained',hover_data=['enrollment_2019','score_achievement','percent_ca2019'],
+              color='percent_retained',hover_data=['enrollment_2019','score_achievement','percent_ca2019','district_name'],
               labels={'school_name':'SCHOOLS','pct_chronically_absent_2020':'PERCENTAGE OF STUDENTS ABSENT','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'},
               height=400)
 teacher_fig
