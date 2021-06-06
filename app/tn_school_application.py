@@ -48,32 +48,31 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 #------------------------------------------------------------------#
 # graphs
 
-
+st.dataframe(finance_data)
 st.write('''# Score achievement and local spending by county:  ''')
-fig_zip_score = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",
-                  color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
+local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
+                  hover_data=["district_ppe","state_funding_percent"],color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
                   mapbox_style="carto-positron")
-fig_zip_score
+local_fig
 
 #st.dataframe(df_selected_school)
 
 st.write('''# Schools with the highest achievement score from 2019 by county:''')
-figed = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'])
-figed
+achieve_fig = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'],title="Achievement score by county")
+achieve_fig
 
 
 st.write('''# Schools with highest percentage of students absent: ''')
 
-#fig_teacher = px.treemap(df_selected_school, path=['district_name','zipcode','school_name'] , values='percent_ca2019',color='school_name',hover_data=['zipcode','district_name'])
-#fig_teacher
 
-fig_absent = px.histogram(df_selected_school.sort_values('percent_ca2019'), x="percent_ca2019",y='school_name', color="district_name",
- labels={'school_name':'SCHOOLS','percent_ca2019':'PERCENTAGE OF STUDENTS ABSENT'})
+fig_absent = px.histogram(df_selected_school.sort_values('percent_ca2019'), x="percent_ca2019",y='school_name', color="district_name",title="Chronically Absent per school",
+labels={'school_name':'SCHOOLS','percent_ca2019':'PERCENTAGE OF STUDENTS ABSENT'})
 
 fig_absent
+
 st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
-figy = px.bar(school_selected_df.sort_values('teacher'), x='teacher', y='school_name',
-              color='percent_retained',hover_data=['zipcode','enrollment_2019'],
+teacher_fig = px.bar(school_selected_df.sort_values('teacher'), x='teacher', y='school_name',title="Number of teachers per school and the schools teacher retention",
+              color='percent_retained',hover_data=['enrollment_2019','score_achievement','percent_ca2019'],
               labels={'school_name':'SCHOOLS','pct_chronically_absent_2020':'PERCENTAGE OF STUDENTS ABSENT','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'},
               height=400)
-figy
+teacher_fig
