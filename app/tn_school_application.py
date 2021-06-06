@@ -23,14 +23,19 @@ tn_data = tn_data.dropna()
 st.markdown('''# TN SCHOOLS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
-
-st.dataframe(tn_data)
+st.dataframe(finance_data)
+#st.dataframe(tn_data)
 #st.info(tn_data.dtypes)
 #------------------------------------------------------------#
+
+sorted_finance=sorted(finance_data.district_name.unique())
+sected_from_finance= st.sidebar.multiselect('filter for map',sorted_finance,'Henderson County Schools')
+sort_finance_df=finance_data[(finance_data.district_name.isin(sected_from_finance))]
+
 # filters
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
-selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,default=['Metro Nashville Public Schools','Trousdale County Schools','Maryville City Schools'])
+selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,default=['Metro Nashville Public Schools','Trousdale County Schools','Maryville City Schools','Henderson County Schools'])
 #county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
 
 #select high school or k8
@@ -62,7 +67,7 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 
 
 st.write('''# Score achievement and local spending by county:  ''')
-local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
+local_fig = px.scatter_mapbox(sort_finance_df, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
                   hover_data=["district_ppe","state_funding_percent"],color_continuous_scale=px.colors.cyclical.Edge, size_max=15, zoom=5,hover_name="district_name",
                   mapbox_style="carto-positron")
 local_fig
