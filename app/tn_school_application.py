@@ -38,7 +38,7 @@ st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/d
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
 selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,
-default=['Anderson County Schools'])
+default=['Metro Nashville Public Schools','Henderson County Schools','Rutherford County Schools','Williamson County Schools','Wilson County School District','Sumner County Schools'])
 #county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
 
 #select high school or k8
@@ -51,7 +51,7 @@ selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,'K8')
 
 sort_school = sorted(tn_data.school_name.unique())
 selected_from_school= st.sidebar.multiselect('filter by school',sort_school,
-default=['Anderson County High School'])
+default=['Lockeland Elementary','Clyde Riggs Elementary','Allendale Elementary School','Homer Pittard Campus School','Springdale Elementary School','Beaver Elementary'])
 #default=['Granbery Elementary','Trousdale Co Elementary','Westover Elementary','Bethesda Elementary','John Pittard Elementary','Watertown Elementary'])
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
@@ -95,7 +95,7 @@ achieve_fig
 st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
 fig_absent = px.histogram(df_selected_school.sort_values('percent_retained'), x="percent_retained",y='school_name', color="district_name",title="The schools teacher retention",
 hover_data=["score_achievement","zipcode"],
-labels={'school_name':'SCHOOLS','percent_retained':'PERCENTAGE OF STUDENTS ABSENT'})
+labels={'school_name':'SCHOOLS','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'})
 
 fig_absent
 
