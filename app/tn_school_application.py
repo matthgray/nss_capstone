@@ -25,7 +25,7 @@ tn_data = pd.read_csv(achievement_url)
 st.markdown('''# TN SCHOOLS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
-#st.dataframe(finance_data)
+st.dataframe(finance_data)
 #st.dataframe(tn_data)
 #st.info(tn_data.dtypes)
 #------------------------------------------------------------#
@@ -68,15 +68,15 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 
 #------------------------------------------------------------------#
 # graphs
-fig_a = px.sunburst(df_selected_school, path=['district_name','school_name'], values='percent_retained',
-                 color='district_name', hover_data=["score_achievement"],
-                  color_continuous_scale='RdBu')
+#fig_a = px.sunburst(df_selected_school, path=['district_name','school_name'], values='percent_retained',
+#                 color='district_name', hover_data=["score_achievement"],
+#                  color_continuous_scale='RdBu')
 
-fig_a
+#fig_a
 
 st.write('''# Score achievement and local spending by county:  ''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
-                  hover_data=["district_ppe","state_funding_percent"], size_max=15, zoom=5,hover_name="district_name",
+                  hover_data=["district_ppe","state_funding_percent","countyname"], size_max=15, zoom=5,hover_name="district_name",
                   mapbox_style="carto-positron", color_continuous_scale='rdylgn')
 local_fig
 
