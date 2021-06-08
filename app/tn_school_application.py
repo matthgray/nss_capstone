@@ -53,7 +53,7 @@ selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,'K8')
 
 sort_school = sorted(tn_data.school_name.unique())
 selected_from_school= st.sidebar.multiselect('filter by school',sort_school,
-default=['Lockeland Elementary','Lascassas Elementary','Springdale Elementary School','Beaver Elementary','Lipscomb Elementary','Indian Lake Elementary'])
+default=['Trousdale Co Elementary','Harpeth Valley Elementary','Springdale Elementary School','Lipscomb Elementary','Lakeside Park Elementary','McFadden School Of Excellence'])
 #default=['Granbery Elementary','Trousdale Co Elementary','Westover Elementary','Bethesda Elementary','John Pittard Elementary','Watertown Elementary'])
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
@@ -79,13 +79,16 @@ local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",colo
 local_fig
 
 
+
+
+st.write('''# Schools with the highest achievement score from 2019 by county:''')
 achieve_fig = px.histogram(df_selected_school.sort_values('score_achievement'), x="score_achievement",y='school_name',
                     color="district_name",title="The schools achievement",
                     hover_data=df_selected_school.columns,
 labels={'school_name':'SCHOOLS','score_achievement':'Score achievement  by county'})
 achieve_fig
 
-
+st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
 teacher_fig = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='percent_retained',
                     color='district_name',hover_data=['zipcode','district_name'],title="Teacher retention by county")
 
@@ -97,10 +100,7 @@ teacher_fig
 
 #fig
 
-st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
 
-
-st.write('''# Schools with the highest achievement score from 2019 by county:''')
 
 
 
