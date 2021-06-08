@@ -14,7 +14,7 @@ achievement_url='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/
 finance_data = pd.read_csv(finance_url)
 # data for ppe and budgets
 tn_data = pd.read_csv(achievement_url)
-tn_data = tn_data.dropna()
+#tn_data = tn_data.dropna()
 # fix henderson latitude & longitude
 #finance_data['longitude']= finance_data['longitude'].replace('-88.4053','-86.6200')
 #finance_data['latitude']= finance_data['latitude'].replace('35.6584','36.3048')
@@ -77,7 +77,7 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 st.write('''# Score achievement and local spending by county:  ''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
                   hover_data=["district_ppe","state_funding_percent"], size_max=15, zoom=5,hover_name="district_name",
-                  mapbox_style="carto-positron")
+                  mapbox_style="carto-positron", color_continuous_scale='Bluered_r')
 local_fig
 
 
@@ -102,6 +102,6 @@ fig_absent
 st.write('''# Schools with highest percentage of students absent: ''')
 teacher_fig = px.bar(school_selected_df.sort_values('students_enrolled'), x='students_enrolled', y='school_name',
               color='percent_ca',hover_data=['students_enrolled','score_achievement','percent_ca','district_name','number_of_teachers'],title="Chronically Absent per school",
-              labels={'school_name':'SCHOOLS','students_enrolled':'STUDENT ENROLLMENT','percent_ca2019':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'},
-              height=400)
+              labels={'school_name':'SCHOOLS','students_enrolled':'STUDENT ENROLLMENT','percent_ca2019':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'}, color_continuous_scale='Bluered_r')
+             # height=400)
 teacher_fig
