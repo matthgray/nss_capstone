@@ -25,7 +25,7 @@ tn_data = pd.read_csv(achievement_url)
 st.markdown('''# TN SCHOOLS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
-st.dataframe(finance_data)
+#st.dataframe(finance_data)
 #st.dataframe(tn_data)
 #st.info(tn_data.dtypes)
 #------------------------------------------------------------#
