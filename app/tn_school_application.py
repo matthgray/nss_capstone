@@ -1,3 +1,5 @@
+
+
 # needed packages
 import streamlit as st
 import pandas as pd
@@ -38,7 +40,7 @@ st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/d
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
 selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,
-default=['Metro Nashville Public Schools','Henderson County Schools','Rutherford County Schools','Williamson County Schools','Wilson County School District','Sumner County Schools'])
+default=['Metro Nashville Public Schools','Rutherford County Schools','Williamson County Schools','Wilson County School District','Sumner County Schools','Trousdale County Schools'])
 #county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
 
 #select high school or k8
@@ -68,24 +70,27 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 
 #------------------------------------------------------------------#
 # graphs
-#fig_a = px.sunburst(df_selected_school, path=['district_name','school_name'], values='percent_retained',
-#                 color='district_name', hover_data=["score_achievement"],
-#                  color_continuous_scale='RdBu')
 
-#fig_a
 
 st.write('''# Score achievement and local spending by county:  ''')
-local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
+local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='local_funding_percent', size="score_achievement",title="Percentage of PPE that is locally funded and colored by achievement score",
                   hover_data=["district_ppe","state_funding_percent","countyname"], size_max=15, zoom=5,hover_name="district_name",
-                  mapbox_style="carto-positron", color_continuous_scale='rdylgn')
+                  mapbox_style="carto-positron", color_continuous_scale='Bluered')
 local_fig
 
 
-
-st.write('''# Schools with the highest achievement score from 2019 by county:''')
-achieve_fig = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='score_achievement', color='district_name',hover_data=['zipcode','district_name'],title="Achievement score by county")
+achieve_fig = px.histogram(df_selected_school.sort_values('score_achievement'), x="score_achievement",y='school_name',
+                    color="district_name",title="The schools achievement",
+                    hover_data=df_selected_school.columns,
+labels={'school_name':'SCHOOLS','score_achievement':'Score achievement  by county'})
 achieve_fig
 
+
+teacher_fig = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='percent_retained',
+                    color='district_name',hover_data=['zipcode','district_name'],title="Teacher retention by county")
+
+teacher_fig
+#color_continuous_midpoint=np.average(df_selected_school['score_achievement'], weights=df_selected_school['percent_ca']),
 #fig = px.sunburst(df_selected_school, path=['district_name', 'school_name'], values='percent_retained',
                   #color='district_name', hover_data=["score_achievement","zipcode"],
                   #color_continuous_scale='RdBu')
@@ -93,11 +98,13 @@ achieve_fig
 #fig
 
 st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
-teacher_fig = px.histogram(df_selected_school.sort_values('percent_retained'), x="percent_retained",y='school_name', color="district_name",title="The schools teacher retention",
-hover_data=df_selected_school.columns,
-labels={'school_name':'SCHOOLS','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'})
 
-teacher_fig
+
+st.write('''# Schools with the highest achievement score from 2019 by county:''')
+
+
+
+
 
 st.write('''# Schools with highest percentage of students absent: ''')
 student_fig = px.bar(school_selected_df.sort_values('students_enrolled'), x='students_enrolled', y='school_name',
