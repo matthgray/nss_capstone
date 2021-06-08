@@ -51,7 +51,7 @@ selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,'K8')
 
 sort_school = sorted(tn_data.school_name.unique())
 selected_from_school= st.sidebar.multiselect('filter by school',sort_school,
-default=['Lockeland Elementary','Clyde Riggs Elementary','Allendale Elementary School','Homer Pittard Campus School','Springdale Elementary School','Beaver Elementary'])
+default=['Lockeland Elementary','Lascassas Elementary','Springdale Elementary School','Beaver Elementary','Lipscomb Elementary','Indian Lake Elementary'])
 #default=['Granbery Elementary','Trousdale Co Elementary','Westover Elementary','Bethesda Elementary','John Pittard Elementary','Watertown Elementary'])
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
@@ -68,11 +68,11 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 
 #------------------------------------------------------------------#
 # graphs
-#fig_a = px.sunburst(finance_data, path=['district_name'], values='local_funding_percent',
-                 # color='district_name', hover_data=["score_achievement"],
-                  #color_continuous_scale='RdBu')
+fig_a = px.sunburst(df_selected_school, path=['district_name','school_name'], values='percent_retained',
+                 color='district_name', hover_data=["score_achievement"],
+                  color_continuous_scale='RdBu')
 
-#fig_a
+fig_a
 
 st.write('''# Score achievement and local spending by county:  ''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
@@ -93,15 +93,15 @@ achieve_fig
 #fig
 
 st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
-fig_absent = px.histogram(df_selected_school.sort_values('percent_retained'), x="percent_retained",y='school_name', color="district_name",title="The schools teacher retention",
-hover_data=["score_achievement","zipcode"],
+teacher_fig = px.histogram(df_selected_school.sort_values('percent_retained'), x="percent_retained",y='school_name', color="district_name",title="The schools teacher retention",
+hover_data=df_selected_school.columns,
 labels={'school_name':'SCHOOLS','percent_retained':'PERCENTAGE OF TEACHERS RETAINED'})
 
-fig_absent
+teacher_fig
 
 st.write('''# Schools with highest percentage of students absent: ''')
-teacher_fig = px.bar(school_selected_df.sort_values('students_enrolled'), x='students_enrolled', y='school_name',
+student_fig = px.bar(school_selected_df.sort_values('students_enrolled'), x='students_enrolled', y='school_name',
               color='percent_ca',hover_data=['students_enrolled','score_achievement','percent_ca','district_name','number_of_teachers'],title="Chronically Absent per school",
-              labels={'school_name':'SCHOOLS','students_enrolled':'STUDENT ENROLLMENT','percent_ca2019':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'}, color_continuous_scale='Bluered_r')
+              labels={'school_name':'SCHOOLS','students_enrolled':'STUDENT ENROLLMENT','percent_ca2019':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'}, color_continuous_scale='Bluered')
              # height=400)
-teacher_fig
+student_fig
