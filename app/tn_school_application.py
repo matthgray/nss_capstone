@@ -77,7 +77,7 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 st.write('''# Score achievement and local spending by county:  ''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement', size="local_funding_percent",title="Percentage of PPE that is locally funded and colored by achievement score",
                   hover_data=["district_ppe","state_funding_percent"], size_max=15, zoom=5,hover_name="district_name",
-                  mapbox_style="carto-positron", color_continuous_scale='Bluered_r')
+                  mapbox_style="carto-positron", color_continuous_scale='rdylgn')
 local_fig
 
 
