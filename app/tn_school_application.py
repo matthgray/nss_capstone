@@ -10,8 +10,8 @@ import seaborn as sns
 import numpy as np
 
 # read data
-finance_url ='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/data/tn_finance_data.csv'
-achievement_url='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/data/tn_grade_data.csv'
+finance_url ='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/data/clean_data/tn_finance_data.csv'
+achievement_url='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/data/clean_data/tn_grade_data.csv'
 # data for achievement scores, teacher Retention,etc
 finance_data = pd.read_csv(finance_url)
 finance_data['score_achievement']=finance_data['score_achievement'].round(decimals=2)
@@ -25,7 +25,7 @@ tn_data = pd.read_csv(achievement_url)
 #----------------------------------------------------------------#
 # Titles
 
-st.markdown('''# TN SCHOOLS''')
+st.markdown('''# TN SCHOOLS ANALYSIS''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
 #st.dataframe(finance_data)
@@ -80,7 +80,8 @@ local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",colo
                   size="local_funding_percent",
                   title="The size of the circle is the percentage of per pupil expenditure that is locally funded and the color is the achievement score",
                   hover_data=["district_ppe"], size_max=15, zoom=5,hover_name="district_name",
-                  mapbox_style="carto-positron", color_continuous_scale='rdbu',labels={'score_achievement':'Average Score Achievement by District'})
+                  mapbox_style="carto-positron", color_continuous_scale='spectral',labels={'score_achievement':'Average Score Achievement by District'})
+
 local_fig
 
 
@@ -101,11 +102,12 @@ st.write('''# Achievement score by teacher retention with size of the circle as 
 #                    labels={'percent_retained':'Percentage of teachers retained','district_name':'District','score_achievement':'Achievement Score'})
 
 #teacher_fig
-figgy=px.scatter(school_selected_df.sort_values('percent_retained'), x="percent_retained",y='score_achievement',size='number_of_teachers',
+teacher_fig=px.scatter(school_selected_df.sort_values('school_name'), x="percent_retained",y='score_achievement',size='number_of_teachers',
+                    title="Achievement score by teacher retention with size of the circle as number of teachers at the school",
                     labels={'percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score'},
                     color="school_name",)
 
-figgy
+teacher_fig
 
 
 st.write('''# Achievement score by chronically absent students with size of the circle as student enrollment: ''')
@@ -114,9 +116,10 @@ st.write('''# Achievement score by chronically absent students with size of the 
 #              labels={'school_name':'SCHOOLS','students_enrolled':'STUDENT ENROLLMENT','percent_ca':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'}, color_continuous_scale='rdylgn')
              # height=400)
 #student_fig
-fig = px.scatter(school_selected_df.sort_values('percent_ca'), x="percent_ca", y="score_achievement",
+#school_selected_df.sort_values('percent_ca')
+student_fig = px.scatter(school_selected_df.sort_values('school_name'), x="percent_ca", y="score_achievement",
 	         size="students_enrolled", color="school_name",title="Achievement score by chronically absent students with size of the circle as student enrollment",
              labels={'school_name':'School','percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score','students_enrolled':'STUDENT ENROLLMENT','percent_ca':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'},
                  hover_name="district_name", log_x=True, size_max=60)
-fig
+student_fig
 #st.info(df_selected_school.shape)
