@@ -1,0 +1,1572 @@
+district_name,index,school_name,zipcode,longitude,latitude,students_enrolled,number_of_teachers,percent_ca,percent_retained,pool,score_achievement
+Anderson County Schools,0,Anderson County High School,37716,-84.14656,36.099283,1075.0,53,15.1,91.0,HS,2.6
+Anderson County Schools,1,Andersonville Elementary,37705,-84.01131,36.217896,304.0,24,8.6,58.1,K8,4.0
+Anderson County Schools,2,Briceville Elementary,37710,-84.28968,36.15231,117.0,11,9.4,60.0,K8,2.0
+Anderson County Schools,3,Claxton Elementary,37849,-84.04192,36.044507,443.0,35,14.4,63.0,K8,2.0
+Anderson County Schools,4,Clinton Middle School,37716,-84.14656,36.099283,664.0,41,20.8,77.6,K8,1.7
+Anderson County Schools,5,Clinton High School,37716,-84.14656,36.099283,1120.0,68,17.8,88.3,HS,2.9
+Anderson County Schools,6,Dutch Valley Elementary,37716,-84.14656,36.099283,101.0,8,11.9,75.0,K8,2.0
+Anderson County Schools,7,Fairview Elementary,37754,-84.03142,36.138832,291.0,22,4.6,93.9,K8,3.8
+Anderson County Schools,71,Grand Oaks Elementary,37716,-84.14656,36.099283,258.0,20,10.9,56.7,K8,3.6
+Anderson County Schools,72,Lake City Elementary,37769,-84.14984,36.221786,419.0,34,14.1,81.1,K8,2.8
+Anderson County Schools,73,Lake City Middle School,37769,-84.14984,36.221786,292.0,22,16.4,85.7,K8,1.8
+Anderson County Schools,74,Norris Elementary,37828,-84.07017,36.190257,220.0,20,2.8,72.2,K8,4.0
+Anderson County Schools,75,Norris Middle School,37828,-84.07017,36.190257,486.0,29,10.5,63.9,K8,2.6
+Anderson County Schools,76,Norwood Elementary,37840,-84.36685,36.045663,230.0,18,9.2,73.1,K8,2.0
+Anderson County Schools,84,Norwood Middle School,37840,-84.36685,36.045663,183.0,16,14.0,65.0,K8,2.8
+Clinton City School District,85,Clinton Elementary,37716,-84.14656,36.099283,521.0,33,7.3,87.2,K8,3.6
+Clinton City School District,86,North Clinton Elementary,37716,-84.14656,36.099283,144.0,13,18.3,88.2,K8,2.0
+Clinton City School District,87,South Clinton Elementary,37716,-84.14656,36.099283,252.0,21,6.2,91.7,K8,3.2
+Oak Ridge City Schools,88,Glenwood Elementary,37830,-84.27044,35.992691,409.0,29,9.8,97.1,K8,3.4
+Oak Ridge City Schools,96,Jefferson Middle School,37830,-84.27044,35.992691,719.0,49,10.1,86.4,K8,3.0
+Oak Ridge City Schools,104,Linden Elementary,37830,-84.27044,35.992691,430.0,31,8.4,93.1,K8,3.0
+Oak Ridge City Schools,112,Oak Ridge High School,37830,-84.27044,35.992691,1406.0,98,17.5,94.6,HS,2.7
+Oak Ridge City Schools,113,Robertsville Middle School,37830,-84.27044,35.992691,750.0,53,14.3,76.7,K8,2.5
+Oak Ridge City Schools,114,Willow Brook Elementary,37830,-84.27044,35.992691,361.0,29,8.6,89.7,K8,1.4
+Oak Ridge City Schools,115,Woodland Elementary,37830,-84.27044,35.992691,421.0,33,5.3,87.9,K8,3.8
+Bedford County Schools,142,Cascade Elementary,37183,-86.30889,35.508541,570.0,38,4.8,90.5,K8,3.6
+Bedford County Schools,143,Cascade High School,37183,-86.30889,35.508541,481.0,32,17.1,84.8,HS,2.0
+Bedford County Schools,144,Eakin Elementary,37160,-86.45974,35.47066,616.0,39,8.6,83.0,K8,1.3
+Bedford County Schools,152,Cascade Middle School,37183,-86.30889,35.508541,411.0,19,11.1,86.4,K8,2.4
+Bedford County Schools,153,Shelbyville Central High School,37160,-86.45974,35.47066,1506.0,79,16.9,76.7,HS,1.1
+Bedford County Schools,154,Harris Middle School,37160,-86.45974,35.47066,1048.0,57,14.9,73.8,K8,1.1
+Bedford County Schools,155,Community Elementary School,37180,-86.57353,35.621614,646.0,42,12.6,93.8,K8,2.2
+Bedford County Schools,156,Community High School,37180,-86.57353,35.621614,534.0,32,16.9,93.9,HS,3.2
+Bedford County Schools,157,Community Middle School,37180,-86.57353,35.621614,431.0,20,14.0,96.2,K8,2.0
+Bedford County Schools,158,Learning Way Elementary,37160,-86.45974,35.47066,531.0,40,12.6,82.2,K8,1.3
+Bedford County Schools,159,East Side Elementary,37160,-86.45974,35.47066,431.0,31,13.0,88.9,K8,2.0
+Bedford County Schools,284,Liberty Elementary,37160,-86.45974,35.47066,748.0,46,12.7,76.8,K8,2.0
+Bedford County Schools,311,South Side Elementary,37160,-86.45974,35.47066,373.0,26,11.5,96.0,K8,1.3
+Bedford County Schools,338,Thomas Magnet Elementary School,37160,-86.45974,35.47066,349.0,25,4.0,83.9,K8,4.0
+Benton School System,339,Big Sandy School,38221,-88.04885,36.254423,259.0,21,6.1,88.5,K8,1.2
+Benton School System,340,Briarwood School,38320,-88.10137,36.050286,415.0,29,4.3,93.9,K8,2.5
+Benton School System,341,Camden Central High School,38320,-88.10137,36.050286,637.0,37,13.4,90.9,HS,2.8
+Benton School System,342,Camden Jr High School,38320,-88.10137,36.050286,375.0,25,6.4,96.8,K8,2.7
+Benton School System,343,Holladay Elementary,38341,-88.09896,35.866499,120.0,12,12.7,92.9,K8,1.4
+Bledsoe County Schools,344,Bledsoe County High School,37367,-85.17161,35.635097,515.0,33,19.3,92.3,HS,1.8
+Bledsoe County Schools,345,Bledsoe County Middle School,37367,-85.17161,35.635097,404.0,24,11.1,100.0,K8,2.4
+Bledsoe County Schools,346,Cecil B Rigsby Elementary,37367,-85.17161,35.635097,155.0,14,7.9,80.0,K8,1.0
+Bledsoe County Schools,347,Mary V Wheeler Elementary,37367,-85.17161,35.635097,208.0,16,8.0,88.9,K8,4.0
+Bledsoe County Schools,348,Pikeville Elementary,37367,-85.17161,35.635097,345.0,34,12.5,97.2,K8,2.8
+Blount County Schools,349,Carpenters Elementary School,37803,-83.98412,35.693358,505.0,36,5.0,89.2,K8,4.0
+Blount County Schools,350,Carpenters Middle School,37803,-83.98412,35.693358,632.0,38,4.6,93.0,K8,2.3
+Blount County Schools,351,Eagleton Middle School,37804,-83.93591,35.781607,390.0,37,8.7,83.8,K8,2.0
+Blount County Schools,352,Eagleton Elementary,37804,-83.93591,35.781607,448.0,34,8.8,77.5,K8,2.4
+Blount County Schools,353,Friendsville Elementary,37777,-84.01196,35.835374,224.0,14,4.9,88.2,K8,3.0
+Blount County Schools,354,Heritage Middle School,37804,-83.93591,35.781607,817.0,46,8.6,60.9,K8,1.5
+Blount County Schools,362,Heritage High School,37804,-83.93591,35.781607,1396.0,95,8.9,90.3,HS,2.5
+Blount County Schools,363,Lanier Elementary,37742,-84.1817,35.66806,313.0,25,12.6,89.3,K8,2.0
+Blount County Schools,364,Union Grove Middle School,37737,-84.11925,35.760657,628.0,39,12.9,93.0,K8,2.1
+Blount County Schools,365,Mary Blount Elementary,37801,-84.05015,35.709071,538.0,40,7.7,72.9,K8,3.2
+Blount County Schools,366,Middlesettlements,37777,-84.01196,35.835374,328.0,26,5.8,89.3,K8,2.6
+Blount County Schools,367,Montvale Elementary,37803,-83.98412,35.693358,325.0,22,7.4,83.3,K8,2.0
+Blount County Schools,368,Porter Elementary,37804,-83.93591,35.781607,256.0,21,6.1,96.0,K8,3.0
+Blount County Schools,369,Rockford Elementary,37853,-83.93452,35.834126,413.0,28,11.1,83.9,K8,2.6
+Blount County Schools,370,Townsend Elementary,37882,-83.75801,35.680116,143.0,11,7.2,76.9,K8,2.0
+Blount County Schools,371,Union Grove Elementary School,37737,-84.11925,35.760657,296.0,21,4.8,84.6,K8,3.0
+Blount County Schools,372,Walland Elementary School,37886,-83.81988,35.734481,298.0,18,7.6,87.0,K8,2.0
+Blount County Schools,373,William Blount High School,37801,-84.05015,35.709071,1667.0,105,9.0,87.4,HS,3.0
+Blount County Schools,374,Prospect Elementary School,37865,-83.74476,35.853932,389.0,28,5.8,77.8,K8,4.0
+Alcoa City Schools,382,Alcoa Middle School,37701,-83.97956,35.784708,489.0,28,3.7,93.9,K8,2.2
+Alcoa City Schools,383,Alcoa High School,37701,-83.97956,35.784708,682.0,45,8.8,94.2,HS,3.6
+Alcoa City Schools,384,Alcoa Intermediate School,37701,-83.97956,35.784708,435.0,26,3.0,100.0,K8,3.5
+Maryville City Schools,385,John Sevier Elementary,37804,-83.93591,35.781607,551.0,46,5.8,83.0,K8,4.0
+Maryville City Schools,386,Maryville High School,37803,-83.98412,35.693358,1225.0,78,1.3,91.1,HS,3.3
+Maryville City Schools,387,Montgomery Ridge Intermediate School,37803,-83.98412,35.693358,806.0,48,5.2,87.7,K8,3.7
+Maryville City Schools,388,Maryville Junior High School,37803,-83.98412,35.693358,826.0,54,2.7,85.5,K8,3.5
+Maryville City Schools,389,Sam Houston Elementary,37803,-83.98412,35.693358,495.0,36,5.0,83.3,K8,4.0
+Maryville City Schools,397,Foothills Elementary,37803,-83.98412,35.693358,558.0,37,8.1,95.0,K8,4.0
+Maryville City Schools,398,Coulter Grove Intermediate School,37804,-83.93591,35.781607,828.0,51,4.7,91.7,K8,3.9
+Bradley County Schools,399,Black Fox Elementary School,37311,-84.88723,35.146362,518.0,32,9.4,80.0,K8,2.6
+Bradley County Schools,400,Ocoee Middle School,37311,-84.88723,35.146362,1182.0,72,9.7,81.5,K8,1.9
+Bradley County Schools,401,Bradley Central High School,37311,-84.88723,35.146362,1716.0,104,19.3,88.7,HS,1.0
+Bradley County Schools,402,Charleston Elementary School,37310,-84.76927,35.275808,302.0,22,12.1,91.7,K8,2.6
+Bradley County Schools,403,Hopewell Elementary School,37312,-84.86489,35.219532,421.0,31,10.1,77.4,K8,2.6
+Bradley County Schools,404,Michigan Avenue Elementary School,37323,-84.82836,35.114482,465.0,29,6.3,93.5,K8,3.6
+Bradley County Schools,405,North Lee Elementary School,37312,-84.86489,35.219532,460.0,28,4.5,83.9,K8,3.8
+Bradley County Schools,406,Oak Grove Elementary School,37323,-84.82836,35.114482,355.0,26,8.1,90.3,K8,3.2
+Bradley County Schools,407,Taylor Elementary School,37323,-84.82836,35.114482,207.0,17,12.4,80.0,K8,2.0
+Bradley County Schools,408,Lake Forest Middle School,37323,-84.82836,35.114482,1113.0,71,13.5,91.1,K8,1.9
+Bradley County Schools,409,Valley View Elementary School,37323,-84.82836,35.114482,273.0,18,14.2,82.6,K8,2.2
+Bradley County Schools,410,Walker Valley High School,37312,-84.86489,35.219532,1515.0,93,7.7,85.4,HS,2.3
+Bradley County Schools,411,Waterville Community Elementary School,37323,-84.82836,35.114482,627.0,41,7.7,82.2,K8,2.0
+Bradley County Schools,412,Park View Elementary School,37323,-84.82836,35.114482,402.0,31,9.1,91.4,K8,2.6
+Cleveland City Schools,413,Arnold Memorial Elementary,37311,-84.88723,35.146362,361.0,29,6.9,96.9,K8,2.8
+Cleveland City Schools,414,Blythe-Bower Elementary,37311,-84.88723,35.146362,539.0,47,15.0,86.0,K8,1.4
+Cleveland City Schools,415,Cleveland Middle,37312,-84.86489,35.219532,1372.0,84,12.4,86.2,K8,1.8
+Cleveland City Schools,416,Cleveland High,37312,-84.86489,35.219532,1703.0,95,14.8,83.0,HS,2.2
+Cleveland City Schools,417,E.L. Ross Elementary,37312,-84.86489,35.219532,366.0,24,8.2,80.6,K8,2.3
+Cleveland City Schools,418,G.R. Stuart Elementary,37311,-84.88723,35.146362,355.0,30,7.6,81.1,K8,2.8
+Cleveland City Schools,419,Mayfield Elementary,37311,-84.88723,35.146362,513.0,38,7.0,92.9,K8,2.2
+Campbell County Schools,420,Campbell County Comprehensive High School,37757,-84.17277,36.326509,1313.0,71,22.5,83.5,HS,2.0
+Campbell County Schools,421,Caryville Elementary,37714,-84.22104,36.290972,468.0,31,6.7,85.0,K8,1.4
+Campbell County Schools,422,Elk Valley Elementary,37847,-84.27781,36.432891,122.0,12,10.8,91.7,K8,1.6
+Campbell County Schools,423,Jacksboro Elementary,37757,-84.17277,36.326509,508.0,34,11.3,82.1,K8,2.6
+Campbell County Schools,424,Jacksboro Middle School,37757,-84.17277,36.326509,523.0,27,13.3,78.8,K8,2.6
+Campbell County Schools,425,Jellico Elementary,37762,-84.13698,36.578257,243.0,21,23.9,80.8,K8,2.6
+Campbell County Schools,426,Jellico High School,37762,-84.13698,36.578257,304.0,27,23.1,81.5,HS,2.0
+Campbell County Schools,427,LaFollette Elementary School,37766,-84.08164,36.388766,553.0,41,15.9,75.5,K8,1.0
+Campbell County Schools,428,Lafollette Middle School,37766,-84.08164,36.388766,472.0,31,20.0,82.9,K8,1.0
+Campbell County Schools,429,Valley View Elementary,37766,-84.08164,36.388766,398.0,26,16.4,87.1,K8,2.0
+Campbell County Schools,430,White Oak Elementary,37729,-84.02712,36.510252,132.0,12,10.2,76.9,K8,2.4
+Campbell County Schools,431,Wynn Habersham Elementary,37729,-84.02712,36.510252,151.0,12,12.8,80.0,K8,3.0
+Cannon County School District,432,Auburn Elementary,37016,-86.09259,35.951494,125.0,11,0.0,91.7,K8,2.0
+Cannon County School District,433,Cannon County High School,37190,-86.05538,35.813335,572.0,40,10.6,88.6,HS,1.4
+Cannon County School District,434,Short Mountain Elementary,37190,-86.05538,35.813335,129.0,11,1.5,76.9,K8,2.4
+Cannon County School District,435,West Side Elementary,37149,-86.19391,35.800108,218.0,24,0.9,82.8,K8,0.0
+Cannon County School District,443,Woodbury Grammar,37190,-86.05538,35.813335,375.0,30,1.6,93.8,K8,1.8
+Hollow Rock-Bruceton Special School District,444,Central Elementary,38317,-88.25144,36.038551,306.0,24,4.3,84.6,K8,2.6
+Hollow Rock-Bruceton Special School District,508,Central High School,38317,-88.25144,36.038551,334.0,64,8.8,82.8,HS,2.4
+Huntingdon Special School District,724,Huntingdon Middle School,38344,-88.41385,35.995802,527.0,32,4.7,76.3,K8,2.3
+Huntingdon Special School District,725,Huntingdon High School,38344,-88.41385,35.995802,366.0,29,1.7,93.3,HS,2.0
+Huntingdon Special School District,726,Huntingdon Primary,38344,-88.41385,35.995802,387.0,32,9.2,83.8,K8,2.2
+McKenzie Special School District,727,McKenzie Elementary,38201,-88.52246,36.133065,492.0,38,6.8,81.0,K8,2.8
+McKenzie Special School District,728,McKenzie High School,38201,-88.52246,36.133065,381.0,26,0.0,93.3,HS,2.9
+McKenzie Special School District,729,McKenzie Middle School,38201,-88.52246,36.133065,373.0,26,1.4,83.3,K8,2.7
+South Carroll County Special School District,730,Clarksburg School,38324,-88.39343,35.867454,333.0,25,4.2,73.1,K8,2.6
+West Carroll Special School District,731,West Carroll Junior/Senior High School,38220,-88.66966,35.98269,443.0,35,8.1,73.0,HS,2.0
+West Carroll Special School District,732,West Carroll Elementary School,38258,-88.61825,36.016599,242.0,17,7.0,52.4,K8,1.9
+Carter County Schools,733,Cloudland Elementary School,37687,-82.0975,36.192236,274.0,23,20.8,96.6,K8,3.2
+Carter County Schools,734,Cloudland High School,37687,-82.0975,36.192236,303.0,28,18.9,93.3,HS,3.0
+Carter County Schools,735,Hampton Elementary,37658,-82.17558,36.269157,591.0,41,20.2,91.7,K8,2.0
+Carter County Schools,736,Hampton High School,37658,-82.17558,36.269157,414.0,28,46.3,88.2,HS,1.0
+Carter County Schools,737,Happy Valley Elementary,37601,-82.3386,36.331006,472.0,37,17.7,90.7,K8,4.0
+Carter County Schools,738,Happy Valley High School,37643,-82.18843,36.355251,509.0,33,38.4,85.4,HS,2.6
+Carter County Schools,739,Happy Valley Middle School,37643,-82.18843,36.355251,404.0,28,22.6,96.8,K8,2.7
+Carter County Schools,740,Hunter Elementary,37643,-82.18843,36.355251,462.0,36,12.6,95.0,K8,1.8
+Carter County Schools,741,Keenburg Elementary,37643,-82.18843,36.355251,292.0,26,18.1,93.8,K8,2.6
+Carter County Schools,742,Little Milligan,37640,-81.97775,36.335618,144.0,11,12.8,91.7,K8,2.0
+Carter County Schools,743,Unaka Elementary,37643,-82.18843,36.355251,230.0,22,15.2,92.9,K8,2.0
+Carter County Schools,744,Unaka High School,37643,-82.18843,36.355251,332.0,29,24.1,87.9,HS,3.2
+Carter County Schools,745,Valley Forge Elementary,37643,-82.18843,36.355251,213.0,22,21.0,92.3,K8,3.0
+Elizabethton City Schools,746,Elizabethton High School,37643,-82.18843,36.355251,841.0,62,17.0,87.0,HS,2.3
+Elizabethton City Schools,747,Harold McCormick Elementary,37643,-82.18843,36.355251,338.0,27,14.1,97.0,K8,2.8
+Elizabethton City Schools,748,T A Dugger Junior High School,37643,-82.18843,36.355251,607.0,40,9.5,91.5,K8,3.2
+Cheatham County School District,749,Ashland City Elementary,37015,-87.06949,36.299293,413.0,33,13.4,78.4,K8,1.6
+Cheatham County School District,750,Cheatham Co Central,37015,-87.06949,36.299293,625.0,37,31.3,84.1,HS,2.0
+Cheatham County School District,751,Cheatham Middle School,37015,-87.06949,36.299293,622.0,41,10.0,80.0,K8,2.3
+Cheatham County School District,752,East Cheatham Elementary,37015,-87.06949,36.299293,348.0,30,12.4,82.1,K8,2.0
+Cheatham County School District,753,Harpeth Middle School,37082,-87.1106,36.084917,535.0,35,5.8,92.7,K8,2.7
+Cheatham County School District,754,Harpeth High School,37082,-87.1106,36.084917,536.0,32,23.6,82.1,HS,2.2
+Cheatham County School District,755,Kingston Springs Elementary,37082,-87.1106,36.084917,337.0,25,3.9,90.3,K8,4.0
+Cheatham County School District,756,Pegram Elementary Fine Arts Magnet School,37143,-87.04467,36.121471,185.0,17,4.9,84.6,K8,3.0
+Cheatham County School District,757,Pleasant View Elementary,37146,-87.0285,36.393153,433.0,28,8.2,84.6,K8,4.0
+Cheatham County School District,758,Sycamore Middle School,37146,-87.0285,36.393153,781.0,48,12.0,88.5,K8,2.5
+Cheatham County School District,759,Sycamore High School,37146,-87.0285,36.393153,709.0,46,19.2,74.1,HS,3.0
+Cheatham County School District,760,West Cheatham Elementary,37035,-87.13175,36.388731,344.0,27,12.5,85.3,K8,2.6
+Chester County School System,761,Chester County Middle School,38340,-88.66118,35.414454,412.0,25,8.9,86.7,K8,3.9
+Chester County School System,762,Chester County High School,38340,-88.66118,35.414454,862.0,57,19.9,83.3,HS,2.8
+Chester County School System,763,Chester County Junior High School,38340,-88.66118,35.414454,618.0,38,14.2,86.0,K8,2.9
+Chester County School System,764,East Chester Elementary School,38340,-88.66118,35.414454,440.0,36,7.7,94.9,K8,4.0
+Chester County School System,765,W Chester Elementary School,38340,-88.66118,35.414454,265.0,18,9.3,83.3,K8,4.0
+Claiborne County Schools,766,Clairfield Elementary,37715,-83.94202,36.567165,78.0,7,18.2,80.0,K8,1.0
+Claiborne County Schools,767,Ellen Myers Primary,37752,-83.61278,36.581713,266.0,17,11.0,81.8,K8,1.0
+Claiborne County Schools,768,Forge Ridge School,37752,-83.61278,36.581713,210.0,17,15.5,83.3,K8,1.0
+Claiborne County Schools,769,H. Y. Livesay Middle School,37752,-83.61278,36.581713,262.0,13,11.7,84.2,K8,4.0
+Claiborne County Schools,770,Midway Elementary,37825,-83.65241,36.417235,337.0,22,14.7,77.8,K8,2.4
+Claiborne County Schools,778,Cumberland Gap High School,37724,-83.67499,36.566416,533.0,38,26.5,95.5,HS,2.6
+Claiborne County Schools,779,Powell Valley Elementary,37870,-83.8546,36.45491,316.0,22,16.9,86.2,K8,2.0
+Claiborne County Schools,780,Soldiers Memorial Middle School,37879,-83.52357,36.465808,481.0,31,14.5,84.6,K8,2.2
+Claiborne County Schools,781,Claiborne High School,37825,-83.65241,36.417235,742.0,55,22.5,85.9,HS,2.6
+Claiborne County Schools,782,Springdale Elementary,37879,-83.52357,36.465808,313.0,23,12.9,80.0,K8,4.0
+Claiborne County Schools,790,Tazewell-New Tazewell Elementary,37825,-83.65241,36.417235,465.0,32,20.0,90.0,K8,1.6
+Clay County Schools,791,Celina K-8,38551,-85.48904,36.547412,567.0,37,3.4,85.7,K8,1.2
+Clay County Schools,792,Clay County High School,38551,-85.48904,36.547412,317.0,19,15.3,80.0,HS,2.8
+Clay County Schools,793,Hermitage Springs Elementary School,37150,-85.81114,36.543183,199.0,15,5.1,78.9,K8,2.6
+Cocke County School System,794,Bridgeport Elementary,37821,-83.20116,35.963276,317.0,20,10.3,87.5,K8,2.6
+Cocke County School System,795,Centerview Elementary,37821,-83.20116,35.963276,248.0,18,16.7,80.0,K8,2.0
+Cocke County School System,796,Cocke Co High School,37821,-83.20116,35.963276,1210.0,82,30.1,87.4,HS,2.1
+Cocke County School System,797,Cosby Elementary,37722,-83.24441,35.820011,460.0,33,14.7,85.4,K8,2.4
+Cocke County School System,798,Cosby High School,37722,-83.24441,35.820011,368.0,31,31.6,78.4,HS,1.4
+Cocke County School System,799,Del Rio Elementary,37727,-83.01575,35.900308,146.0,10,19.9,100.0,K8,2.0
+Cocke County School System,800,Edgemont Elementary,37821,-83.20116,35.963276,544.0,37,19.2,86.0,K8,1.1
+Cocke County School System,801,Grassy Fork Elementary,37753,-83.10835,35.822918,121.0,10,8.4,100.0,K8,4.0
+Cocke County School System,802,Northwest Elementary,37821,-83.20116,35.963276,398.0,32,27.2,85.7,K8,0.1
+Cocke County School System,803,Parrottsville Elementary,37843,-83.05351,36.013728,462.0,31,16.7,91.9,K8,1.6
+Cocke County School System,804,Smoky Mountain Elementary,37722,-83.24441,35.820011,136.0,12,13.5,86.7,K8,2.6
+Newport City School,805,Newport Grammar School,37821,-83.20116,35.963276,675.0,52,12.2,93.8,K8,2.6
+Coffee County Schools,806,Coffee County Central High School,37355,-86.08414,35.500068,1252.0,82,14.1,83.7,HS,1.7
+Coffee County Schools,807,Coffee County Middle School,37355,-86.08414,35.500068,967.0,61,12.2,89.9,K8,1.6
+Coffee County Schools,808,East Coffee Elementary,37355,-86.08414,35.500068,234.0,20,5.5,79.2,K8,3.2
+Coffee County Schools,809,Hickerson Elementary,37388,-86.21484,35.357522,187.0,17,7.3,90.9,K8,2.6
+Coffee County Schools,810,Hillsboro Elementary,37342,-85.96367,35.39156,368.0,30,7.9,91.7,K8,2.6
+Coffee County Schools,811,New Union Elementary,37355,-86.08414,35.500068,325.0,23,6.9,92.9,K8,3.2
+Coffee County Schools,812,North Coffee Elementary,37355,-86.08414,35.500068,276.0,23,5.7,96.6,K8,3.0
+Coffee County Schools,813,Deerfield Elementary School,37355,-86.08414,35.500068,237.0,20,19.3,84.6,K8,3.0
+Coffee County Schools,814,Coffee County Raider Academy,37355,-86.08414,35.500068,426.0,25,10.4,86.2,K8,2.3
+Manchester City Schools,815,College Street Elementary,37355,-86.08414,35.500068,410.0,33,11.8,90.0,K8,2.4
+Manchester City Schools,816,Westwood Elementary,37355,-86.08414,35.500068,521.0,41,6.5,87.8,K8,3.9
+Manchester City Schools,817,Westwood Middle School,37355,-86.08414,35.500068,411.0,28,13.7,83.8,K8,1.9
+Tullahoma City Schools,818,Bel Aire Elementary,37388,-86.21484,35.357522,367.0,26,15.0,85.2,K8,1.4
+Tullahoma City Schools,819,East Middle School,37388,-86.21484,35.357522,432.0,25,13.7,90.0,K8,1.9
+Tullahoma City Schools,820,East Lincoln Elementary,37388,-86.21484,35.357522,403.0,37,17.9,83.7,K8,1.0
+Tullahoma City Schools,821,Jack T Farrar Elementary,37388,-86.21484,35.357522,323.0,21,11.9,77.8,K8,1.8
+Tullahoma City Schools,822,Robert E Lee Elementary,37388,-86.21484,35.357522,442.0,30,8.2,85.3,K8,2.6
+Tullahoma City Schools,823,Tullahoma High School,37388,-86.21484,35.357522,1035.0,71,20.4,83.5,HS,3.3
+Tullahoma City Schools,824,West Middle School,37388,-86.21484,35.357522,445.0,29,15.4,84.4,K8,1.0
+Crockett County Schools,825,Crockett County High School,38001,-89.14016,35.796157,869.0,57,6.1,88.9,HS,1.1
+Crockett County Schools,826,Crockett County Middle School,38001,-89.14016,35.796157,625.0,38,6.9,95.3,K8,2.7
+Crockett County Schools,827,Friendship Elementary,38034,-89.24555,35.908286,116.0,11,3.4,78.6,K8,2.0
+Crockett County Schools,828,Gadsden Elementary,38337,-89.01731,35.794403,119.0,10,6.7,91.7,K8,2.0
+Crockett County Schools,829,Maury City Elementary,38050,-89.22386,35.815535,220.0,18,3.2,84.2,K8,1.8
+Alamo City School District,830,Alamo Elementary,38001,-89.14016,35.796157,573.0,44,6.6,78.7,K8,3.6
+Bells City School District,831,Bells Elementary,38006,-89.08457,35.696656,369.0,30,5.5,93.8,K8,3.8
+Cumberland County Schools,832,Frank P. Brown Elementary,38572,-85.0902,35.861811,551.0,35,9.9,92.5,K8,2.8
+Cumberland County Schools,833,Homestead Elementary School,38572,-85.0902,35.861811,698.0,43,5.5,73.6,K8,2.8
+Cumberland County Schools,834,Crab Orchard Elementary,37723,-84.86226,35.933213,439.0,31,9.9,97.0,K8,2.2
+Cumberland County Schools,835,Cumberland County High School,38555,-85.05926,35.929314,1004.0,60,15.1,88.4,HS,2.6
+Cumberland County Schools,836,Glenn Martin Elementary,38555,-85.05926,35.929314,652.0,47,10.5,87.2,K8,3.0
+Cumberland County Schools,837,North Cumberland Elementary,38571,-85.094842,36.04347,639.0,39,9.7,90.5,K8,1.8
+Cumberland County Schools,838,Pine View Elementary,37854,-84.70042,35.861763,150.0,12,12.1,58.8,K8,3.0
+Cumberland County Schools,839,Pleasant Hill Elementary,38578,-85.162272,36.007405,611.0,43,12.3,80.5,K8,2.0
+Cumberland County Schools,840,South Cumberland Elementary,38572,-85.0902,35.861811,585.0,37,5.2,93.0,K8,3.4
+Cumberland County Schools,841,Stone Elementary,38555,-85.05926,35.929314,728.0,43,10.3,84.8,K8,2.5
+Cumberland County Schools,842,Stone Memorial High School,38571,-85.094842,36.04347,1008.0,60,15.7,76.4,HS,2.9
+Cumberland County Schools,843,The Phoenix School,38555,-85.05926,35.929314,79.0,17,57.1,76.5,HS,2.0
+Metro Nashville Public Schools,844,A. Z. Kelley Elementary,37013,-86.64782,36.055115,795.0,62,6.6,77.4,K8,1.9
+Metro Nashville Public Schools,845,Alex Green Elementary,37189,-86.82052,36.27062,224.0,22,18.0,53.3,K8,1.8
+Metro Nashville Public Schools,846,Amqui Elementary,37115,-86.70566,36.264069,432.0,36,12.2,64.8,K8,2.1
+Metro Nashville Public Schools,847,Andrew Jackson Elementary,37138,-86.62308,36.243698,479.0,38,5.7,90.2,K8,2.6
+Metro Nashville Public Schools,848,Antioch High School,37013,-86.64782,36.055115,1934.0,119,27.1,64.1,HS,1.0
+Metro Nashville Public Schools,849,Antioch Middle,37013,-86.64782,36.055115,767.0,51,10.4,69.1,K8,1.0
+Metro Nashville Public Schools,850,Apollo Middle,37013,-86.64782,36.055115,838.0,56,14.3,50.0,K8,0.2
+Metro Nashville Public Schools,851,Moses McKissack Middle,37209,-86.8559,36.151324,308.0,25,17.6,90.3,K8,1.1
+Metro Nashville Public Schools,852,Bellevue Middle,37221,-86.94674,36.065032,680.0,41,13.5,77.8,K8,1.9
+Metro Nashville Public Schools,860,Bellshire Elementary,37207,-86.77317,36.215535,306.0,26,24.6,47.4,K8,2.0
+Metro Nashville Public Schools,861,Nashville Big Picture High School,37209,-86.8559,36.151324,129.0,15,16.7,57.9,K8,3.2
+Metro Nashville Public Schools,862,Buena Vista Elementary,37208,-86.80252,36.174806,205.0,23,24.9,41.9,K8,2.0
+Metro Nashville Public Schools,863,Cane Ridge High School,37013,-86.64782,36.055115,1727.0,101,24.0,76.5,HS,1.0
+Metro Nashville Public Schools,864,Ida B. Wells Elementary,37207,-86.77317,36.215535,282.0,25,17.4,21.1,K8,1.2
+Metro Nashville Public Schools,865,Cane Ridge Elementary,37013,-86.64782,36.055115,549.0,43,10.4,42.7,K8,3.1
+Metro Nashville Public Schools,866,Chadwell Elementary,37115,-86.70566,36.264069,317.0,27,17.1,66.7,K8,1.8
+Metro Nashville Public Schools,867,Charlotte Park Elementary,37209,-86.8559,36.151324,429.0,37,10.5,75.6,K8,2.1
+Metro Nashville Public Schools,868,Cockrill Elementary,37209,-86.8559,36.151324,288.0,28,13.9,70.6,K8,1.2
+Metro Nashville Public Schools,869,Cole Elementary,37013,-86.64782,36.055115,671.0,61,6.5,73.6,K8,1.8
+Metro Nashville Public Schools,870,Hattie Cotton Elementary,37206,-86.74176,36.180806,241.0,22,18.6,40.6,K8,2.0
+Metro Nashville Public Schools,871,Crieve Hall Elementary,37220,-86.77266,36.069659,476.0,38,4.8,89.7,K8,3.4
+Metro Nashville Public Schools,872,Croft Middle,37211,-86.72584,36.079259,756.0,49,13.6,79.2,K8,1.2
+Metro Nashville Public Schools,873,Cumberland Elementary,37218,-86.85215,36.206755,280.0,21,22.5,35.9,K8,1.2
+Metro Nashville Public Schools,874,Dan Mills Elementary,37216,-86.72594,36.213004,511.0,40,7.2,74.4,K8,3.2
+Metro Nashville Public Schools,875,Dodson Elementary,37076,-86.60111,36.180507,407.0,38,12.4,76.1,K8,1.0
+Metro Nashville Public Schools,876,Donelson Middle,37214,-86.66869,36.166956,774.0,55,12.9,75.0,K8,1.0
+Metro Nashville Public Schools,877,DuPont Elementary,37138,-86.62308,36.243698,340.0,31,11.3,92.9,K8,2.8
+Metro Nashville Public Schools,885,DuPont Tyler Middle,37076,-86.60111,36.180507,591.0,38,15.9,67.4,K8,0.9
+Metro Nashville Public Schools,886,DuPont Hadley Middle,37138,-86.62308,36.243698,642.0,42,13.4,78.0,K8,0.9
+Metro Nashville Public Schools,887,East Nashville Magnet High School,37206,-86.74176,36.180806,710.0,41,14.8,65.4,HS,1.1
+Metro Nashville Public Schools,888,Thomas A. Edison Elementary,37013,-86.64782,36.055115,685.0,48,7.5,78.9,K8,1.9
+Metro Nashville Public Schools,889,Fall-Hamilton Elementary,37203,-86.78927,36.152607,276.0,26,13.1,60.6,K8,1.0
+Metro Nashville Public Schools,890,Gateway Elementary,37115,-86.70566,36.264069,258.0,22,16.7,76.7,K8,2.3
+Metro Nashville Public Schools,891,Glencliff Elementary,37211,-86.72584,36.079259,515.0,42,9.2,70.5,K8,0.9
+Metro Nashville Public Schools,892,Glencliff High School,37211,-86.72584,36.079259,1162.0,71,33.7,63.6,HS,0.9
+Metro Nashville Public Schools,893,Glendale Elementary,37204,-86.77626,36.112058,412.0,32,1.5,81.8,K8,4.0
+Metro Nashville Public Schools,894,Glengarry Elementary,37217,-86.66616,36.103408,347.0,32,9.4,85.4,K8,2.3
+Metro Nashville Public Schools,895,Glenview Elementary,37217,-86.66616,36.103408,566.0,50,12.4,67.7,K8,2.1
+Metro Nashville Public Schools,896,Goodlettsville Elementary,37072,-86.71879,36.35465,313.0,24,8.4,72.4,K8,2.6
+Metro Nashville Public Schools,897,Goodlettsville Middle,37072,-86.71879,36.35465,627.0,36,14.6,73.2,K8,1.1
+Metro Nashville Public Schools,898,Gower Elementary,37209,-86.8559,36.151324,558.0,44,12.7,68.6,K8,2.6
+Metro Nashville Public Schools,899,Gra-Mar Middle,37216,-86.72594,36.213004,328.0,22,13.6,46.9,K8,1.3
+Metro Nashville Public Schools,900,Granbery Elementary,37027,-86.79121,36.007373,759.0,52,6.3,76.8,K8,3.6
+Metro Nashville Public Schools,901,H. G. Hill Middle,37205,-86.86207,36.113558,691.0,47,12.9,62.5,K8,1.1
+Metro Nashville Public Schools,902,East Nashville Middle,37206,-86.74176,36.180806,362.0,24,15.4,67.7,K8,1.0
+Metro Nashville Public Schools,903,Harpeth Valley Elementary,37221,-86.94674,36.065032,690.0,51,6.0,77.4,K8,4.0
+Metro Nashville Public Schools,904,Haynes Middle,37207,-86.77317,36.215535,251.0,18,16.0,66.7,K8,0.9
+Metro Nashville Public Schools,905,Haywood Elementary,37211,-86.72584,36.079259,621.0,56,7.7,88.2,K8,1.0
+Metro Nashville Public Schools,913,Head Middle,37203,-86.78927,36.152607,567.0,34,5.5,73.8,K8,3.5
+Metro Nashville Public Schools,914,Henry C. Maxwell Elementary,37013,-86.64782,36.055115,544.0,46,12.0,71.7,K8,2.0
+Metro Nashville Public Schools,915,Hermitage Elementary,37076,-86.60111,36.180507,286.0,27,15.1,51.3,K8,1.4
+Metro Nashville Public Schools,916,Hickman Elementary,37214,-86.66869,36.166956,459.0,41,11.4,71.7,K8,0.9
+Metro Nashville Public Schools,917,Meigs Middle,37206,-86.74176,36.180806,683.0,36,3.0,87.5,K8,4.0
+Metro Nashville Public Schools,918,Hillsboro High,37215,-86.82522,36.098408,1211.0,66,23.6,73.4,HS,1.9
+Metro Nashville Public Schools,919,Hillwood High,37205,-86.86207,36.113558,1109.0,67,24.7,67.9,HS,1.1
+Metro Nashville Public Schools,920,Hull-Jackson Elementary,37208,-86.80252,36.174806,296.0,30,15.2,77.1,K8,0.8
+Metro Nashville Public Schools,921,Hume - Fogg High,37203,-86.78927,36.152607,903.0,45,8.8,86.0,HS,4.0
+Metro Nashville Public Schools,922,Hunters Lane High,37207,-86.77317,36.215535,1325.0,81,32.0,67.3,HS,1.0
+Metro Nashville Public Schools,923,Inglewood Elementary,37216,-86.72594,36.213004,167.0,20,20.1,48.0,K8,1.8
+Metro Nashville Public Schools,924,Isaac Litton Middle,37216,-86.72594,36.213004,488.0,29,12.0,77.5,K8,1.6
+Metro Nashville Public Schools,925,J. E. Moss Elementary,37013,-86.64782,36.055115,734.0,65,11.2,65.9,K8,2.8
+Metro Nashville Public Schools,926,Jere Baxter Middle,37207,-86.77317,36.215535,260.0,14,17.9,42.3,K8,1.2
+Metro Nashville Public Schools,927,Joelton Elementary,37080,-86.90949,36.329551,239.0,22,13.2,79.2,K8,3.0
+Metro Nashville Public Schools,928,Joelton Middle,37080,-86.90949,36.329551,326.0,16,27.0,36.0,K8,1.0
+Metro Nashville Public Schools,929,John Early Middle,37208,-86.80252,36.174806,275.0,18,25.6,41.7,K8,1.1
+Metro Nashville Public Schools,930,Jones Elementary,37208,-86.80252,36.174806,260.0,22,6.7,51.9,K8,0.0
+Metro Nashville Public Schools,931,John B. Whitsitt Elementary,37210,-86.74437,36.140857,396.0,36,15.3,61.0,K8,1.9
+Metro Nashville Public Schools,932,John F. Kennedy Middle,37013,-86.64782,36.055115,794.0,53,11.9,72.1,K8,1.1
+Metro Nashville Public Schools,933,John Overton High,37220,-86.77266,36.069659,1945.0,116,27.0,77.6,HS,1.6
+Metro Nashville Public Schools,934,Julia Green Elementary,37215,-86.82522,36.098408,446.0,30,2.7,76.3,K8,4.0
+Metro Nashville Public Schools,935,Robert E. Lillard Elementary,37218,-86.85215,36.206755,268.0,23,15.9,51.7,K8,2.2
+Metro Nashville Public Schools,936,Lakeview Elementary,37217,-86.66616,36.103408,513.0,44,9.7,96.7,K8,3.0
+Metro Nashville Public Schools,944,Lockeland Elementary,37206,-86.74176,36.180806,293.0,22,0.7,74.1,K8,4.0
+Metro Nashville Public Schools,945,Middle College High,37209,-86.8559,36.151324,129.0,6,16.1,87.5,HS,4.0
+Metro Nashville Public Schools,953,Maplewood High,37216,-86.72594,36.213004,765.0,48,49.6,57.7,HS,1.0
+Metro Nashville Public Schools,954,Margaret Allen Middle,37210,-86.74437,36.140857,425.0,30,15.9,60.5,K8,0.8
+Metro Nashville Public Schools,955,Martin Luther King Jr School,37203,-86.78927,36.152607,1269.0,62,3.6,78.9,HS,4.0
+Metro Nashville Public Schools,956,McGavock Elementary,37214,-86.66869,36.166956,257.0,26,5.9,84.6,K8,1.6
+Metro Nashville Public Schools,957,McGavock High,37214,-86.66869,36.166956,2295.0,140,22.2,76.4,HS,1.0
+Metro Nashville Public Schools,958,McMurray Middle,37211,-86.72584,36.079259,794.0,59,6.8,71.8,K8,1.2
+Metro Nashville Public Schools,959,John Trotwood Moore Middle,37204,-86.77626,36.112058,762.0,41,13.1,71.7,K8,2.9
+Metro Nashville Public Schools,960,Mt. View Elementary,37013,-86.64782,36.055115,638.0,46,9.4,65.5,K8,2.3
+Metro Nashville Public Schools,961,Napier Elementary,37210,-86.74437,36.140857,268.0,23,30.9,47.1,K8,3.0
+Metro Nashville Public Schools,962,Nashville School Of The Arts,37210,-86.74437,36.140857,554.0,31,21.1,75.9,HS,3.2
+Metro Nashville Public Schools,963,Neely's Bend Elementary,37115,-86.70566,36.264069,269.0,24,18.3,60.6,K8,1.5
+Metro Nashville Public Schools,964,Norman Binkley Elementary,37211,-86.72584,36.079259,531.0,43,10.7,81.8,K8,3.0
+Metro Nashville Public Schools,965,Old Center Elementary,37072,-86.71879,36.35465,316.0,27,8.3,79.4,K8,1.8
+Metro Nashville Public Schools,966,William Henry Oliver Middle,37211,-86.72584,36.079259,961.0,56,7.6,82.1,K8,1.8
+Metro Nashville Public Schools,967,Paragon Mills Elementary,37211,-86.72584,36.079259,544.0,45,11.2,57.9,K8,1.3
+Metro Nashville Public Schools,968,Park Avenue Elementary,37209,-86.8559,36.151324,326.0,27,21.5,63.0,K8,2.2
+Metro Nashville Public Schools,969,Pearl-Cohn High,37208,-86.80252,36.174806,593.0,40,41.7,56.3,HS,1.0
+Metro Nashville Public Schools,970,Pennington Elementary,37214,-86.66869,36.166956,253.0,23,12.3,78.3,K8,3.4
+Metro Nashville Public Schools,971,Percy Priest Elementary,37215,-86.82522,36.098408,494.0,40,1.2,81.0,K8,4.0
+Metro Nashville Public Schools,972,Rose Park Middle,37203,-86.78927,36.152607,448.0,22,3.4,66.7,K8,2.6
+Metro Nashville Public Schools,973,Rosebank Elementary,37206,-86.74176,36.180806,262.0,23,10.6,65.5,K8,1.6
+Metro Nashville Public Schools,974,Ruby Major Elementary,37076,-86.60111,36.180507,466.0,37,13.7,73.3,K8,3.0
+Metro Nashville Public Schools,975,May Werthan Shayne Elementary School,37211,-86.72584,36.079259,739.0,53,5.4,78.0,K8,3.5
+Metro Nashville Public Schools,976,Shwab Elementary,37207,-86.77317,36.215535,262.0,25,9.2,60.6,K8,3.0
+Metro Nashville Public Schools,977,Stanford Elementary,37214,-86.66869,36.166956,307.0,29,4.3,75.8,K8,3.0
+Metro Nashville Public Schools,978,Robert Churchwell Elementary,37208,-86.80252,36.174806,284.0,26,20.1,73.7,K8,3.0
+Metro Nashville Public Schools,979,Stratford STEM Magnet School,37216,-86.72594,36.213004,1006.0,68,40.4,58.6,HS,1.1
+Metro Nashville Public Schools,980,Madison Middle,37115,-86.70566,36.264069,554.0,40,23.9,58.7,K8,1.2
+Metro Nashville Public Schools,981,Stratton Elementary,37115,-86.70566,36.264069,483.0,37,20.8,62.2,K8,0.1
+Metro Nashville Public Schools,982,Sylvan Park Elementary,37209,-86.8559,36.151324,434.0,34,4.9,66.7,K8,3.4
+Metro Nashville Public Schools,983,Thurgood Marshall Middle,37013,-86.64782,36.055115,936.0,54,5.1,58.3,K8,1.0
+Metro Nashville Public Schools,984,Tom Joy Elementary,37207,-86.77317,36.215535,353.0,31,16.6,57.9,K8,1.0
+Metro Nashville Public Schools,985,Tulip Grove Elementary,37076,-86.60111,36.180507,447.0,39,10.1,75.0,K8,2.1
+Metro Nashville Public Schools,986,Tusculum Elementary,37211,-86.72584,36.079259,672.0,65,8.8,74.0,K8,2.3
+Metro Nashville Public Schools,987,Two Rivers Middle,37214,-86.66869,36.166956,425.0,26,18.0,67.6,K8,1.1
+Metro Nashville Public Schools,988,Una Elementary,37214,-86.66869,36.166956,702.0,60,9.6,77.5,K8,1.4
+Metro Nashville Public Schools,989,Carter-Lawrence Elementary,37203,-86.78927,36.152607,272.0,24,8.9,58.8,K8,2.2
+Metro Nashville Public Schools,990,Warner Elementary,37206,-86.74176,36.180806,204.0,19,27.1,42.4,K8,2.0
+Metro Nashville Public Schools,991,West End Middle,37205,-86.86207,36.113558,531.0,38,9.8,63.2,K8,2.5
+Metro Nashville Public Schools,992,Westmeade Elementary,37205,-86.86207,36.113558,419.0,30,8.5,69.4,K8,3.0
+Metro Nashville Public Schools,993,Isaiah T. Creswell Middle School of the Arts,37218,-86.85215,36.206755,422.0,25,12.5,63.9,K8,1.0
+Metro Nashville Public Schools,994,Whites Creek High,37189,-86.82052,36.27062,651.0,42,41.9,56.6,HS,0.1
+Metro Nashville Public Schools,995,Wright Middle,37211,-86.72584,36.079259,748.0,54,13.5,61.0,K8,1.0
+Metro Nashville Public Schools,996,The Cohn Learning Center,37209,-86.8559,36.151324,78.0,11,87.2,87.5,HS,0.8
+Metro Nashville Public Schools,997,Smith Springs Elementary School,37013,-86.64782,36.055115,551.0,44,9.0,75.0,K8,2.7
+Metro Nashville Public Schools,998,Waverly-Belmont Elementary School,37204,-86.77626,36.112058,526.0,38,9.4,75.6,K8,3.2
+Metro Nashville Public Schools,999,Smithson Craighead Academy,37115,-86.70566,36.264069,183.0,13,14.9,92.3,K8,2.0
+Metro Nashville Public Schools,1000,KIPP Academy Nashville,37207,-86.77317,36.215535,370.0,18,9.3,44.4,K8,2.9
+Metro Nashville Public Schools,1001,Lead Academy,37210,-86.74437,36.140857,445.0,29,23.3,58.1,HS,1.3
+Metro Nashville Public Schools,1002,STEM Prep Academy,37210,-86.74437,36.140857,538.0,21,3.1,23.5,K8,1.9
+Metro Nashville Public Schools,1003,Nashville Prep,37209,-86.8559,36.151324,343.0,27,18.1,70.0,K8,2.2
+Metro Nashville Public Schools,1004,East End Preparatory School,37216,-86.72594,36.213004,885.0,52,12.1,70.0,K8,2.9
+Metro Nashville Public Schools,1005,LEAD Cameron,37210,-86.74437,36.140857,603.0,33,15.4,56.4,K8,2.0
+Metro Nashville Public Schools,1006,KIPP Nashville Collegiate High School,37207,-86.77317,36.215535,387.0,28,14.7,26.7,HS,2.0
+Metro Nashville Public Schools,1007,Knowledge Academy,37013,-86.64782,36.055115,286.0,6,6.8,5.5,K8,1.1
+Metro Nashville Public Schools,1008,LEAD Southeast,37211,-86.72584,36.079259,706.0,47,3.5,74.5,K8,1.8
+Metro Nashville Public Schools,1009,Nashville Classical,37206,-86.74176,36.180806,393.0,29,5.9,69.2,K8,4.0
+Metro Nashville Public Schools,1010,Valor Flagship Academy,37211,-86.72584,36.079259,734.0,42,5.1,41.7,K8,3.8
+Metro Nashville Public Schools,1011,Intrepid College Preparatory Charter School,37013,-86.64782,36.055115,581.0,30,1.7,61.5,K8,1.7
+Metro Nashville Public Schools,1012,Rocketship Nashville Northeast Elementary,37207,-86.77317,36.215535,428.0,15,18.6,46.2,K8,4.0
+Metro Nashville Public Schools,1013,Knowledge Academies High School,37013,-86.64782,36.055115,356.0,19,21.9,61.5,K8,1.1
+Metro Nashville Public Schools,1014,Rocketship United,37217,-86.66616,36.103408,544.0,19,15.1,57.9,K8,2.7
+Metro Nashville Public Schools,1015,STEM Prep High School,37210,-86.74437,36.140857,473.0,21,6.7,47.6,K8,1.1
+Metro Nashville Public Schools,1016,Valor Voyager Academy,37211,-86.72584,36.079259,521.0,37,4.1,50.0,K8,3.9
+Metro Nashville Public Schools,1017,Strive Collegiate Academy,37214,-86.66869,36.166956,355.0,18,9.9,84.6,K8,0.3
+Metro Nashville Public Schools,1018,KIPP Academy Nashville Elementary School,37206,-86.74176,36.180806,488.0,30,23.4,45.5,K8,3.0
+Metro Nashville Public Schools,1019,RePublic High School,37207,-86.77317,36.215535,666.0,38,31.3,71.0,K8,0.4
+Metro Nashville Public Schools,1020,KA @ The Crossings,37013,-86.64782,36.055115,308.0,31,6.3,75.0,K8,2.3
+Decatur County Schools,1021,Riverside High School,38329,-88.12345,35.546839,512.0,34,21.3,86.5,HS,3.0
+Decatur County Schools,1022,Decaturville Elementary,38329,-88.12345,35.546839,228.0,23,6.6,91.7,K8,4.0
+Decatur County Schools,1023,Parsons Elementary,38363,-88.1184,35.66088,317.0,27,11.4,90.6,K8,3.0
+Decatur County Schools,1024,Decatur County Middle School,38363,-88.1184,35.66088,458.0,34,10.9,89.5,K8,2.6
+DeKalb County School District,1025,De Kalb County High School,37166,-85.80108,35.922583,833.0,54,20.4,82.8,HS,1.7
+DeKalb County School District,1026,DeKalb Middle School,37166,-85.80108,35.922583,563.0,35,3.4,82.1,K8,1.7
+DeKalb County School District,1027,Northside Elementary,37166,-85.80108,35.922583,598.0,46,11.0,94.9,K8,0.9
+DeKalb County School District,1035,DeKalb West Elementary,37059,-85.92851,35.993983,364.0,29,12.4,93.9,K8,2.8
+Dickson County School District,1036,Stuart Burns Elementary,37029,-87.28938,36.047742,566.0,45,5.9,85.2,K8,3.6
+Dickson County School District,1037,Charlotte Elementary,37036,-87.29179,36.225389,549.0,46,8.6,85.2,K8,2.8
+Dickson County School District,1038,Centennial Elementary,37055,-87.40831,36.065779,625.0,49,6.6,86.2,K8,4.0
+Dickson County School District,1039,Charlotte Middle School,37036,-87.29179,36.225389,467.0,30,9.6,75.8,K8,2.9
+Dickson County School District,1040,Creek Wood High School,37036,-87.29179,36.225389,955.0,57,4.1,87.3,HS,2.9
+Dickson County School District,1041,Dickson Elementary,37055,-87.40831,36.065779,307.0,29,6.7,79.4,K8,2.2
+Dickson County School District,1042,Dickson Middle School,37055,-87.40831,36.065779,843.0,44,7.7,78.4,K8,2.6
+Dickson County School District,1043,Dickson County High School,37055,-87.40831,36.065779,1501.0,92,8.2,83.7,HS,1.9
+Dickson County School District,1044,The Discovery School,37055,-87.40831,36.065779,213.0,18,1.9,95.2,K8,4.0
+Dickson County School District,1045,Oakmont Elementary,37055,-87.40831,36.065779,565.0,48,11.4,83.1,K8,2.3
+Dickson County School District,1053,Dickson Intermediate School,37055,-87.40831,36.065779,437.0,26,6.7,87.1,K8,2.7
+Dickson County School District,1054,Vanleer Elementary,37181,-87.49831,36.237999,243.0,22,9.1,81.5,K8,2.2
+Dickson County School District,1055,White Bluff Elementary,37187,-87.21761,36.117433,531.0,39,6.6,83.7,K8,2.4
+Dickson County School District,1056,W James Middle School,37187,-87.21761,36.117433,277.0,20,4.9,79.2,K8,3.6
+Dyer County Schools,1057,Northview Middle School,38059,-89.25419,36.114872,449.0,29,10.5,85.3,K8,2.7
+Dyer County Schools,1058,Dyer County High School,38059,-89.25419,36.114872,1157.0,68,18.6,88.5,HS,3.6
+Dyer County Schools,1059,Fifth Consolidated School,38024,-89.38613,36.038042,546.0,39,9.1,85.7,K8,4.0
+Dyer County Schools,1060,Finley Elementary,38030,-89.60112,35.980206,248.0,16,5.9,90.5,K8,3.6
+Dyer County Schools,1061,Holice Powell Elementary,38024,-89.38613,36.038042,176.0,16,6.9,80.0,K8,4.0
+Dyer County Schools,1062,Newbern Elementary School,38059,-89.25419,36.114872,565.0,38,9.2,87.2,K8,2.6
+Dyer County Schools,1063,Three Oaks Middle School,38024,-89.38613,36.038042,512.0,29,12.7,79.4,K8,2.9
+Dyer County Schools,1064,Trimble Elementary,38259,-89.18203,36.198652,153.0,12,13.5,92.9,K8,3.0
+Dyersburg City Schools,1065,Dyersburg Intermediate School,38024,-89.38613,36.038042,595.0,39,4.8,78.8,K8,2.5
+Dyersburg City Schools,1066,Dyersburg High School,38024,-89.38613,36.038042,711.0,53,6.0,75.8,HS,2.6
+Dyersburg City Schools,1067,Dyersburg Middle School,38024,-89.38613,36.038042,556.0,42,6.5,89.1,K8,3.2
+Fayette County Schools,1068,East Jr. High School,38068,-89.32907,35.275036,373.0,24,13.6,61.5,K8,0.9
+Fayette County Schools,1069,Fayette Ware Comprehensive High School,38068,-89.32907,35.275036,896.0,57,18.8,72.7,HS,2.6
+Fayette County Schools,1070,La Grange Moscow Elementary,38057,-89.37347,35.055545,264.0,18,15.2,75.0,K8,2.6
+Fayette County Schools,1071,Oakland Elementary,38060,-89.5034,35.214462,617.0,44,14.3,75.0,K8,4.0
+Fayette County Schools,1079,Southwest Elementary,38076,-89.43406,35.152913,225.0,19,10.2,72.7,K8,3.2
+Fayette County Schools,1080,West Junior High School,38060,-89.5034,35.214462,402.0,23,16.0,69.2,K8,1.3
+Fentress County Schools,1081,Allardt Elementary,38504,-84.73614,36.392571,363.0,24,4.6,74.3,K8,3.2
+Fentress County Schools,1082,Clarkrange High School,38553,-85.00757,36.209271,308.0,24,12.7,91.3,HS,3.0
+Fentress County Schools,1083,South Fentress Elementary School,38565,-84.99517,36.260904,603.0,37,11.8,82.9,K8,2.4
+Fentress County Schools,1084,Pine Haven Elementary,38556,-84.93393,36.409385,473.0,32,5.9,81.1,K8,2.0
+Fentress County Schools,1085,York Elementary,38556,-84.93393,36.409385,346.0,32,11.2,81.0,K8,2.0
+Franklin County Schools,1086,Broadview Elementary,37398,-86.14045,35.192829,227.0,17,3.1,90.0,K8,4.0
+Franklin County Schools,1087,Clark Memorial School,37398,-86.14045,35.192829,466.0,42,12.0,95.3,K8,2.7
+Franklin County Schools,1088,Cowan Elementary,37318,-86.00538,35.168862,240.0,24,10.9,84.0,K8,2.6
+Franklin County Schools,1089,Decherd Elementary,37324,-86.0324,35.234156,357.0,31,11.7,82.9,K8,1.4
+Franklin County Schools,1090,Franklin Co High School,37398,-86.14045,35.192829,1305.0,86,13.8,85.9,HS,1.0
+Franklin County Schools,1091,Huntland School,37345,-86.27141,35.052678,810.0,46,5.0,94.2,HS,1.6
+Franklin County Schools,1092,North Middle School,37398,-86.14045,35.192829,606.0,37,9.3,78.0,K8,1.3
+Franklin County Schools,1119,North Lake Elementary,37388,-86.21484,35.357522,257.0,19,8.4,89.5,K8,3.0
+Franklin County Schools,1120,Rock Creek Elementary,37330,-86.12247,35.280936,334.0,26,8.0,78.9,K8,2.0
+Franklin County Schools,1128,Sewanee Elementary,37375,-85.91048,35.193891,196.0,16,5.2,89.5,K8,4.0
+Franklin County Schools,1129,South Middle School,37318,-86.00538,35.168862,356.0,26,7.3,85.3,K8,2.0
+Humboldt City Schools,1130,Humboldt Junior/Senior High School,38343,-88.90218,35.825299,407.0,34,17.8,56.5,HS,1.8
+Humboldt City Schools,1131,East Elementary School,38343,-88.90218,35.825299,440.0,27,9.3,72.2,K8,0.0
+Milan Special School District,1139,Milan High School,38358,-88.76628,35.916722,621.0,42,8.7,70.6,HS,2.6
+Milan Special School District,1140,Milan Middle School,38358,-88.76628,35.916722,575.0,40,3.0,81.6,K8,3.3
+Milan Special School District,1141,Milan Elementary,38358,-88.76628,35.916722,688.0,57,6.3,88.1,K8,2.4
+Trenton Special School District,1142,Peabody High School,38382,-88.95035,35.973431,390.0,26,9.1,87.5,HS,1.6
+Trenton Special School District,1143,Trenton Middle School,38382,-88.95035,35.973431,417.0,24,12.6,73.3,K8,1.6
+Trenton Special School District,1144,Trenton Elementary,38382,-88.95035,35.973431,490.0,36,9.8,83.7,K8,2.0
+Bradford Special School District,1145,Bradford High School,38316,-88.81209,36.067294,240.0,19,8.1,75.0,HS,3.0
+Bradford Special School District,1146,Bradford Elementary,38316,-88.81209,36.067294,305.0,22,4.6,95.7,K8,3.4
+Gibson County Special School District,1147,Dyer Elementary,38330,-89.01767,36.073575,431.0,26,5.5,59.4,K8,1.7
+Gibson County Special School District,1148,Gibson County High School,38330,-89.01767,36.073575,518.0,33,10.9,81.4,HS,3.0
+Gibson County Special School District,1149,South Gibson County High School,38355,-88.77185,35.795399,735.0,46,6.3,84.9,HS,3.7
+Gibson County Special School District,1150,South Gibson County Middle School,38355,-88.77185,35.795399,1007.0,50,3.9,75.8,K8,3.5
+Gibson County Special School District,1151,Rutherford Elementary,38369,-88.98134,36.12836,277.0,18,5.7,70.0,K8,3.4
+Gibson County Special School District,1152,Spring Hill Elementary,38382,-88.95035,35.973431,107.0,12,7.3,81.8,K8,4.0
+Gibson County Special School District,1179,Yorkville Elementary,38389,-89.111653,36.135364,118.0,11,1.7,73.3,K8,3.0
+Giles County Schools,1180,Bridgeforth Middle School,38478,-87.01246,35.204983,389.0,28,14.6,90.9,K8,1.8
+Giles County Schools,1181,Elkton Elementary,38477,-86.98456,35.040578,295.0,28,8.6,83.9,K8,1.0
+Giles County Schools,1182,Giles Co High School,38478,-87.01246,35.204983,754.0,56,19.5,82.5,HS,2.6
+Giles County Schools,1183,Minor Hill School,38473,-87.16763,35.026969,347.0,29,9.1,90.6,K8,2.6
+Giles County Schools,1184,Richland Elementary,38472,-87.04478,35.376463,451.0,31,8.3,85.7,K8,2.2
+Giles County Schools,1192,Richland School,38472,-87.04478,35.376463,643.0,44,13.3,93.6,HS,3.0
+Giles County Schools,1193,Southside Elementary,38478,-87.01246,35.204983,410.0,28,14.7,77.0,K8,2.0
+Grainger County Schools,1201,Bean Station Elementary,37708,-83.32206,36.320262,432.0,35,15.7,92.7,K8,2.2
+Grainger County Schools,1202,Grainger High School,37861,-83.51516,36.243526,922.0,51,28.5,89.8,HS,0.9
+Grainger County Schools,1203,Joppa Elementary,37861,-83.51516,36.243526,450.0,35,15.9,92.5,K8,2.6
+Grainger County Schools,1204,Rutledge Elementary School,37861,-83.51516,36.243526,340.0,28,17.9,94.3,K8,2.5
+Grainger County Schools,1205,Rutledge Middle School,37861,-83.51516,36.243526,469.0,26,18.7,90.0,K8,2.0
+Grainger County Schools,1206,Washburn School,37888,-83.60658,36.310299,534.0,37,15.1,95.5,HS,3.0
+Greene County Schools,1207,Baileyton Elementary,37745,-82.81406,36.229928,322.0,22,8.8,88.5,K8,3.8
+Greene County Schools,1208,Camp Creek Elementary,37743,-82.85446,36.102325,281.0,22,10.6,96.0,K8,2.0
+Greene County Schools,1209,Chuckey Elementary,37641,-82.6744,36.21503,332.0,22,5.9,92.6,K8,2.6
+Greene County Schools,1210,Chuckey Doak Middle School,37616,-82.74704,36.218863,437.0,27,6.8,83.9,K8,3.7
+Greene County Schools,1211,Chuckey Doak High School,37616,-82.74704,36.218863,596.0,38,13.0,83.3,HS,2.0
+Greene County Schools,1212,Debusk Elementary,37743,-82.85446,36.102325,315.0,23,13.4,82.1,K8,3.0
+Greene County Schools,1213,Doak Elementary,37745,-82.81406,36.229928,505.0,35,4.1,100.0,K8,2.4
+Greene County Schools,1214,McDonald Elementary,37810,-83.09599,36.188878,324.0,25,13.1,92.9,K8,1.6
+Greene County Schools,1215,Mosheim Elementary,37818,-82.96185,36.190417,891.0,58,9.8,78.6,K8,1.0
+Greene County Schools,1216,Nolachuckey Elementary,37743,-82.85446,36.102325,310.0,22,4.9,74.1,K8,3.0
+Greene County Schools,1217,North Greene High School,37745,-82.81406,36.229928,392.0,26,7.7,83.9,HS,2.0
+Greene County Schools,1218,Ottway Elementary,37743,-82.85446,36.102325,197.0,16,4.9,80.0,K8,2.6
+Greene County Schools,1219,South Greene High School,37743,-82.85446,36.102325,489.0,30,6.8,82.9,HS,2.8
+Greene County Schools,1220,West Greene High School,37818,-82.96185,36.190417,645.0,37,11.1,77.3,HS,1.2
+Greene County Schools,1221,West Pines Elementary,37745,-82.81406,36.229928,149.0,15,11.7,70.0,K8,1.4
+Greeneville City Schools,1222,C Hal Henard Elementary,37743,-82.85446,36.102325,334.0,27,5.4,96.7,K8,2.0
+Greeneville City Schools,1223,Eastview Elementary,37745,-82.81406,36.229928,324.0,23,3.3,96.3,K8,3.6
+Greeneville City Schools,1224,Greeneville High School,37745,-82.81406,36.229928,904.0,61,8.6,76.8,HS,3.1
+Greeneville City Schools,1225,Greeneville Middle School,37743,-82.85446,36.102325,718.0,45,4.6,91.8,K8,2.3
+Greeneville City Schools,1226,Highland Elementary,37745,-82.81406,36.229928,157.0,12,5.1,93.8,K8,2.0
+Greeneville City Schools,1227,Tusculum View Elementary,37745,-82.81406,36.229928,366.0,27,3.6,93.5,K8,2.2
+Grundy County Schools,1228,Coalmont Elementary,37313,-85.70288,35.361678,229.0,24,7.6,66.7,K8,0.0
+Grundy County Schools,1229,Grundy County High School,37313,-85.70288,35.361678,681.0,41,14.0,69.2,HS,1.8
+Grundy County Schools,1230,North Elementary,37301,-85.77679,35.429018,292.0,25,7.9,83.3,K8,3.0
+Grundy County Schools,1231,Palmer Elementary,37365,-85.55501,35.375156,121.0,13,1.7,92.3,K8,1.4
+Grundy County Schools,1232,Pelham Elementary,37366,-85.85456,35.304582,155.0,12,0.7,88.2,K8,2.0
+Grundy County Schools,1233,Swiss Memorial Elementary,37339,-85.62361,35.373152,167.0,14,5.4,68.8,K8,4.0
+Grundy County Schools,1234,Tracy Elementary,37387,-85.74039,35.275367,300.0,29,4.0,88.6,K8,3.0
+Hamblen County Schools,1235,Alpha Elementary,37814,-83.30799,36.225565,619.0,38,7.0,93.3,K8,3.7
+Hamblen County Schools,1236,East Ridge Middle School,37891,-83.13987,36.277627,590.0,36,8.3,90.0,K8,2.6
+Hamblen County Schools,1244,Fairview Marguerite,37814,-83.30799,36.225565,464.0,37,6.5,88.4,K8,3.0
+Hamblen County Schools,1245,Hillcrest Elementary,37813,-83.27474,36.186008,554.0,36,4.1,90.7,K8,2.2
+Hamblen County Schools,1272,John Hay Elementary,37814,-83.30799,36.225565,290.0,20,2.1,81.8,K8,3.5
+Hamblen County Schools,1273,Manley Elementary,37814,-83.30799,36.225565,533.0,41,6.7,93.3,K8,2.9
+Hamblen County Schools,1274,Lincoln Heights Elementary,37813,-83.27474,36.186008,497.0,37,6.6,80.5,K8,2.9
+Hamblen County Schools,1275,Russellville Elementary,37860,-83.19321,36.248645,534.0,45,4.4,91.5,K8,3.5
+Hamblen County Schools,1276,Lincoln Heights Middle School,37813,-83.27474,36.186008,599.0,39,9.6,84.6,K8,1.1
+Hamblen County Schools,1277,Union Heights Elementary,37813,-83.27474,36.186008,272.0,20,6.5,95.5,K8,2.6
+Hamblen County Schools,1285,West View Middle School,37813,-83.27474,36.186008,610.0,36,8.4,87.5,K8,2.4
+Hamblen County Schools,1286,Whitesburg Elementary,37891,-83.13987,36.277627,194.0,14,2.6,87.5,K8,3.6
+Hamblen County Schools,1287,Meadowview Middle School,37814,-83.30799,36.225565,717.0,43,8.2,83.7,K8,1.2
+Hamblen County Schools,1288,Witt Elementary,37813,-83.27474,36.186008,200.0,16,8.3,100.0,K8,3.6
+Hamblen County Schools,1289,Morristown East High,37813,-83.27474,36.186008,1527.0,94,12.4,85.3,HS,1.8
+Hamblen County Schools,1290,Morristown West High,37813,-83.27474,36.186008,1566.0,89,10.4,92.9,HS,2.5
+Hamblen County Schools,1291,West Elementary,37814,-83.30799,36.225565,447.0,32,8.5,81.6,K8,3.7
+Hamilton County Schools,1318,Allen Elementary,37379,-85.16227,35.269694,499.0,35,6.3,90.2,K8,4.0
+Hamilton County Schools,1319,Alpine Crest Elementary,37415,-85.28466,35.116285,295.0,18,4.7,73.9,K8,2.8
+Hamilton County Schools,1320,Apison Elementary School,37302,-85.01322,35.017404,565.0,35,6.2,83.3,K8,3.9
+Hamilton County Schools,1321,Battle Academy For Teaching  Learning,37402,-85.31199,35.046324,375.0,26,8.3,70.6,K8,1.8
+Hamilton County Schools,1322,Bess T Shepherd Elementary,37421,-85.15939,35.028574,535.0,40,6.0,85.4,K8,2.2
+Hamilton County Schools,1323,Big Ridge Elementary,37343,-85.21158,35.167987,514.0,34,6.7,88.2,K8,4.0
+Hamilton County Schools,1331,Brainerd High School,37411,-85.2333,35.023824,616.0,53,51.2,72.1,HS,1.3
+Hamilton County Schools,1332,Tommie F. Brown Academy,37403,-85.2988,35.046173,250.0,25,14.8,75.8,K8,2.2
+Hamilton County Schools,1333,Brown Middle School,37341,-85.09827,35.19154,509.0,30,19.9,77.8,K8,1.4
+Hamilton County Schools,1334,Calvin Donaldson Environmental Science Academy,37410,-85.31407,35.002342,438.0,33,14.6,42.1,K8,3.0
+Hamilton County Schools,1335,Normal Park Museum Magnet School,37405,-85.31903,35.081323,805.0,62,3.3,84.5,K8,3.2
+Hamilton County Schools,1336,Chatt High Center For Creative Arts,37405,-85.31903,35.081323,586.0,38,8.1,91.1,HS,3.6
+Hamilton County Schools,1337,Chattanooga School For Arts And Sciences Upper,37403,-85.2988,35.046173,671.0,44,4.8,96.1,HS,3.2
+Hamilton County Schools,1338,Chattanooga School For The Arts And Science Lower,37403,-85.2988,35.046173,368.0,26,0.5,89.3,K8,3.6
+Hamilton County Schools,1339,Clifton Hills Elementary,37407,-85.28673,35.000825,596.0,48,10.6,68.0,K8,3.0
+Hamilton County Schools,1340,Daisy Elementary,37379,-85.16227,35.269694,381.0,28,8.7,77.4,K8,4.0
+Hamilton County Schools,1341,McConnell Elementary,37343,-85.21158,35.167987,517.0,32,5.4,79.5,K8,3.2
+Hamilton County Schools,1342,Dalewood Middle School,37411,-85.2333,35.023824,362.0,30,20.4,68.6,K8,0.9
+Hamilton County Schools,1343,East Hamilton School,37363,-85.06005,35.087881,1723.0,109,16.5,75.6,HS,3.7
+Hamilton County Schools,1344,East Brainerd Elementary,37421,-85.15939,35.028574,1101.0,71,6.0,78.2,K8,3.6
+Hamilton County Schools,1345,East Lake Elementary,37407,-85.28673,35.000825,534.0,45,8.4,66.0,K8,2.1
+Hamilton County Schools,1346,East Lake Academy Of Fine Arts,37407,-85.28673,35.000825,611.0,48,10.0,44.9,K8,1.2
+Hamilton County Schools,1347,East Ridge Elementary,37412,-85.23748,34.996674,994.0,74,8.4,85.7,K8,2.0
+Hamilton County Schools,1348,East Ridge High School,37412,-85.23748,34.996674,846.0,56,27.9,74.2,HS,2.7
+Hamilton County Schools,1349,Middle Valley Elementary,37343,-85.21158,35.167987,809.0,51,6.3,71.7,K8,3.6
+Hamilton County Schools,1350,Hamilton County Collegiate High at Chattanooga State,37406,-85.25014,35.065723,235.0,6,0.0,87.5,HS,4.0
+Hamilton County Schools,1351,Harrison Elementary,37341,-85.09827,35.19154,432.0,25,6.1,84.6,K8,2.6
+Hamilton County Schools,1352,Hamilton County High School,37363,-85.06005,35.087881,130.0,8,5.2,69.2,HS,2.0
+Hamilton County Schools,1353,Barger Academy,37411,-85.2333,35.023824,415.0,32,8.8,63.9,K8,2.7
+Hamilton County Schools,1354,Hunter Middle School,37363,-85.06005,35.087881,816.0,45,7.0,83.6,K8,3.6
+Hamilton County Schools,1355,Hardy Elementary School,37406,-85.25014,35.065723,447.0,36,12.9,55.3,K8,1.0
+Hamilton County Schools,1356,Loftis Middle School,37343,-85.21158,35.167987,627.0,43,11.0,83.7,K8,3.5
+Hamilton County Schools,1357,Lookout Mountain Elementary,37350,-85.34865,34.998375,158.0,18,4.5,75.0,K8,4.0
+Hamilton County Schools,1358,Hixson Elementary,37343,-85.21158,35.167987,436.0,38,7.8,86.7,K8,2.8
+Hamilton County Schools,1359,Hixson High School,37343,-85.21158,35.167987,914.0,62,21.0,82.6,HS,2.1
+Hamilton County Schools,1360,Hixson Middle School,37343,-88.4906,35.7316,672.0,48,10.8,82.4,K8,2.2
+Hamilton County Schools,1361,The Howard School,37408,-88.39338,35.77007,1006.0,72,43.7,72.9,HS,1.0
+Hamilton County Schools,1362,North Hamilton Elementary,37373,-88.3883,35.6582,376.0,28,8.1,82.1,K8,3.4
+Hamilton County Schools,1363,Wolftever Creek Elementary,37363,-88.2753,35.6351,599.0,41,8.7,76.7,K8,2.8
+Hamilton County Schools,1364,Nolan Elementary,37377,-88.2443,35.5136,660.0,42,3.3,84.4,K8,4.0
+Hamilton County Schools,1365,Ooltewah Elementary,37363,-88.2906,35.518,1019.0,64,4.5,88.4,K8,3.9
+Hamilton County Schools,1366,Ooltewah Middle School,37363,-88.4588,35.5768,822.0,51,14.3,71.2,K8,1.8
+Hamilton County Schools,1367,Lakeside Academy,37416,-88.53783,35.68868,396.0,30,5.4,73.7,K8,3.8
+Hamilton County Schools,1368,Ooltewah High School,37363,-85.06005,35.087881,1566.0,94,18.1,70.7,HS,1.7
+Hamilton County Schools,1369,Chattanooga School For The Liberal Arts,37421,-85.15939,35.028574,453.0,35,0.7,89.5,K8,4.0
+Hamilton County Schools,1370,Lookout Valley Middle / High School,37419,-85.37276,35.031674,342.0,28,9.2,75.0,HS,2.0
+Hamilton County Schools,1371,Red Bank Elementary,37405,-85.31903,35.081323,578.0,46,13.6,78.0,K8,2.6
+Hamilton County Schools,1372,Red Bank High School,37415,-85.28466,35.116285,818.0,53,21.5,77.8,HS,2.7
+Hamilton County Schools,1373,Red Bank Middle School,37415,-85.28466,35.116285,594.0,41,19.3,72.9,K8,3.3
+Hamilton County Schools,1374,Rivermont Elementary,37415,-85.28466,35.116285,329.0,26,9.8,65.4,K8,2.8
+Hamilton County Schools,1375,Sale Creek Middle / High School,37373,-85.10329,35.391643,554.0,36,16.0,90.5,HS,3.0
+Hamilton County Schools,1376,Orchard Knob Elementary,37404,-85.2749,35.030474,483.0,38,13.3,77.3,K8,1.0
+Hamilton County Schools,1377,Sequoyah High School,37379,-85.16227,35.269694,311.0,32,24.1,84.5,HS,3.8
+Hamilton County Schools,1385,Orchard Knob Middle,37404,-85.2749,35.030474,463.0,41,30.2,65.9,K8,1.1
+Hamilton County Schools,1386,Signal Mountain Middle/High School,37377,-85.33332,35.159778,1312.0,89,5.2,86.0,HS,3.2
+Hamilton County Schools,1387,Snow Hill Elementary,37363,-85.06005,35.087881,517.0,34,8.0,82.1,K8,2.6
+Hamilton County Schools,1388,Soddy Daisy High School,37379,-85.16227,35.269694,1190.0,76,20.6,80.9,HS,3.9
+Hamilton County Schools,1389,Soddy Daisy Middle School,37379,-85.16227,35.269694,419.0,31,20.2,81.4,K8,2.6
+Hamilton County Schools,1390,Soddy Elementary,37379,-85.16227,35.269694,473.0,36,8.9,87.8,K8,3.6
+Hamilton County Schools,1391,Spring Creek Elementary,37412,-85.23748,34.996674,628.0,51,8.9,82.1,K8,3.5
+Hamilton County Schools,1392,Tyner Academy,37421,-85.15939,35.028574,522.0,41,25.8,71.1,HS,1.4
+Hamilton County Schools,1393,Tyner Middle Academy,37421,-85.15939,35.028574,469.0,30,15.0,73.0,K8,2.1
+Hamilton County Schools,1394,Thrasher Elementary,37377,-85.33332,35.159778,567.0,33,2.1,94.6,K8,4.0
+Hamilton County Schools,1395,Lookout Valley Elementary,37419,-85.37276,35.031674,293.0,24,13.6,80.8,K8,3.0
+Hamilton County Schools,1396,Woodmore Elementary,37411,-85.2333,35.023824,288.0,25,13.4,72.4,K8,1.8
+Hamilton County Schools,1397,Wallace A. Smith Elementary,37363,-85.06005,35.087881,629.0,43,7.1,79.2,K8,4.0
+Hamilton County Schools,1398,Westview Elementary,37421,-85.15939,35.028574,558.0,39,3.8,84.8,K8,3.6
+Hamilton County Schools,1399,STEM School Chattanooga,37406,-85.25014,35.065723,278.0,18,5.1,90.5,HS,3.6
+Hamilton County Schools,1400,Chattanooga Girls Leadership Academy,37404,-85.2749,35.030474,351.0,30,2.9,78.6,K8,2.9
+Hamilton County Schools,1401,Ivy Academy Inc.,37379,-85.16227,35.269694,306.0,27,15.1,94.4,HS,2.0
+Hancock County Schools,1402,Hancock County Elementary,37869,-83.22818,36.521297,442.0,30,13.2,89.5,K8,0.4
+Hancock County Schools,1403,Hancock High School,37869,-83.22818,36.521297,521.0,42,20.1,71.9,HS,1.0
+Hardeman County Schools,1404,Bolivar Elementary,38008,-88.98751,35.25543,675.0,56,6.3,84.1,K8,0.9
+Hardeman County Schools,1405,Bolivar Middle School,38008,-88.98751,35.25543,366.0,27,14.8,90.6,K8,1.1
+Hardeman County Schools,1406,Grand Junction Elementary,38039,-89.18599,35.057728,122.0,13,8.3,88.2,K8,2.2
+Hardeman County Schools,1407,Hornsby Elementary,38044,-88.80988,35.211663,173.0,12,3.0,87.5,K8,3.0
+Hardeman County Schools,1408,Middleton Elementary,38052,-88.90845,35.074302,367.0,29,5.4,84.8,K8,2.0
+Hardeman County Schools,1409,Middleton High School,38052,-88.90845,35.074302,480.0,37,14.1,95.6,HS,1.0
+Hardeman County Schools,1410,Toone Elementary,38381,-88.95209,35.35452,237.0,21,9.8,92.0,K8,2.0
+Hardeman County Schools,1411,Whiteville Elementary,38075,-89.15508,35.35001,207.0,19,13.2,75.9,K8,2.0
+Hardin County Schools,1412,Hardin County High School,38372,-88.18946,35.180947,1080.0,69,18.3,84.3,HS,2.5
+Hardin County Schools,1413,Hardin County Middle School,38372,-88.18946,35.180947,726.0,39,9.9,86.0,K8,1.6
+Hardin County Schools,1414,East Hardin Elementary,38372,-88.18946,35.180947,352.0,26,12.1,97.0,K8,2.4
+Hardin County Schools,1415,Parris South Elementary,38372,-88.18946,35.180947,456.0,30,17.9,94.6,K8,1.1
+Hardin County Schools,1416,Pickwick Southside School,38326,-88.27379,35.041335,210.0,16,14.2,95.0,K8,2.0
+Hardin County Schools,1417,West Hardin Elementary,38310,-88.38425,35.241412,176.0,14,10.0,89.5,K8,4.0
+Hawkins County Schools,1418,Bulls Gap School,37711,-83.05737,36.274715,377.0,28,6.8,83.3,K8,1.8
+Hawkins County Schools,1419,Carter's Valley Elementary,37642,-82.71292,36.534489,249.0,22,15.5,80.0,K8,1.2
+Hawkins County Schools,1420,Cherokee High School,37857,-82.96804,36.413437,1067.0,71,29.6,92.5,HS,2.9
+Hawkins County Schools,1421,Church Hill Elementary,37642,-82.71292,36.534489,309.0,26,6.8,100.0,K8,2.6
+Hawkins County Schools,1422,Church Hill Intermediate School,37642,-82.71292,36.534489,386.0,26,9.7,90.3,K8,2.4
+Hawkins County Schools,1423,Church Hill Middle School,37642,-82.71292,36.534489,411.0,23,12.6,86.7,K8,3.0
+Hawkins County Schools,1424,Clinch School,37869,-83.22818,36.521297,136.0,21,8.7,85.7,K8,2.0
+Hawkins County Schools,1425,Keplar Elementary,37857,-82.96804,36.413437,92.0,11,15.9,80.0,K8,3.0
+Hawkins County Schools,1426,Mt Carmel Elementary,37645,-82.65855,36.560966,242.0,24,6.3,84.0,K8,3.0
+Hawkins County Schools,1427,McPheeter's Bend Elementary,37642,-82.71292,36.534489,94.0,6,13.5,63.6,K8,2.0
+Hawkins County Schools,1428,Mooresburg Elementary,37811,-83.22676,36.352009,168.0,16,11.0,84.2,K8,1.2
+Hawkins County Schools,1429,Hawkins Elementary,37857,-82.96804,36.413437,284.0,23,14.2,80.8,K8,2.0
+Hawkins County Schools,1430,Rogersville Middle School,37857,-82.96804,36.413437,472.0,34,21.8,83.3,K8,1.0
+Hawkins County Schools,1431,St Clair Elementary,37711,-83.05737,36.274715,152.0,15,7.2,94.7,K8,3.0
+Hawkins County Schools,1432,Surgoinsville Elementary,37873,-82.83526,36.51276,329.0,27,13.3,96.9,K8,3.0
+Hawkins County Schools,1433,Surgoinsville Middle School,37873,-82.83526,36.51276,340.0,23,8.2,85.2,K8,2.6
+Hawkins County Schools,1434,Volunteer High School,37642,-82.71292,36.534489,1064.0,72,17.7,85.0,HS,2.7
+Rogersville City School,1435,Rogersville Elementary,37857,-82.96804,36.413437,646.0,46,9.8,92.2,K8,2.6
+Haywood County Schools,1436,Haywood High School,38012,-89.2609,35.590558,858.0,67,18.2,69.2,HS,2.6
+Haywood County Schools,1437,Haywood Middle School,38037,-89.41497,35.82036,644.0,38,14.4,75.6,K8,1.0
+Henderson County Schools,1438,Bargerton Elementary,38351,-88.40535,35.658409,243.0,17,8.4,95.5,K8,3.0
+Henderson County Schools,1439,Beaver Elementary,38388,-88.35061,35.782093,312.0,23,7.7,96.2,K8,4.0
+Henderson County Schools,1440,Lexington High School,38351,-88.40535,35.658409,880.0,50,13.3,94.7,HS,3.1
+Henderson County Schools,1441,Pin Oak Elementary,38351,-88.40535,35.658409,392.0,23,10.3,92.6,K8,3.2
+Henderson County Schools,1442,Scotts Hill Elementary,38374,-88.24152,35.522263,353.0,23,4.7,100.0,K8,4.0
+Henderson County Schools,1443,Scotts Hill High School,38368,-88.36148,35.502859,497.0,31,10.1,94.4,HS,2.6
+Henderson County Schools,1444,South Haven Elementary,38351,-88.40535,35.658409,335.0,21,10.3,91.7,K8,2.6
+Henderson County Schools,1445,Westover Elementary,38345,-88.51041,35.576402,529.0,34,8.3,97.2,K8,4.0
+Lexington City Schools,1446,Paul G. Caywood Elementary,38351,-88.40535,35.658409,547.0,39,8.3,93.3,K8,2.8
+Lexington City Schools,1447,Lexington Middle School,38351,-88.40535,35.658409,257.0,16,10.0,95.2,K8,2.4
+Henry County School System,1448,Dorothy And Noble Harrelson School,38251,-88.35903,36.444446,494.0,40,10.5,82.7,K8,2.6
+Henry County School System,1449,E. W. Grove School,38242,-88.32891,36.300311,347.0,19,8.0,79.2,K8,3.2
+Henry County School System,1450,Henry Elementary,38231,-88.42518,36.210847,335.0,31,9.9,77.8,K8,1.6
+Henry County School System,1451,Henry Co High School,38242,-88.32891,36.300311,973.0,64,10.3,88.0,HS,2.6
+Henry County School System,1452,Lakewood Elementary,38222,-88.14836,36.458738,511.0,34,6.5,84.1,K8,2.6
+Henry County School System,1453,Lakewood Middle School,38024,-89.38613,36.038042,292.0,18,8.0,95.0,K8,1.6
+Paris Special School District,1454,W O Inman Middle School,38242,-88.32891,36.300311,582.0,35,10.9,78.9,K8,2.3
+Paris Special School District,1455,Paris Elementary,38242,-88.32891,36.300311,522.0,40,11.8,90.9,K8,2.6
+Hickman County Schools,1456,Centerville Intermediate School,37033,-87.49418,35.76714,362.0,25,5.5,72.2,K8,2.2
+Hickman County Schools,1457,East Hickman Intermediate School,37098,-87.31395,35.882639,388.0,25,8.1,85.7,K8,2.0
+Hickman County Schools,1458,East Hickman Middle School,37098,-87.31395,35.882639,420.0,23,9.0,70.0,K8,1.2
+Hickman County Schools,1459,East Hickman High School,37098,-87.31395,35.882639,510.0,37,15.3,78.3,HS,1.2
+Hickman County Schools,1460,Hickman Co Middle School,37033,-87.49418,35.76714,355.0,21,12.6,81.5,K8,2.0
+Hickman County Schools,1461,Hickman Co Sr High School,37033,-87.49418,35.76714,499.0,42,13.7,82.6,HS,2.0
+Houston County Schools,1462,Erin Elementary,37061,-87.68198,36.301089,374.0,27,11.6,81.3,K8,1.2
+Houston County Schools,1463,Houston Co Middle School,37061,-87.68198,36.301089,292.0,16,11.6,90.0,K8,1.4
+Houston County Schools,1464,Houston Co High School,37061,-87.68198,36.301089,424.0,32,22.1,91.7,HS,2.4
+Houston County Schools,1465,Tennessee Ridge Elementary,37178,-87.77676,36.323799,217.0,17,22.3,90.5,K8,1.6
+Humphreys County School System,1466,Mc Ewen Elementary,37101,-87.64489,36.069712,437.0,31,12.9,89.2,K8,2.6
+Humphreys County School System,1467,McEwen Jr. High School,37101,-87.64489,36.069712,209.0,13,16.7,82.4,K8,2.6
+Humphreys County School System,1468,Mc Ewen High School,37101,-87.64489,36.069712,296.0,22,14.1,84.6,HS,2.0
+Humphreys County School System,1469,Waverly Central High School,37185,-87.81626,36.085376,557.0,35,15.9,86.7,HS,3.6
+Humphreys County School System,1470,Waverly Elementary,37185,-87.81626,36.085376,471.0,36,13.1,93.3,K8,3.2
+Humphreys County School System,1471,Waverly Jr High School,37185,-87.81626,36.085376,592.0,32,12.5,92.1,K8,2.0
+Jackson County Schools,1472,Jackson County High School,38562,-85.65757,36.351803,444.0,27,14.1,87.1,HS,2.8
+Jackson County Schools,1473,Dodson Branch Elementary,38501,-85.52054,36.1832,253.0,19,2.0,95.7,K8,2.4
+Jackson County Schools,1474,Gainesboro Elementary,38562,-85.65757,36.351803,311.0,21,7.8,86.2,K8,2.0
+Jackson County Schools,1475,Jackson County Middle School,38562,-85.65757,36.351803,401.0,28,10.6,76.9,K8,0.8
+Jefferson County Schools,1476,Dandridge Elementary,37725,-83.39791,35.996454,497.0,36,11.4,92.5,K8,1.8
+Jefferson County Schools,1477,Jefferson Elementary,37760,-83.48325,36.109404,419.0,35,10.4,92.3,K8,1.8
+Jefferson County Schools,1478,Jefferson Co High School,37725,-83.39791,35.996454,2084.0,131,23.3,91.9,HS,2.5
+Jefferson County Schools,1479,Maury Middle School,37725,-83.39791,35.996454,618.0,34,12.5,78.6,K8,2.6
+Jefferson County Schools,1480,New Market Elementary,37820,-83.56389,36.089568,285.0,25,9.0,93.3,K8,3.0
+Jefferson County Schools,1481,Piedmont Elementary,37725,-83.39791,35.996454,388.0,26,9.5,93.3,K8,3.0
+Jefferson County Schools,1482,Rush Strong Elementary,37871,-83.67934,36.04051,439.0,36,11.4,84.1,K8,1.2
+Jefferson County Schools,1483,Talbott Elementary,37877,-83.40946,36.154381,215.0,18,6.0,78.3,K8,2.2
+Jefferson County Schools,1484,White Pine Elementary,37890,-83.29024,36.094622,816.0,56,8.9,96.7,K8,1.2
+Jefferson County Schools,1485,Mount Horeb Elementary School,37760,-83.48325,36.109404,543.0,40,7.4,93.2,K8,2.6
+Johnson County Schools,1486,Doe Elementary,37683,-81.81906,36.451041,158.0,17,13.3,84.2,K8,2.6
+Johnson County Schools,1487,Johnson Co High School,37683,-81.81906,36.451041,583.0,45,7.8,86.8,HS,1.8
+Johnson County Schools,1488,Johnson Co Middle School,37683,-81.81906,36.451041,332.0,21,7.6,85.7,K8,2.0
+Johnson County Schools,1489,Mountain City Elementary,37683,-81.81906,36.451041,440.0,28,5.8,79.4,K8,2.6
+Johnson County Schools,1490,Roan Creek Elementary,37683,-81.81906,36.451041,343.0,27,7.8,82.4,K8,2.0
+Knox County Schools,1491,Amherst Elementary School,37931,-84.1182,35.976063,739.0,55,11.3,85.0,K8,2.7
+Knox County Schools,1492,Adrian Burnett Elementary,37918,-83.92511,36.046598,525.0,39,12.1,84.0,K8,2.2
+Knox County Schools,1493,Austin East High/Magnet,37914,-83.84981,35.988528,685.0,64,41.5,76.8,HS,1.1
+Knox County Schools,1494,Ball Camp Elementary,37931,-84.1182,35.976063,535.0,40,10.9,86.0,K8,3.2
+Knox County Schools,1495,Bearden Elementary,37919,-84.00384,35.922881,345.0,26,6.1,77.4,K8,3.6
+Knox County Schools,1496,Bearden Middle School,37909,-84.01554,35.947846,1309.0,81,20.3,92.2,K8,2.7
+Knox County Schools,1497,Blue Grass Elementary,37922,-84.12608,35.875925,577.0,39,9.0,88.4,K8,4.0
+Knox County Schools,1498,Bearden High School,37919,-84.00384,35.922881,2069.0,121,17.0,83.5,HS,3.2
+Knox County Schools,1499,Bonny Kate Elementary,37920,-83.89042,35.923517,330.0,27,10.8,82.8,K8,2.6
+Knox County Schools,1500,Beaumont Elementary/Magnet,37921,-83.97413,35.973731,563.0,43,14.0,77.6,K8,2.5
+Knox County Schools,1501,Belle Morris Elementary,37917,-83.91859,35.991982,438.0,44,23.2,86.4,K8,1.3
+Knox County Schools,1502,Brickey McCloud Elementary,37918,-83.92511,36.046598,993.0,68,9.9,78.8,K8,3.2
+Knox County Schools,1503,Carter Elementary,37871,-83.67934,36.04051,541.0,39,13.3,88.1,K8,2.6
+Knox County Schools,1504,Carter High School,37871,-83.67934,36.04051,891.0,61,23.2,75.7,HS,2.9
+Knox County Schools,1505,Carter Middle School,37871,-83.67934,36.04051,663.0,47,24.1,72.3,K8,2.0
+Knox County Schools,1506,Cedar Bluff Elementary,37923,-84.07543,35.928997,1113.0,87,9.2,82.8,K8,2.0
+Knox County Schools,1507,Cedar Bluff Middle School,37923,-84.07543,35.928997,628.0,39,14.5,86.4,K8,2.3
+Knox County Schools,1508,Copper Ridge Elementary,37849,-84.04192,36.044507,483.0,36,13.3,85.0,K8,2.0
+Knox County Schools,1509,Chilhowee Intermediate,37914,-83.84981,35.988528,188.0,15,18.5,69.6,K8,1.1
+Knox County Schools,1510,Corryton Elementary,37721,-83.8066,36.141925,210.0,15,13.3,80.0,K8,3.0
+Knox County Schools,1511,Dogwood Elementary,37920,-83.89042,35.923517,525.0,56,25.2,89.2,K8,2.9
+Knox County Schools,1512,Christenberry Elementary,37917,-83.91859,35.991982,475.0,49,15.9,75.5,K8,3.1
+Knox County Schools,1513,South Doyle High School,37920,-83.89042,35.923517,1100.0,82,32.3,85.1,HS,1.7
+Knox County Schools,1514,A L Lotts Elementary,37922,-84.12608,35.875925,969.0,61,7.8,81.3,K8,3.2
+Knox County Schools,1515,South Doyle Middle School,37920,-83.89042,35.923517,912.0,70,16.4,75.3,K8,1.9
+Knox County Schools,1516,East Knox Elementary,37806,-83.7413,36.086398,414.0,38,15.1,92.7,K8,1.8
+Knox County Schools,1517,Farragut Intermediate,37922,-84.12608,35.875925,1097.0,65,7.7,88.4,K8,3.6
+Knox County Schools,1518,Farragut Middle School,37922,-84.12608,35.875925,1386.0,77,6.8,82.0,K8,3.8
+Knox County Schools,1519,Farragut High School,37922,-84.12608,35.875925,1975.0,111,6.4,87.0,HS,3.3
+Knox County Schools,1520,Gap Creek Elementary,37920,-83.89042,35.923517,82.0,9,11.6,100.0,K8,3.0
+Knox County Schools,1521,Fountain City Elementary,37918,-83.92511,36.046598,344.0,29,7.8,93.5,K8,2.8
+Knox County Schools,1522,Fulton High School,37917,-83.91859,35.991982,1011.0,82,35.4,82.4,HS,0.9
+Knox County Schools,1523,Gibbs Elementary,37721,-83.8066,36.141925,861.0,58,12.0,90.0,K8,3.2
+Knox County Schools,1524,Gibbs High School,37721,-83.8066,36.141925,1035.0,68,23.3,97.2,HS,1.0
+Knox County Schools,1525,Halls Elementary,37938,-83.93785,36.113552,742.0,51,9.4,85.7,K8,3.6
+Knox County Schools,1526,Green Magnet Math And Science Academy,37915,-83.90149,35.97125,376.0,39,22.3,77.3,K8,1.0
+Knox County Schools,1527,Halls High School,37938,-83.93785,36.113552,1284.0,76,19.1,72.7,HS,1.3
+Knox County Schools,1535,Gresham Middle School,37918,-83.92511,36.046598,840.0,53,16.2,70.0,K8,2.7
+Knox County Schools,1536,Halls Middle School,37938,-83.93785,36.113552,1056.0,61,17.6,85.7,K8,2.6
+Knox County Schools,1537,Holston Middle School,37924,-83.80705,36.029987,558.0,41,20.6,83.3,K8,0.6
+Knox County Schools,1545,Hardin Valley Elementary,37932,-84.17255,35.919695,1141.0,71,8.0,85.1,K8,3.6
+Knox County Schools,1546,Hardin Valley Academy,37932,-84.17255,35.919695,2074.0,120,12.2,91.5,HS,3.2
+Knox County Schools,1547,Inskip Elementary,37912,-83.97962,36.008048,511.0,41,16.2,72.1,K8,1.3
+Knox County Schools,1548,Karns Elementary,37931,-84.1182,35.976063,1204.0,86,10.1,87.8,K8,1.5
+Knox County Schools,1549,Karns Middle School,37931,-84.1182,35.976063,935.0,59,15.4,60.8,K8,2.1
+Knox County Schools,1550,Karns High School,37931,-84.1182,35.976063,1687.0,91,21.3,81.1,HS,1.8
+Knox County Schools,1551,Lonsdale Elementary,37921,-83.97413,35.973731,341.0,36,7.4,66.7,K8,1.1
+Knox County Schools,1552,Maynard Elementary,37921,-83.97413,35.973731,152.0,19,26.8,64.7,K8,1.0
+Knox County Schools,1553,Mt Olive Elementary,37920,-83.89042,35.923517,248.0,21,12.9,87.0,K8,2.6
+Knox County Schools,1554,Mooreland Heights Elementary,37920,-83.89042,35.923517,322.0,32,16.6,81.8,K8,1.9
+Knox County Schools,1555,New Hopewell Elementary,37920,-83.89042,35.923517,235.0,18,8.9,76.2,K8,2.0
+Knox County Schools,1556,Powell Elementary,37849,-84.04192,36.044507,842.0,56,12.5,86.7,K8,2.3
+Knox County Schools,1557,Powell Middle School,37849,-84.04192,36.044507,930.0,60,20.6,82.5,K8,2.6
+Knox County Schools,1558,Powell High School,37849,-84.04192,36.044507,1313.0,81,21.9,88.8,HS,1.9
+Knox County Schools,1559,Northwest Middle School,37912,-83.97962,36.008048,881.0,68,24.0,67.9,K8,0.3
+Knox County Schools,1560,Ritta Elementary,37918,-83.92511,36.046598,558.0,41,13.2,91.1,K8,2.7
+Knox County Schools,1561,Pleasant Ridge Elementary,37921,-83.97413,35.973731,329.0,25,10.0,73.3,K8,0.8
+Knox County Schools,1562,Pond Gap Elementary,37909,-84.01554,35.947846,312.0,32,17.2,72.7,K8,2.0
+Knox County Schools,1563,Rocky Hill Elementary,37919,-84.00384,35.922881,757.0,51,6.3,80.8,K8,3.8
+Knox County Schools,1564,Sarah Moore Greene Magnet Technology Academy,37914,-83.84981,35.988528,550.0,56,24.8,90.8,K8,2.0
+Knox County Schools,1565,Sequoyah Elementary,37919,-84.00384,35.922881,528.0,37,1.7,91.9,K8,4.0
+Knox County Schools,1566,Shannondale Elementary,37918,-83.92511,36.046598,395.0,28,6.6,81.8,K8,4.0
+Knox County Schools,1567,South Knox Elementary,37920,-83.89042,35.923517,137.0,14,12.4,73.3,K8,2.6
+Knox County Schools,1568,Sterchi Elementary,37912,-83.97962,36.008048,407.0,30,10.7,100.0,K8,3.3
+Knox County Schools,1569,Vine Middle/Magnet,37915,-83.90149,35.97125,479.0,38,27.5,71.4,K8,0.3
+Knox County Schools,1570,West Haven Elementary,37921,-83.97413,35.973731,323.0,28,16.1,71.9,K8,2.0
+Knox County Schools,1571,West High School,37919,-84.00384,35.922881,1449.0,88,23.3,86.2,HS,2.7
+Knox County Schools,1572,West Hills Elementary,37919,-84.00384,35.922881,698.0,53,13.0,84.2,K8,3.1
+Knox County Schools,1573,West Valley Middle School,37922,-84.12608,35.875925,1225.0,68,9.4,90.5,K8,3.2
+Knox County Schools,1574,West View Elementary,37921,-83.97413,35.973731,193.0,20,26.5,80.0,K8,2.0
+Knox County Schools,1575,Whittle Springs Middle School,37917,-83.91859,35.991982,480.0,41,26.7,82.4,K8,1.2
+Knox County Schools,1576,L N STEM Academy,37902,-83.91964,35.964032,589.0,35,6.9,92.5,HS,3.6
+Knox County Schools,1577,Northshore Elementary School,37922,-84.12608,35.875925,1005.0,65,4.1,84.8,K8,3.6
+Knox County Schools,1578,Career Magnet Academy,37914,-83.84981,35.988528,253.0,20,25.2,83.3,HS,2.0
+Lake County School System,1579,Lake Co High School,38079,-89.50472,36.513386,199.0,20,33.2,84.0,HS,2.0
+Lake County School System,1580,Lara Kendall Elementary,38080,-89.48641,36.224429,308.0,31,14.8,71.1,K8,1.0
+Lake County School System,1581,Margaret Newton Elementary,38079,-89.50472,36.513386,205.0,21,20.9,87.0,K8,1.9
+Lauderdale County Schools,1582,Halls Elementary School,38040,-89.41989,35.879497,586.0,50,7.3,81.4,K8,2.5
+Lauderdale County Schools,1583,Halls Junior High School,38040,-89.41989,35.879497,202.0,14,9.5,75.0,K8,2.0
+Lauderdale County Schools,1584,Ripley Middle School,38063,-89.86859,35.637993,630.0,41,9.5,74.0,K8,1.3
+Lauderdale County Schools,1585,Ripley High School,38063,-89.86859,35.637993,799.0,53,15.2,86.7,HS,2.0
+Lauderdale County Schools,1586,Ripley Elementary,38063,-89.86859,35.637993,591.0,43,6.0,80.4,K8,1.9
+Lawrence County Schools,1587,E O Coffman Middle School,38464,-87.37522,35.259613,600.0,34,13.7,82.1,K8,1.9
+Lawrence County Schools,1588,David Crockett Elementary,38464,-87.37522,35.259613,455.0,32,9.1,81.6,K8,3.6
+Lawrence County Schools,1589,Ethridge Elementary,38456,-87.26409,35.336135,415.0,34,4.9,94.3,K8,3.0
+Lawrence County Schools,1590,Ingram Sowell Elementary,38464,-87.37522,35.259613,403.0,34,24.9,85.4,K8,1.0
+Lawrence County Schools,1591,Lawrence Co High School,38464,-87.37522,35.259613,1096.0,64,22.4,89.6,HS,2.3
+Lawrence County Schools,1592,Lawrenceburg Public,38464,-87.37522,35.259613,472.0,30,5.3,87.9,K8,3.6
+Lawrence County Schools,1593,Leoma Elementary,38468,-87.29218,35.135003,475.0,29,5.6,93.8,K8,2.6
+Lawrence County Schools,1594,South Lawrence Elementary,38469,-87.41974,35.071804,567.0,33,10.5,82.1,K8,2.2
+Lawrence County Schools,1595,Loretto High School,38469,-87.41974,35.071804,533.0,33,8.8,97.3,HS,3.0
+Lawrence County Schools,1596,New Prospect Elementary,38464,-87.37522,35.259613,390.0,25,10.6,86.7,K8,3.6
+Lawrence County Schools,1597,Summertown Elementary,38483,-87.33748,35.43506,611.0,45,7.2,86.3,K8,3.2
+Lawrence County Schools,1598,Summertown High School,38483,-87.33748,35.43506,689.0,43,19.6,76.0,HS,3.0
+Lewis County Schools,1599,Lewis County Middle School,38462,-87.54905,35.535397,390.0,33,10.0,84.8,K8,1.8
+Lewis County Schools,1600,Lewis Co High School,38462,-87.54905,35.535397,495.0,38,13.6,79.1,HS,1.4
+Lewis County Schools,1601,Lewis County Intermediate School,38462,-87.54905,35.535397,376.0,25,5.6,90.0,K8,2.6
+Lincoln County Department of Education,1602,Blanche School,38488,-86.69047,35.045279,329.0,24,12.0,86.7,K8,3.0
+Lincoln County Department of Education,1603,Lincoln County Ninth Grade Academy,37334,-86.57433,35.136177,296.0,20,15.4,60.0,K8,2.6
+Lincoln County Department of Education,1604,Flintville School,37335,-86.41866,35.063253,464.0,34,12.3,85.0,K8,2.6
+Lincoln County Department of Education,1605,Highland Rim School,37334,-86.57433,35.136177,746.0,45,9.9,87.5,K8,2.6
+Lincoln County Department of Education,1606,Lincoln County High School,37334,-86.57433,35.136177,881.0,64,21.4,78.9,HS,2.7
+Lincoln County Department of Education,1607,South Lincoln School,37334,-86.57433,35.136177,622.0,39,8.0,93.2,K8,3.5
+Lincoln County Department of Education,1608,Unity School,37144,-86.63337,35.301331,401.0,27,13.8,82.4,K8,2.6
+Fayetteville City Schools,1609,Fayetteville Middle School,37334,-86.57433,35.136177,478.0,28,15.1,70.0,K8,3.2
+Fayetteville City Schools,1610,Fayetteville High School,37334,-86.57433,35.136177,349.0,25,14.8,86.7,HS,1.2
+Fayetteville City Schools,1611,Ralph Askins School,37334,-86.57433,35.136177,519.0,41,15.3,88.0,K8,0.8
+Loudon County Schools,1612,Eaton Elementary,37771,-84.29301,35.815524,678.0,46,7.5,84.9,K8,4.0
+Loudon County Schools,1613,Ft Loudoun Middle School,37774,-84.33069,35.725969,349.0,22,9.2,77.8,K8,2.7
+Loudon County Schools,1614,Greenback School,37742,-84.1817,35.66806,657.0,48,13.5,96.4,HS,2.6
+Loudon County Schools,1615,Highland Park Elementary,37772,-84.23281,35.800329,391.0,27,6.3,83.9,K8,3.2
+Loudon County Schools,1623,Loudon Elementary,37774,-84.33069,35.725969,458.0,36,9.2,85.4,K8,2.1
+Loudon County Schools,1624,Loudon High School,37774,-84.33069,35.725969,727.0,56,15.8,85.2,HS,2.5
+Loudon County Schools,1625,Philadelphia Elementary,37846,-84.45838,35.679462,438.0,33,3.8,82.2,K8,2.7
+Loudon County Schools,1626,Steekee Elementary,37774,-84.33069,35.725969,223.0,18,8.0,87.5,K8,3.0
+Lenoir City Schools,1627,Lenoir City High School,37771,-84.29301,35.815524,1185.0,65,15.2,91.8,HS,3.0
+Lenoir City Schools,1628,Lenoir City Intermediate/Middle School,37771,-84.29301,35.815524,647.0,33,9.2,90.2,K8,2.7
+Lenoir City Schools,1629,Lenoir City Elementary,37771,-84.29301,35.815524,439.0,38,5.5,87.2,K8,4.0
+McMinn County Schools,1630,Calhoun Elementary,37309,-84.74359,35.302952,311.0,22,8.4,85.2,K8,3.2
+McMinn County Schools,1631,E K Baker Elementary,37303,-84.61975,35.441378,340.0,22,11.1,77.8,K8,1.4
+McMinn County Schools,1632,Englewood Elementary,37329,-84.47473,35.41142,505.0,33,10.3,92.5,K8,3.0
+McMinn County Schools,1633,McMinn High School,37303,-84.61975,35.441378,1516.0,86,15.7,86.6,HS,2.7
+McMinn County Schools,1634,Mountain View Elementary,37331,-84.53015,35.325991,547.0,37,6.5,86.8,K8,2.0
+McMinn County Schools,1642,Niota Elementary,37826,-84.58403,35.548316,531.0,36,13.1,92.9,K8,0.9
+McMinn County Schools,1643,Riceville Elementary,37370,-84.70392,35.363968,608.0,39,10.0,95.7,K8,2.6
+McMinn County Schools,1644,Rogers Creek Elementary,37303,-84.61975,35.441378,277.0,22,10.2,96.3,K8,2.6
+Athens City Schools,1645,Athens City Middle School,37303,-84.61975,35.441378,483.0,29,10.1,80.0,K8,2.7
+Athens City Schools,1646,North City Elementary,37303,-84.61975,35.441378,271.0,17,4.5,76.2,K8,2.6
+Athens City Schools,1647,Westside Elementary,37303,-84.61975,35.441378,269.0,17,3.4,79.2,K8,3.6
+Etowah City School,1695,Etowah Elementary,37331,-84.53015,35.325991,368.0,26,4.3,80.0,K8,2.9
+McNairy County Schools,1696,Adamsville Elementary,38310,-88.38425,35.241412,508.0,38,3.0,100.0,K8,2.6
+McNairy County Schools,1697,Adamsville High School,38310,-88.38425,35.241412,716.0,48,9.4,94.3,HS,2.4
+McNairy County Schools,1698,Bethel Springs Elementary,38315,-88.64275,35.260888,468.0,32,3.7,92.3,K8,2.8
+McNairy County Schools,1699,McNairy Central High School,38375,-88.59327,35.165045,819.0,55,14.5,91.5,HS,2.9
+McNairy County Schools,1700,Michie Elementary,38357,-88.42611,35.051008,338.0,31,11.6,94.7,K8,1.8
+McNairy County Schools,1701,Ramer Elementary,38367,-88.60533,35.062793,359.0,27,3.2,91.7,K8,3.0
+McNairy County Schools,1702,Selmer Elementary,38375,-88.59327,35.165045,430.0,41,2.8,95.8,K8,2.0
+McNairy County Schools,1703,Selmer Middle School,38375,-88.59327,35.165045,403.0,33,3.3,76.9,K8,2.6
+Macon County Schools,1704,Macon County Junior High School,37083,-86.01497,36.537994,718.0,46,10.4,95.9,K8,2.3
+Macon County Schools,1705,Macon County High School,37083,-86.01497,36.537994,914.0,57,16.8,84.1,HS,1.7
+Macon County Schools,1706,Lafayette Elementary School,37083,-86.01497,36.537994,421.0,21,9.3,71.4,K8,2.3
+Macon County Schools,1707,Red Boiling Springs Elementary,37150,-85.81114,36.543183,327.0,23,5.9,100.0,K8,1.6
+Macon County Schools,1708,Red Boiling Springs School,37150,-85.81114,36.543183,322.0,28,13.9,96.8,HS,1.4
+Jackson-Madison County Schools,1709,Alexander Elementary School,38301,-88.81959,35.60758,338.0,22,20.5,62.1,K8,2.0
+Jackson-Madison County Schools,1710,Arlington Elementary School,38301,-88.81959,35.60758,569.0,42,14.5,58.3,K8,0.9
+Jackson-Madison County Schools,1711,Denmark Elementary,38391,-89.00984,35.560669,368.0,25,8.7,89.3,K8,2.0
+Jackson-Madison County Schools,1712,Jackson Central-Merry Early College High,38301,-88.81959,35.60758,224.0,12,16.4,86.7,K8,1.6
+Jackson-Madison County Schools,1713,Rose Hill School,38301,-88.81959,35.60758,552.0,42,12.2,73.9,K8,0.3
+Jackson-Madison County Schools,1714,Isaac Lane Technology Magnet Elementary,38301,-88.81959,35.60758,484.0,37,22.5,67.4,K8,2.0
+Jackson-Madison County Schools,1715,Liberty Technology Magnet High School,38305,-88.80653,35.693101,1003.0,67,56.4,67.8,HS,1.0
+Jackson-Madison County Schools,1716,Lincoln Elementary School,38301,-88.81959,35.60758,350.0,22,29.7,74.1,K8,1.2
+Jackson-Madison County Schools,1717,Madison Academic Magnet High School,38301,-88.81959,35.60758,446.0,29,4.8,91.7,HS,4.0
+Jackson-Madison County Schools,1718,North Side High School,38305,-88.80653,35.693101,872.0,61,20.9,83.6,HS,1.0
+Jackson-Madison County Schools,1719,Northeast Middle School,38305,-88.80653,35.693101,891.0,56,10.6,87.7,K8,1.7
+Jackson-Madison County Schools,1720,Community Montessori School,38301,-88.81959,35.60758,501.0,28,2.6,90.9,K8,3.6
+Jackson-Madison County Schools,1721,Pope School,38305,-88.80653,35.693101,638.0,40,7.8,90.2,K8,1.9
+Jackson-Madison County Schools,1722,South Elementary,38366,-88.73125,35.4832,434.0,28,13.5,82.4,K8,2.2
+Jackson-Madison County Schools,1723,South Side High School,38301,-88.81959,35.60758,879.0,64,26.9,85.1,HS,1.0
+Jackson-Madison County Schools,1724,Thelma Barker Elementary,38305,-88.80653,35.693101,740.0,47,7.8,74.6,K8,2.0
+Jackson-Madison County Schools,1725,West-Bemis Middle School,38301,-88.81959,35.60758,525.0,31,19.4,82.4,K8,1.7
+Jackson-Madison County Schools,1726,North Parkway Middle School,38305,-88.80653,35.693101,745.0,46,28.8,68.0,K8,0.9
+Jackson-Madison County Schools,1727,Jackson Career Technology Magnet Elementary,38305,-88.80653,35.693101,467.0,36,23.3,61.5,K8,1.9
+Jackson-Madison County Schools,1728,Andrew Jackson Elementary School,38305,-88.80653,35.693101,523.0,35,7.7,80.5,K8,2.0
+Marion County Schools,1736,Jasper Elementary School,37347,-85.61818,35.065007,644.0,43,21.6,89.8,K8,1.6
+Marion County Schools,1737,Jasper Middle School,37347,-85.61818,35.065007,508.0,30,10.8,78.9,K8,1.3
+Marion County Schools,1738,Marion Co High School,37347,-85.61818,35.065007,541.0,36,25.6,78.9,HS,2.7
+Marion County Schools,1739,Monteagle Elementary,37356,-85.82911,35.238756,214.0,19,13.7,81.5,K8,1.0
+Marion County Schools,1740,South Pittsburg Elementary,37380,-85.72513,35.045886,466.0,31,15.5,92.1,K8,1.1
+Marion County Schools,1741,South Pittsburg High School,37380,-85.72513,35.045886,407.0,27,18.6,90.0,HS,1.0
+Marion County Schools,1742,Whitwell Elementary,37397,-85.49733,35.20297,444.0,32,13.0,92.5,K8,4.0
+Marion County Schools,1743,Whitwell Middle School,37397,-85.49733,35.20297,367.0,22,22.7,82.8,K8,1.8
+Marion County Schools,1744,Whitwell High School,37397,-85.49733,35.20297,360.0,23,30.1,82.1,HS,3.4
+Richard Hardy Memorial School,1745,Richard Hardy Memorial School,37380,-85.72513,35.045886,253.0,17,5.2,86.4,K8,2.0
+Marshall County Schools,1746,Chapel Hill Elementary,37034,-86.6865,35.639491,527.0,31,5.9,97.3,K8,4.0
+Marshall County Schools,1747,Cornersville Elementary,37047,-86.8406,35.330683,423.0,27,6.4,96.8,K8,2.6
+Marshall County Schools,1748,Cornersville School,37047,-86.8406,35.330683,445.0,28,15.2,87.1,HS,2.0
+Marshall County Schools,1749,Forrest School,37034,-86.6865,35.639491,756.0,45,19.3,86.3,HS,2.6
+Marshall County Schools,1750,Lewisburg Middle School,37091,-86.7792,35.461359,421.0,27,13.8,79.4,K8,1.6
+Marshall County Schools,1751,Marshall Elementary,37091,-86.7792,35.461359,445.0,31,8.9,81.6,K8,3.2
+Marshall County Schools,1752,Marshall Co High School,37091,-86.7792,35.461359,847.0,52,25.9,85.7,HS,2.7
+Marshall County Schools,1753,Westhills Elementary,37091,-86.7792,35.461359,681.0,41,10.2,82.2,K8,2.4
+Marshall County Schools,1754,Delk-Henson Intermediate School,37034,-86.6865,35.639491,416.0,25,7.7,96.3,K8,2.6
+Maury County Schools,1755,J. R. Baker Elementary,38401,-87.03565,35.619784,295.0,25,8.6,93.1,K8,3.0
+Maury County Schools,1756,J. Brown Elementary,38401,-87.03565,35.619784,265.0,30,13.9,81.1,K8,2.2
+Maury County Schools,1757,Columbia Central High School,38401,-87.03565,35.619784,1361.0,87,24.1,83.5,HS,1.3
+Maury County Schools,1758,Culleoka Unit School,38451,-86.98993,35.474034,1009.0,63,9.0,84.5,HS,1.5
+Maury County Schools,1759,E. A. Cox Middle School,38401,-87.03565,35.619784,755.0,52,22.9,67.2,K8,1.1
+Maury County Schools,1760,Hampshire Unit School,38461,-87.33058,35.606697,383.0,28,6.7,68.4,K8,3.4
+Maury County Schools,1761,J E Woodard Elementary,38401,-87.03565,35.619784,475.0,36,10.1,97.3,K8,3.2
+Maury County Schools,1762,Marvin Wright Elementary School,37174,-86.91144,35.73062,674.0,44,10.3,75.0,K8,4.0
+Maury County Schools,1763,McDowell Elementary,38401,-87.03565,35.619784,299.0,24,16.2,62.5,K8,3.0
+Maury County Schools,1764,J E Woody Elementary,38474,-87.22342,35.52478,490.0,41,12.0,91.3,K8,2.4
+Maury County Schools,1765,Mt. Pleasant Middle Visual Perform. Arts,38474,-87.22342,35.52478,479.0,31,15.5,72.2,K8,1.1
+Maury County Schools,1766,Mt Pleasant High School,38474,-87.22342,35.52478,411.0,31,26.0,83.8,HS,2.0
+Maury County Schools,1767,R Howell Elementary,38401,-87.03565,35.619784,557.0,46,13.7,75.0,K8,1.2
+Maury County Schools,1768,Riverside Elementary,38401,-87.03565,35.619784,365.0,33,15.1,81.1,K8,1.0
+Maury County Schools,1769,Santa Fe Unit School,38482,-87.1517,35.77692,577.0,42,11.8,81.3,HS,2.8
+Maury County Schools,1770,Spring Hill High School,38401,-87.03565,35.619784,1167.0,69,14.9,82.9,HS,1.7
+Maury County Schools,1771,Whitthorne Middle School,38401,-87.03565,35.619784,1093.0,70,17.3,74.2,K8,1.0
+Maury County Schools,1772,Spring Hill Middle School,37174,-86.91144,35.73062,1001.0,54,13.2,78.7,K8,1.7
+Meigs County School System,1773,Meigs South Elementary,37322,-84.80741,35.503723,378.0,29,6.6,93.8,K8,2.0
+Meigs County School System,1774,Meigs Middle School,37322,-84.80741,35.503723,392.0,26,9.1,90.6,K8,2.0
+Meigs County School System,1775,Meigs North Elementary,37322,-84.80741,35.503723,399.0,31,3.8,90.9,K8,2.6
+Meigs County School System,1776,Meigs County High School,37322,-84.80741,35.503723,545.0,36,8.7,90.2,HS,2.0
+Monroe County Schools,1777,Coker Creek Elementary,37385,-84.27728,35.345237,88.0,6,21.6,88.9,K8,2.0
+Monroe County Schools,1778,Madisonville Intermediate School,37354,-84.35738,35.506259,471.0,31,7.2,89.2,K8,2.0
+Monroe County Schools,1779,Madisonville Middle School,37354,-84.35738,35.506259,519.0,32,9.7,80.6,K8,2.1
+Monroe County Schools,1780,Rural Vale Elementary,37385,-84.27728,35.345237,244.0,16,11.4,73.7,K8,1.6
+Monroe County Schools,1781,Sweetwater High School,37874,-84.46613,35.598659,628.0,40,15.6,87.0,HS,1.1
+Monroe County Schools,1782,Tellico Plains Elementary,37385,-84.27728,35.345237,340.0,25,12.9,92.6,K8,2.6
+Monroe County Schools,1783,Tellico Plains High School,37385,-84.27728,35.345237,472.0,31,12.9,97.1,HS,1.6
+Monroe County Schools,1784,Tellico Plains Junior High School,37385,-84.27728,35.345237,286.0,18,8.3,81.0,K8,2.0
+Monroe County Schools,1785,Vonore Elementary,37885,-84.1933,35.543355,381.0,25,11.5,82.8,K8,1.4
+Monroe County Schools,1786,Vonore Middle School,37885,-84.1933,35.543355,312.0,19,9.9,87.5,K8,2.0
+Sweetwater City Schools,1787,Brown Intermediate School,37874,-84.46613,35.598659,333.0,19,10.1,82.6,K8,1.9
+Sweetwater City Schools,1788,Sweetwater Elementary,37874,-84.46613,35.598659,333.0,21,4.6,81.5,K8,2.3
+Sweetwater City Schools,1789,Sweetwater Jr High School,37874,-84.46613,35.598659,317.0,21,11.0,76.0,K8,1.4
+Clarksville-Montgomery County School System,1790,Barkers Mill Elementary,37042,-87.4056,36.58068,981.0,69,7.2,75.3,K8,3.2
+Clarksville-Montgomery County School System,1791,Barksdale Elementary,37043,-87.2572,36.506407,561.0,41,6.3,88.9,K8,3.5
+Clarksville-Montgomery County School System,1792,Burt Elementary,37040,-87.34142,36.528448,347.0,26,10.2,58.6,K8,1.9
+Clarksville-Montgomery County School System,1793,Byrns Darden Elementary,37042,-87.4056,36.58068,580.0,45,8.8,78.0,K8,2.7
+Clarksville-Montgomery County School System,1794,Kenwood Elementary,37042,-87.4056,36.58068,661.0,53,6.5,82.5,K8,3.6
+Clarksville-Montgomery County School System,1795,Kenwood Middle,37042,-87.4056,36.58068,1115.0,68,9.8,84.1,K8,1.0
+Clarksville-Montgomery County School System,1796,Kenwood High,37042,-87.4056,36.58068,1236.0,68,15.6,79.5,HS,1.3
+Clarksville-Montgomery County School System,1797,Montgomery Central Elementary,37052,-87.4039,36.371609,450.0,31,5.6,81.6,K8,3.4
+Clarksville-Montgomery County School System,1798,Montgomery Central High,37052,-87.4039,36.371609,998.0,59,12.9,92.5,HS,2.6
+Clarksville-Montgomery County School System,1799,Hazelwood Elementary,37042,-87.4056,36.58068,933.0,60,4.5,67.7,K8,3.9
+Clarksville-Montgomery County School System,1800,Clarksville High,37043,-87.2572,36.506407,1384.0,77,10.1,91.6,HS,3.2
+Clarksville-Montgomery County School System,1801,Glenellen Elementary,37040,-87.34142,36.528448,1014.0,71,4.1,82.3,K8,3.5
+Clarksville-Montgomery County School System,1802,Cumberland Heights Elementary,37040,-87.34142,36.528448,629.0,45,8.3,81.3,K8,3.6
+Clarksville-Montgomery County School System,1803,East Montgomery Elementary,37043,-87.2572,36.506407,664.0,42,4.7,78.3,K8,4.0
+Clarksville-Montgomery County School System,1804,Minglewood Elementary,37042,-87.4056,36.58068,812.0,58,7.6,55.4,K8,2.0
+Clarksville-Montgomery County School System,1805,Montgomery Central Middle,37052,-87.4039,36.371609,852.0,48,10.9,85.7,K8,2.3
+Clarksville-Montgomery County School System,1806,Moore Magnet Elementary,37040,-87.34142,36.528448,492.0,35,7.5,70.5,K8,2.5
+Clarksville-Montgomery County School System,1807,Norman Smith Elementary,37040,-87.34142,36.528448,560.0,45,9.0,80.0,K8,2.9
+Clarksville-Montgomery County School System,1808,New Providence Middle,37042,-87.4056,36.58068,1145.0,69,10.3,79.7,K8,1.7
+Clarksville-Montgomery County School System,1809,Northeast Elementary,37040,-87.34142,36.528448,766.0,57,4.4,78.9,K8,3.0
+Clarksville-Montgomery County School System,1817,Northeast Middle,37040,-87.34142,36.528448,1256.0,73,6.5,81.0,K8,1.7
+Clarksville-Montgomery County School System,1818,Northeast High,37040,-87.34142,36.528448,1455.0,77,12.5,77.8,HS,3.5
+Clarksville-Montgomery County School System,1819,Northwest High,37042,-87.4056,36.58068,1295.0,74,15.8,85.5,HS,2.6
+Clarksville-Montgomery County School System,1820,Richview Middle,37043,-87.2572,36.506407,1127.0,64,7.1,92.8,K8,3.6
+Clarksville-Montgomery County School System,1821,Ringgold Elementary,37042,-87.4056,36.58068,787.0,60,6.7,70.8,K8,3.0
+Clarksville-Montgomery County School System,1822,Rossview Middle,37043,-87.2572,36.506407,1395.0,76,7.0,89.6,K8,3.2
+Clarksville-Montgomery County School System,1823,Rossview High,37043,-87.2572,36.506407,1791.0,89,8.8,87.9,HS,3.6
+Clarksville-Montgomery County School System,1824,Sango Elementary,37043,-87.2572,36.506407,704.0,48,2.6,76.9,K8,3.8
+Clarksville-Montgomery County School System,1825,West Creek Middle,37042,-87.4056,36.58068,1325.0,72,6.8,72.0,K8,2.4
+Clarksville-Montgomery County School System,1826,Woodlawn Elementary,37191,-87.54263,36.503792,748.0,51,5.5,81.0,K8,3.7
+Clarksville-Montgomery County School System,1827,Middle College @ Austin Peay State University,37044,-87.353008,36.531398,121.0,4,0.8,100.0,HS,4.0
+Clarksville-Montgomery County School System,1828,West Creek Elementary,37042,-87.4056,36.58068,855.0,60,4.6,75.0,K8,3.5
+Clarksville-Montgomery County School System,1829,Carmel Elementary,37043,-87.2572,36.506407,668.0,43,4.0,77.3,K8,4.0
+Clarksville-Montgomery County School System,1830,West Creek High,37042,-87.4056,36.58068,1434.0,78,12.4,84.9,HS,2.5
+Clarksville-Montgomery County School System,1831,Rossview Elementary,37043,-87.2572,36.506407,962.0,58,4.2,83.6,K8,3.9
+Clarksville-Montgomery County School System,1832,Pisgah Elementary,37042,-87.4056,36.58068,756.0,56,3.8,77.6,K8,3.3
+Moore County Schools,1833,Lynchburg Elementary,37352,-86.35264,35.276795,417.0,33,10.8,95.0,K8,1.8
+Moore County Schools,1834,Moore County High School,37352,-86.35264,35.276795,439.0,31,16.3,86.5,HS,2.4
+Morgan County Schools,1835,Central Middle School,37887,-84.56863,36.091018,296.0,15,14.1,78.9,K8,0.8
+Morgan County Schools,1836,Coalfield School,37719,-84.42541,36.029022,472.0,35,2.6,87.5,HS,1.0
+Morgan County Schools,1837,Oakdale School,37829,-84.60149,35.98291,452.0,33,0.9,85.0,HS,1.0
+Morgan County Schools,1838,Petros Joyner Elementary,37840,-84.36685,36.045663,153.0,13,8.9,75.0,K8,0.0
+Morgan County Schools,1839,Sunbright School,37872,-84.66549,36.262842,512.0,39,3.4,83.3,HS,2.0
+Obion County Schools,1840,Black Oak Elementary,38232,-89.33228,36.339084,269.0,22,12.0,92.6,K8,2.6
+Obion County Schools,1841,Lake Road Elementary,38261,-89.0727,36.426933,522.0,37,10.1,95.3,K8,2.2
+Obion County Schools,1842,Obion County Central High School,38260,-89.17888,36.358158,830.0,52,20.8,81.5,HS,2.4
+Obion County Schools,1843,Ridgemont Elementary,38261,-89.0727,36.426933,358.0,31,11.8,91.7,K8,2.0
+Obion County Schools,1844,South Fulton Elementary,38257,-88.87895,36.483302,318.0,26,7.8,96.3,K8,3.6
+Obion County Schools,1845,South Fulton Middle / High School,38257,-88.87895,36.483302,357.0,32,16.6,86.1,HS,2.2
+Union City Schools,1846,Union City Elementary School,38261,-89.0727,36.426933,658.0,46,8.8,79.4,K8,1.9
+Union City Schools,1847,Union City Middle School,38261,-89.0727,36.426933,459.0,27,8.9,81.5,K8,2.6
+Union City Schools,1848,Union City High School,38261,-89.0727,36.426933,450.0,36,8.0,92.1,HS,3.6
+Overton County Schools,1849,Allons Elementary,38541,-85.36148,36.525275,327.0,21,12.3,88.0,K8,2.0
+Overton County Schools,1850,Hilham Elementary,38568,-85.45701,36.414282,273.0,21,5.1,92.0,K8,2.6
+Overton County Schools,1851,Livingston Academy,38570,-85.32585,36.376289,945.0,49,23.1,82.1,HS,1.8
+Overton County Schools,1852,Livingston Middle School,38570,-85.32585,36.376289,315.0,22,8.8,92.0,K8,1.8
+Overton County Schools,1853,Rickman Elementary,38580,-85.32525,36.270655,669.0,40,5.0,95.8,K8,3.4
+Overton County Schools,1854,Wilson Elementary,38554,-85.16204,36.26742,202.0,16,14.0,94.4,K8,2.0
+Overton County Schools,1855,A H Roberts Elementary,38570,-85.32585,36.376289,333.0,28,12.6,82.9,K8,2.0
+Perry County Schools,1856,Lobelville Elementary,37097,-87.80286,35.769743,174.0,17,6.6,90.5,K8,2.6
+Perry County Schools,1857,Linden Middle School,37096,-87.87486,35.61432,261.0,16,7.7,70.0,K8,1.2
+Perry County Schools,1858,Perry County High School,37096,-87.87486,35.61432,297.0,26,16.6,90.3,HS,2.0
+Pickett County Schools,1859,Pickett Co High School,38549,-85.15007,36.572543,191.0,17,16.0,90.0,HS,2.0
+Pickett County Schools,1860,Pickett County Elementary,38549,-85.15007,36.572543,422.0,34,11.0,97.5,K8,1.2
+Polk County Schools,1861,Benton Elementary,37307,-84.63913,35.172376,385.0,25,19.0,89.3,K8,2.6
+Polk County Schools,1862,Copper Basin Elementary School,37317,-84.3859,35.008596,283.0,20,18.4,91.7,K8,3.6
+Polk County Schools,1863,Copper Basin High School,37317,-84.3859,35.008596,336.0,27,13.3,86.2,HS,2.4
+Polk County Schools,1864,Chilhowee Middle School,37307,-84.63913,35.172376,355.0,23,14.1,92.0,K8,3.6
+Polk County Schools,1865,Polk County High School,37307,-84.63913,35.172376,540.0,35,12.0,92.5,HS,1.0
+Polk County Schools,1866,South Polk Elementary,37362,-84.73957,35.043475,294.0,20,17.7,90.9,K8,3.6
+Putnam County School System,1867,Algood Elementary,38506,-85.46238,36.177831,566.0,38,10.0,92.5,K8,3.2
+Putnam County School System,1868,Algood Middle School,38506,-85.46238,36.177831,737.0,48,13.7,94.3,K8,3.0
+Putnam County School System,1869,Cornerstone Elementary,38544,-85.64636,36.127733,342.0,21,9.1,92.0,K8,2.6
+Putnam County School System,1870,Burks Elementary,38574,-85.23805,36.133983,453.0,34,12.8,94.6,K8,3.7
+Putnam County School System,1871,Cane Creek Elementary,38501,-85.52054,36.1832,382.0,31,9.2,97.1,K8,1.8
+Putnam County School System,1872,Capshaw Elementary,38501,-85.52054,36.1832,493.0,33,2.9,88.9,K8,3.6
+Putnam County School System,1873,Cookeville High School,38501,-85.52054,36.1832,2329.0,116,18.5,86.4,HS,2.9
+Putnam County School System,1874,Jere Whitson Elementary,38501,-85.52054,36.1832,306.0,25,4.9,93.3,K8,2.0
+Putnam County School System,1875,Monterey High School,38574,-85.23805,36.133983,535.0,32,10.3,84.6,HS,1.1
+Putnam County School System,1876,Park View Elementary,38501,-85.52054,36.1832,334.0,27,8.3,91.2,K8,2.0
+Putnam County School System,1877,Avery Trace Middle School,38501,-85.52054,36.1832,881.0,50,10.1,81.8,K8,2.4
+Putnam County School System,1878,Sycamore Elementary,38501,-85.52054,36.1832,328.0,28,9.0,96.4,K8,1.6
+Putnam County School System,1879,Upperman High School,38544,-85.64636,36.127733,728.0,38,17.9,79.5,HS,3.6
+Putnam County School System,1880,Prescott South Elementary,38506,-85.46238,36.177831,510.0,38,7.5,90.2,K8,3.0
+Putnam County School System,1881,Prescott South Middle School,38506,-85.46238,36.177831,802.0,47,10.7,95.7,K8,1.9
+Putnam County School System,1882,Upperman Middle School,38544,-85.64636,36.127733,803.0,44,12.4,90.2,K8,1.7
+Rhea County Schools,1883,Frazier Elementary,37321,-85.01032,35.495894,356.0,24,5.1,82.8,K8,3.6
+Rhea County Schools,1884,Graysville Elementary School,37321,-85.01032,35.495894,214.0,18,3.3,91.3,K8,3.6
+Rhea County Schools,1885,Rhea County High School,37332,-84.94125,35.585467,1469.0,92,11.8,93.2,HS,2.0
+Rhea County Schools,1886,Spring City Elementary,37381,-84.82777,35.68801,562.0,42,6.1,82.7,K8,2.6
+Rhea County Schools,1887,Spring City Middle School,37381,-84.82777,35.68801,335.0,23,6.1,82.8,K8,1.6
+Rhea County Schools,1888,Rhea Central Elementary,37321,-85.01032,35.495894,638.0,47,4.1,87.7,K8,2.6
+Rhea County Schools,1889,Rhea Middle School,37332,-84.94125,35.585467,652.0,38,7.3,85.1,K8,2.7
+Dayton City School,1890,Dayton City Elementary,37321,-85.01032,35.495894,841.0,59,8.4,90.9,K8,2.9
+Roane County Schools,1891,Cherokee Middle School,37763,-84.50562,35.839274,492.0,33,7.8,94.7,K8,3.7
+Roane County Schools,1892,Harriman Middle School,37748,-84.53135,35.930801,309.0,16,16.0,100.0,K8,1.0
+Roane County Schools,1893,Harriman High School,37748,-84.53135,35.930801,377.0,23,22.7,85.2,HS,1.2
+Roane County Schools,1894,Bowers Elementary,37748,-84.53135,35.930801,550.0,36,13.7,81.3,K8,2.9
+Roane County Schools,1895,Kingston Elementary,37763,-84.50562,35.839274,708.0,44,7.9,86.3,K8,3.0
+Roane County Schools,1896,Midtown Elementary,37748,-84.53135,35.930801,261.0,23,5.3,80.0,K8,3.6
+Roane County Schools,1897,Midway Middle School,37880,-84.67782,35.684788,184.0,14,3.9,94.1,K8,3.2
+Roane County Schools,1898,Midway High School,37763,-84.50562,35.839274,244.0,19,6.9,95.7,HS,3.4
+Roane County Schools,1899,Oliver Springs Middle,37840,-84.36685,36.045663,188.0,13,12.8,77.8,K8,1.6
+Roane County Schools,1900,Oliver Springs High School,37840,-84.36685,36.045663,307.0,25,16.9,78.6,HS,3.0
+Roane County Schools,1901,Ridge View Elementary,37854,-84.70042,35.861763,584.0,41,8.4,89.6,K8,1.9
+Roane County Schools,1902,Roane County High School,37763,-84.50562,35.839274,698.0,43,8.0,87.0,HS,2.4
+Roane County Schools,1903,Rockwood High School,37854,-84.70042,35.861763,382.0,28,17.1,81.8,HS,2.0
+Roane County Schools,1904,Rockwood Middle School,37854,-84.70042,35.861763,316.0,19,10.6,95.8,K8,2.4
+Roane County Schools,1905,Dyllis Springs Elementary,37840,-84.36685,36.045663,369.0,27,11.4,93.3,K8,3.6
+Robertson County Schools,1906,Crestview Elementary School,37172,-86.86892,36.513979,785.0,53,8.0,77.0,K8,2.2
+Robertson County Schools,1907,Cheatham Park Elementary,37172,-86.86892,36.513979,304.0,27,6.4,50.0,K8,0.4
+Robertson County Schools,1908,Coopertown Elementary,37172,-86.86892,36.513979,334.0,27,14.3,87.9,K8,1.6
+Robertson County Schools,1909,Coopertown Middle School,37172,-86.86892,36.513979,508.0,39,10.6,78.0,K8,2.9
+Robertson County Schools,1910,East Robertson Elementary,37049,-86.67907,36.548569,524.0,37,7.1,87.8,K8,2.9
+Robertson County Schools,1911,East Robertson High School,37049,-86.67907,36.548569,695.0,47,11.7,92.2,HS,2.6
+Robertson County Schools,1912,Greenbrier Elementary,37073,-86.81023,36.427758,621.0,45,12.2,80.9,K8,2.6
+Robertson County Schools,1913,Greenbrier Middle School,37073,-86.81023,36.427758,637.0,39,6.5,71.4,K8,1.8
+Robertson County Schools,1914,Greenbrier High School,37073,-86.81023,36.427758,818.0,54,11.8,93.0,HS,2.0
+Robertson County Schools,1915,Jo Byrns High School,37032,-87.02542,36.522355,587.0,42,13.7,80.9,HS,1.1
+Robertson County Schools,1916,Jo Byrns Elementary School,37032,-87.02542,36.522355,397.0,30,8.7,88.2,K8,1.8
+Robertson County Schools,1917,Krisle Elementary,37172,-86.86892,36.513979,314.0,26,10.0,91.4,K8,3.4
+Robertson County Schools,1918,Springfield High School,37172,-86.86892,36.513979,1301.0,77,19.5,76.6,HS,2.4
+Robertson County Schools,1919,Springfield Middle School,37172,-86.86892,36.513979,741.0,49,11.2,76.5,K8,2.6
+Robertson County Schools,1920,Watauga Elementary,37152,-86.76679,36.396821,385.0,25,5.9,89.7,K8,2.6
+Robertson County Schools,1921,White House Heritage Elementary School,37188,-86.66941,36.467624,611.0,35,3.6,86.8,K8,2.7
+Robertson County Schools,1922,White House Heritage High School,37188,-86.66941,36.467624,960.0,54,9.4,83.6,HS,2.5
+Rutherford County Schools,1923,Blackman Elementary School,37128,-86.4455,35.813319,961.0,61,5.2,74.3,K8,3.7
+Rutherford County Schools,1924,Blackman Middle School,37128,-86.4455,35.813319,1489.0,88,8.4,71.3,K8,2.6
+Rutherford County Schools,1925,Barfield Elementary,37128,-86.4455,35.813319,952.0,60,8.2,87.3,K8,3.3
+Rutherford County Schools,1926,Blackman High School,37128,-86.4455,35.813319,2411.0,138,8.2,85.4,HS,2.3
+Rutherford County Schools,1927,Buchanan Elementary,37127,-86.34445,35.791021,553.0,37,8.0,72.7,K8,2.6
+Rutherford County Schools,1928,Cedar Grove Elementary,37167,-86.52231,35.968513,999.0,74,4.7,87.2,K8,3.5
+Rutherford County Schools,1929,Central Magnet School,37130,-86.3648,35.860152,1249.0,75,3.3,93.8,HS,4.0
+Rutherford County Schools,1930,Oakland Middle School,37130,-86.3648,35.860152,1169.0,72,9.6,85.0,K8,2.6
+Rutherford County Schools,1931,Christiana Elementary,37037,-86.35134,35.702877,773.0,52,4.1,71.7,K8,3.4
+Rutherford County Schools,1932,Whitworth-Buchanan Middle School,37127,-86.34445,35.791021,836.0,54,15.7,76.9,K8,1.0
+Rutherford County Schools,1933,Christiana Middle School,37037,-86.35134,35.702877,1032.0,59,8.8,76.9,K8,2.6
+Rutherford County Schools,1934,John Colemon Elementary,37167,-86.52231,35.968513,528.0,47,6.5,84.6,K8,3.0
+Rutherford County Schools,1935,David Youree Elementary,37167,-86.52231,35.968513,814.0,54,6.4,80.3,K8,2.7
+Rutherford County Schools,1936,Eagleville School,37060,-86.64441,35.73843,960.0,77,7.6,91.7,HS,3.6
+Rutherford County Schools,1937,Holloway High School,37130,-86.3648,35.860152,117.0,19,31.7,69.6,HS,1.6
+Rutherford County Schools,1938,Brown's Chapel Elementary School,37129,-86.42425,35.896645,696.0,45,5.4,76.8,K8,3.6
+Rutherford County Schools,1939,Kittrell Elementary,37149,-86.19391,35.800108,300.0,26,8.5,88.2,K8,2.2
+Rutherford County Schools,1940,Lascassas Elementary,37085,-86.29596,35.950979,555.0,37,3.8,81.4,K8,4.0
+Rutherford County Schools,1941,Rock Springs Elementary,37086,-86.56268,36.01333,982.0,70,6.4,87.8,K8,3.7
+Rutherford County Schools,1949,Rock Springs Middle School,37167,-86.52231,35.968513,1054.0,66,8.8,77.8,K8,2.4
+Rutherford County Schools,1950,LaVergne Lake Elementary School,37086,-86.56268,36.01333,947.0,66,6.7,69.1,K8,2.1
+Rutherford County Schools,1951,LaVergne Middle School,37086,-86.56268,36.01333,1115.0,76,9.3,75.3,K8,2.7
+Rutherford County Schools,1952,Lavergne High School,37086,-86.56268,36.01333,1928.0,131,13.4,81.8,HS,2.6
+Rutherford County Schools,1953,Homer Pittard Campus School,37132,-86.420958,35.859565,244.0,15,0.0,83.3,K8,4.0
+Rutherford County Schools,1954,McFadden School Of Excellence,37129,-86.42425,35.896645,389.0,21,0.8,88.0,K8,4.0
+Rutherford County Schools,1955,Oakland High School,37130,-86.3648,35.860152,2288.0,140,16.0,78.4,HS,1.6
+Rutherford County Schools,1956,Riverdale High School,37128,-86.4455,35.813319,2102.0,127,13.9,87.9,HS,1.9
+Rutherford County Schools,1957,Rockvale Elementary,37153,-86.55056,35.751016,1018.0,65,6.9,78.9,K8,3.6
+Rutherford County Schools,1958,Roy L Waldron Elementary,37086,-86.56268,36.01333,795.0,53,10.0,81.4,K8,2.1
+Rutherford County Schools,1959,Rockvale Middle School,37153,-86.55056,35.751016,1086.0,64,8.8,90.1,K8,3.2
+Rutherford County Schools,1960,Smyrna Elementary,37167,-86.52231,35.968513,764.0,63,8.4,89.0,K8,2.0
+Rutherford County Schools,1961,Smyrna Middle School,37167,-86.52231,35.968513,920.0,59,8.9,75.7,K8,1.8
+Rutherford County Schools,1962,Smyrna High School,37167,-86.52231,35.968513,1974.0,130,13.9,88.4,HS,1.1
+Rutherford County Schools,1963,Smyrna Primary,37167,-86.52231,35.968513,649.0,46,7.7,77.6,K8,1.9
+Rutherford County Schools,1964,Siegel Middle School,37129,-86.42425,35.896645,1169.0,68,7.3,73.3,K8,2.6
+Rutherford County Schools,1965,Siegel High School,37129,-86.42425,35.896645,1772.0,123,12.8,82.8,HS,2.3
+Rutherford County Schools,1966,Thurman Francis Arts Academy/Magnet School for the Arts,37167,-86.52231,35.968513,801.0,50,2.9,89.5,K8,4.0
+Rutherford County Schools,1967,Walter Hill Elementary,37129,-86.42425,35.896645,366.0,29,4.6,83.8,K8,3.2
+Rutherford County Schools,1968,Wilson Elementary School,37129,-86.42425,35.896645,858.0,54,5.8,87.3,K8,3.6
+Rutherford County Schools,1969,Stewartsboro Elementary,37167,-86.52231,35.968513,868.0,65,4.8,78.9,K8,2.9
+Rutherford County Schools,1970,Stewarts Creek Elementary School,37167,-86.52231,35.968513,925.0,61,4.4,82.6,K8,4.0
+Rutherford County Schools,1971,Stewarts Creek Middle School,37167,-86.52231,35.968513,837.0,52,5.3,83.9,K8,3.5
+Rutherford County Schools,1972,Stewarts Creek High School,37167,-86.52231,35.968513,2237.0,129,9.0,84.2,HS,3.5
+Rutherford County Schools,1973,Rocky Fork Middle School,37167,-86.52231,35.968513,702.0,50,10.0,80.0,K8,3.5
+Murfreesboro City Schools,1974,Discovery School,37130,-86.3648,35.860152,392.0,23,1.0,75.0,K8,4.0
+Murfreesboro City Schools,1975,Black Fox Elementary,37130,-86.3648,35.860152,813.0,62,9.7,78.1,K8,2.8
+Murfreesboro City Schools,1976,Bradley Academy - An Arts Integrated School,37130,-86.3648,35.860152,380.0,36,8.4,67.5,K8,1.9
+Murfreesboro City Schools,1977,Cason Lane Academy,37128,-86.4455,35.813319,852.0,60,6.4,77.1,K8,2.7
+Murfreesboro City Schools,1978,Erma Siegel Elementary,37129,-86.42425,35.896645,732.0,54,3.7,82.0,K8,3.6
+Murfreesboro City Schools,1979,Hobgood Elementary,37130,-86.3648,35.860152,688.0,53,10.9,80.6,K8,2.2
+Murfreesboro City Schools,1980,Mitchell-Neilson Elementary,37129,-86.42425,35.896645,691.0,52,12.4,75.4,K8,2.7
+Murfreesboro City Schools,1981,Northfield Elementary,37129,-86.42425,35.896645,629.0,49,6.6,86.4,K8,2.6
+Murfreesboro City Schools,1982,John Pittard Elementary,37130,-86.3648,35.860152,769.0,58,7.7,81.0,K8,2.8
+Murfreesboro City Schools,1983,Overall Creek Elementary,37128,-86.4455,35.813319,1078.0,67,5.4,79.1,K8,3.5
+Murfreesboro City Schools,1984,Reeves-Rogers Elementary,37130,-86.3648,35.860152,418.0,30,7.8,66.7,K8,2.7
+Murfreesboro City Schools,1985,Scales Elementary School,37128,-86.4455,35.813319,1038.0,68,3.2,82.7,K8,3.4
+Scott County Schools,1986,Burchfield Elementary,37841,-84.51808,36.49787,483.0,37,11.7,92.7,K8,2.0
+Scott County Schools,1987,Huntsville Elementary,37756,-84.42137,36.351978,363.0,32,10.6,97.1,K8,2.6
+Scott County Schools,1988,Huntsville Middle School,37756,-84.42137,36.351978,299.0,23,6.4,92.3,K8,2.6
+Scott County Schools,1989,Robbins Elementary,37852,-84.6022,36.335832,293.0,25,11.0,88.9,K8,3.6
+Scott County Schools,1990,Scott High School,37756,-84.42137,36.351978,847.0,54,12.7,86.9,HS,1.0
+Scott County Schools,1991,Winfield Elementary,37892,-84.41935,36.563797,166.0,16,10.0,84.2,K8,2.0
+Oneida Special School District,1992,Oneida Elementary,37841,-84.51808,36.49787,537.0,41,10.2,95.3,K8,3.0
+Oneida Special School District,1993,Oneida Middle School,37841,-84.51808,36.49787,284.0,18,7.5,85.7,K8,1.2
+Oneida Special School District,1994,Oneida High School,37841,-84.51808,36.49787,395.0,29,12.5,91.2,HS,3.0
+Sequatchie County Schools,1995,Sequatchie Co Middle School,37327,-85.38755,35.399109,690.0,43,12.5,84.6,K8,1.1
+Sequatchie County Schools,1996,Griffith Elementary,37327,-85.38755,35.399109,770.0,60,15.9,89.7,K8,1.6
+Sequatchie County Schools,1997,Sequatchie Co High School,37327,-85.38755,35.399109,703.0,42,17.6,86.0,HS,1.1
+Sevier County School System,1998,Boyds Creek Elementary School,37876,-83.48694,35.860157,427.0,33,15.0,78.3,K8,2.6
+Sevier County School System,1999,Catlettsburg Elementary School,37876,-83.48694,35.860157,603.0,42,14.5,88.7,K8,2.8
+Sevier County School System,2000,Catons Chapel Elementary,37876,-83.48694,35.860157,439.0,39,20.8,82.6,K8,2.6
+Sevier County School System,2001,Gatlinburg Pittman High,37738,-83.47156,35.733627,603.0,46,19.3,82.1,HS,2.9
+Sevier County School System,2002,Jones Cove Elementary,37722,-83.24441,35.820011,144.0,16,23.4,81.8,K8,3.6
+Sevier County School System,2003,Northview Senior Academy,37764,-83.61374,35.97555,632.0,40,21.8,59.1,HS,2.6
+Sevier County School System,2004,Northview Junior Academy,37764,-83.61374,35.97555,635.0,30,14.9,88.9,K8,1.6
+Sevier County School System,2005,Northview Elementary,37764,-83.61374,35.97555,508.0,41,16.6,91.1,K8,2.4
+Sevier County School System,2006,Northview Intermediate School,37764,-83.61374,35.97555,375.0,25,19.5,71.0,K8,1.9
+Sevier County School System,2007,New Center Elementary,37876,-83.48694,35.860157,800.0,52,14.4,98.3,K8,2.6
+Sevier County School System,2008,Pi Beta Phi Elementary,37738,-83.47156,35.733627,421.0,41,14.8,90.9,K8,2.7
+Sevier County School System,2009,Pigeon Forge Primary,37876,-83.48694,35.860157,693.0,60,18.2,86.6,K8,0.9
+Sevier County School System,2010,Pigeon Forge Middle School,37863,-83.5605,35.792313,552.0,41,18.7,75.6,K8,1.9
+Sevier County School System,2011,Pigeon Forge High School,37863,-83.5605,35.792313,707.0,56,33.7,90.8,HS,2.3
+Sevier County School System,2012,Pittman Center Elementary,37738,-83.47156,35.733627,314.0,22,7.8,80.0,K8,3.2
+Sevier County School System,2013,Sevier County High School,37862,-83.59197,35.818653,1229.0,84,19.4,93.8,HS,2.5
+Sevier County School System,2014,Sevierville Intermediate,37862,-83.59197,35.818653,698.0,50,12.8,86.4,K8,2.1
+Sevier County School System,2015,Sevierville Middle School,37862,-83.59197,35.818653,755.0,45,22.0,86.3,K8,1.8
+Sevier County School System,2016,Seymour Junior High,37865,-83.74476,35.853932,767.0,43,18.9,73.8,K8,3.0
+Sevier County School System,2017,Seymour Intermediate,37865,-83.74476,35.853932,583.0,33,11.5,69.0,K8,2.7
+Sevier County School System,2018,Seymour High School,37865,-83.74476,35.853932,775.0,54,16.5,68.2,HS,2.6
+Sevier County School System,2019,Wearwood Elementary,37862,-83.59197,35.818653,186.0,15,13.2,94.7,K8,1.6
+Shelby County Schools,2020,Barret's Chapel Elementary/Middle,38002,-89.71198,35.272386,479.0,44,6.3,53.8,K8,1.1
+Shelby County Schools,2021,Bolton High,38002,-89.71198,35.272386,912.0,62,28.0,70.0,HS,1.1
+Shelby County Schools,2022,Dexter Elementary,38016,-89.776835,35.177475,876.0,66,9.9,64.7,K8,2.0
+Shelby County Schools,2023,Dexter Middle,38018,-89.78249,35.157681,382.0,26,11.0,82.1,K8,2.3
+Shelby County Schools,2024,E.E. Jeter Elementary/Middle,38053,-89.90668,35.347965,408.0,31,7.6,85.7,K8,3.3
+Shelby County Schools,2025,Germantown Elementary,38138,-89.80677,35.088885,645.0,48,6.2,90.9,K8,2.8
+Shelby County Schools,2026,Germantown Middle,38138,-89.80677,35.088885,722.0,46,6.3,84.3,K8,2.9
+Shelby County Schools,2027,Highland Oaks Elementary,38125,-89.80329,35.035466,783.0,56,5.5,75.4,K8,2.9
+Shelby County Schools,2028,Germantown High,38138,-89.80677,35.088885,1976.0,109,10.8,90.8,HS,2.1
+Shelby County Schools,2029,Lucy Elementary,38053,-89.90668,35.347965,379.0,28,6.8,74.3,K8,1.0
+Shelby County Schools,2030,Macon-Hall Elementary,38016,-89.776835,35.177475,1155.0,76,6.3,86.3,K8,2.9
+Shelby County Schools,2031,Mt. Pisgah Middle,38016,-89.776835,35.177475,487.0,29,5.8,69.7,K8,1.1
+Shelby County Schools,2032,Northaven Elementary,38127,-90.00646,35.223796,318.0,25,30.3,86.7,K8,1.8
+Shelby County Schools,2033,Southwind Elementary,38125,-89.80329,35.035466,717.0,53,13.2,86.0,K8,3.0
+Shelby County Schools,2034,Southwind High,38125,-89.80329,35.035466,1640.0,87,22.0,80.2,HS,1.0
+Shelby County Schools,2035,Woodstock Middle School,38053,-89.90668,35.347965,292.0,19,24.1,45.5,K8,1.0
+Shelby County Schools,2036,Highland Oaks Middle,38125,-89.80329,35.035466,740.0,40,11.3,82.6,K8,1.0
+Shelby County Schools,2037,Lowrance Elementary/Middle,38125,-89.80329,35.035466,811.0,55,8.4,83.6,K8,2.2
+Shelby County Schools,2038,A. B. Hill Elementary,38106,-90.04017,35.103019,245.0,29,16.0,42.4,K8,3.0
+Shelby County Schools,2039,Kate Bond Middle School,38133,-89.80518,35.208709,1188.0,74,11.6,75.6,K8,1.0
+Shelby County Schools,2040,Alton Elementary,38106,-90.04017,35.103019,278.0,23,14.0,74.1,K8,2.0
+Shelby County Schools,2041,American Way Middle,38118,-89.92426,35.048455,739.0,43,25.8,20.4,K8,1.1
+Shelby County Schools,2042,B. T. Washington High,38126,-90.04359,35.126469,483.0,39,29.7,85.1,HS,1.0
+Shelby County Schools,2043,Berclair Elementary,38122,-89.92315,35.155589,632.0,46,10.5,79.2,K8,4.0
+Shelby County Schools,2044,Chimneyrock Elementary School,38016,-89.776835,35.177475,906.0,61,7.9,73.6,K8,2.6
+Shelby County Schools,2045,Bethel Grove Elementary,38114,-89.98543,35.101525,236.0,20,17.0,83.3,K8,2.2
+Shelby County Schools,2046,William Herbert Brewster Elementary School,38112,-89.97479,35.148605,427.0,38,10.8,85.0,K8,1.3
+Shelby County Schools,2047,Brownsville Road Elementary,38135,-89.85214,35.232085,554.0,43,13.7,66.7,K8,3.0
+Shelby County Schools,2048,Bruce Elementary,38104,-90.00463,35.133825,440.0,36,10.3,76.9,K8,1.0
+Shelby County Schools,2049,Campus Elementary,38152,-89.971538,35.201738,332.0,23,0.3,100.0,K8,4.0
+Shelby County Schools,2050,Central High,38104,-90.00463,35.133825,1507.0,88,19.1,89.7,HS,2.8
+Shelby County Schools,2051,Charjean Elementary,38114,-89.98543,35.101525,296.0,26,13.7,58.6,K8,3.0
+Shelby County Schools,2052,Cherokee Elementary,38114,-89.98543,35.101525,439.0,31,5.7,78.8,K8,1.0
+Shelby County Schools,2060,Chickasaw Middle,38109,-90.07523,35.050286,360.0,21,35.2,50.0,K8,0.5
+Shelby County Schools,2061,Colonial Middle,38117,-89.90389,35.112929,1136.0,67,9.5,82.7,K8,2.5
+Shelby County Schools,2062,Kate Bond Elementary School,38133,-89.80518,35.208709,833.0,63,7.0,86.8,K8,3.0
+Shelby County Schools,2063,Cordova Elementary,38018,-89.78249,35.157681,809.0,59,10.6,79.4,K8,1.3
+Shelby County Schools,2064,Cordova Middle,38018,-89.78249,35.157681,799.0,43,6.4,68.0,K8,1.5
+Shelby County Schools,2065,Cordova High School,38016,-89.776835,35.177475,2270.0,132,23.4,79.7,HS,1.1
+Shelby County Schools,2066,Craigmont High,38128,-89.92588,35.219882,830.0,54,36.8,89.1,HS,1.3
+Shelby County Schools,2067,Craigmont Middle,38128,-89.92588,35.219882,574.0,45,22.6,60.9,K8,2.0
+Shelby County Schools,2068,Cromwell Elementary,38118,-89.92426,35.048455,464.0,35,5.3,80.5,K8,1.7
+Shelby County Schools,2069,Crump Elementary,38141,-89.84701,35.016803,558.0,46,14.0,89.4,K8,1.1
+Shelby County Schools,2070,Cummings Elementary/Middle,38106,-90.04017,35.103019,516.0,38,14.3,55.3,K8,1.8
+Shelby County Schools,2071,Delano Elementary,38127,-90.00646,35.223796,267.0,20,8.0,77.3,K8,4.0
+Shelby County Schools,2072,Double Tree Elementary,38109,-90.07523,35.050286,375.0,24,11.6,89.3,K8,2.0
+Shelby County Schools,2073,Douglass Elementary/Middle,38108,-89.96028,35.174165,453.0,39,22.5,82.6,K8,1.0
+Shelby County Schools,2074,Douglass High,38108,-89.96028,35.174165,563.0,38,13.4,81.0,HS,1.0
+Shelby County Schools,2075,Downtown Elementary,38103,-90.0534,35.146131,608.0,46,9.4,89.4,K8,3.0
+Shelby County Schools,2076,Dunbar Elementary,38114,-89.98543,35.101525,240.0,22,15.6,76.9,K8,3.0
+Shelby County Schools,2077,East High,38111,-89.94363,35.10935,373.0,49,29.5,78.4,HS,4.0
+Shelby County Schools,2078,Egypt Elementary,38128,-89.92588,35.219882,507.0,36,12.9,73.8,K8,1.3
+Shelby County Schools,2079,Evans Elementary,38118,-89.92426,35.048455,449.0,36,9.2,78.4,K8,2.0
+Shelby County Schools,2080,Ford Road Elementary,38109,-90.07523,35.050286,524.0,39,8.4,73.8,K8,0.2
+Shelby County Schools,2081,Fox Meadows Elementary,38115,-89.86291,35.057311,579.0,41,17.3,89.1,K8,1.2
+Shelby County Schools,2082,Gardenview Elementary,38116,-90.01128,35.03319,269.0,23,23.0,65.5,K8,0.8
+Shelby County Schools,2083,Georgian Hills Middle,38127,-90.00646,35.223796,309.0,23,31.5,57.1,K8,1.3
+Shelby County Schools,2084,Germanshire Elementary,38125,-89.80329,35.035466,789.0,55,7.1,86.2,K8,3.0
+Shelby County Schools,2085,Getwell Elementary,38118,-89.92426,35.048455,351.0,31,19.6,63.3,K8,2.0
+Shelby County Schools,2086,Goodlett Elementary,38118,-89.92426,35.048455,418.0,35,15.7,81.0,K8,0.3
+Shelby County Schools,2087,Grahamwood Elementary,38122,-89.92315,35.155589,981.0,73,8.0,92.1,K8,3.2
+Shelby County Schools,2088,Hamilton Elementary,38106,-90.04017,35.103019,349.0,25,14.0,88.0,K8,2.2
+Shelby County Schools,2089,Hamilton Middle,38106,-90.04017,35.103019,236.0,21,28.8,78.3,K8,1.0
+Shelby County Schools,2090,Hamilton High,38106,-90.04017,35.103019,656.0,53,56.1,67.8,HS,0.0
+Shelby County Schools,2091,Havenview Middle,38116,-90.01128,35.03319,664.0,35,15.4,65.4,K8,1.3
+Shelby County Schools,2092,Hawkins Mill Elementary,38127,-90.00646,35.223796,323.0,25,6.0,55.2,K8,2.0
+Shelby County Schools,2093,Hickory Ridge Elementary,38115,-89.86291,35.057311,681.0,51,6.7,54.4,K8,3.9
+Shelby County Schools,2094,Hickory Ridge Middle,38115,-89.86291,35.057311,890.0,54,12.5,89.7,K8,1.2
+Shelby County Schools,2095,Hollis F. Price Middle College,38126,-90.04359,35.126469,109.0,10,16.3,80.0,K8,3.2
+Shelby County Schools,2096,Holmes Road Elementary,38116,-90.01128,35.03319,588.0,45,14.0,68.0,K8,3.8
+Shelby County Schools,2097,Ida B. Wells Academy ES/MS,38126,-90.04359,35.126469,175.0,18,11.2,90.5,K8,3.0
+Shelby County Schools,2098,Idlewild Elementary,38104,-90.00463,35.133825,486.0,31,4.7,81.6,K8,3.8
+Shelby County Schools,2099,Jackson Elementary,38108,-89.96028,35.174165,299.0,26,6.6,74.2,K8,2.1
+Shelby County Schools,2100,J. P. Freeman Elementary/Middle,38109,-90.07523,35.050286,622.0,42,1.6,85.4,K8,4.0
+Shelby County Schools,2101,Keystone Elementary,38128,-89.92588,35.219882,460.0,35,18.5,73.8,K8,1.3
+Shelby County Schools,2102,Kingsbury Elementary,38108,-89.96028,35.174165,523.0,49,14.8,86.8,K8,3.3
+Shelby County Schools,2103,Kingsbury Middle,38122,-89.92315,35.155589,654.0,40,14.4,86.0,K8,1.1
+Shelby County Schools,2104,Kingsbury High,38122,-89.92315,35.155589,1289.0,81,45.0,78.9,HS,1.1
+Shelby County Schools,2105,Kirby High,38115,-89.86291,35.057311,821.0,63,53.1,83.1,HS,1.1
+Shelby County Schools,2106,Knight Road Elementary,38118,-89.92426,35.048455,519.0,45,9.0,76.1,K8,2.0
+Shelby County Schools,2107,Larose Elementary,38126,-90.04359,35.126469,284.0,25,33.2,41.4,K8,0.0
+Shelby County Schools,2108,Levi Elementary,38109,-90.07523,35.050286,429.0,30,16.7,45.2,K8,4.0
+Shelby County Schools,2109,Lucie E. Campbell Elementary,38127,-90.00646,35.223796,558.0,40,14.5,84.1,K8,2.5
+Shelby County Schools,2110,Magnolia Elementary,38114,-89.98543,35.101525,370.0,36,25.7,48.3,K8,2.2
+Shelby County Schools,2111,Manassas High,38107,-90.02224,35.167515,454.0,34,43.2,82.5,HS,1.0
+Shelby County Schools,2112,Melrose High,38114,-89.98543,35.101525,588.0,37,49.9,60.0,HS,1.9
+Shelby County Schools,2113,Mitchell High,38109,-90.07523,35.050286,456.0,30,33.1,79.4,HS,1.0
+Shelby County Schools,2114,Newberry Elementary,38115,-89.86291,35.057311,464.0,32,8.7,45.9,K8,2.8
+Shelby County Schools,2115,Oakhaven Elementary,38118,-89.92426,35.048455,581.0,37,31.2,64.4,K8,0.3
+Shelby County Schools,2116,Oakhaven Middle,38108,-89.96028,35.174165,292.0,18,11.7,62.5,K8,3.0
+Shelby County Schools,2117,Oakhaven High,38118,-89.92426,35.048455,339.0,27,34.7,55.2,HS,2.0
+Shelby County Schools,2118,Oakshire Elementary,38116,-90.01128,35.03319,345.0,29,23.9,24.2,K8,2.0
+Shelby County Schools,2119,Overton High,38117,-89.90389,35.112929,1116.0,77,31.0,80.5,HS,1.0
+Shelby County Schools,2120,Peabody Elementary,38104,-90.00463,35.133825,368.0,26,8.2,64.7,K8,2.6
+Shelby County Schools,2121,Raleigh-Bartlett Meadows Elementary,38134,-89.86559,35.193046,462.0,33,16.0,88.6,K8,1.0
+Shelby County Schools,2122,Raleigh-Egypt High,38128,-89.92588,35.219882,1006.0,71,34.1,70.4,HS,1.1
+Shelby County Schools,2123,Balmoral/Ridgeway Elementary,38119,-89.84892,35.082936,325.0,23,8.7,85.7,K8,2.8
+Shelby County Schools,2124,Ridgeway Middle,38119,-89.84892,35.082936,758.0,41,3.9,51.1,K8,1.1
+Shelby County Schools,2125,Ridgeway High,38119,-89.84892,35.082936,1184.0,67,37.5,84.9,HS,1.7
+Shelby County Schools,2126,Riverview Elementary/Middle,38109,-90.07523,35.050286,420.0,39,18.6,61.4,K8,2.1
+Shelby County Schools,2127,Robert R. Church Elementary,38116,-90.01128,35.03319,695.0,50,7.3,30.4,K8,4.0
+Shelby County Schools,2128,Ross Elementary,38141,-89.84701,35.016803,663.0,47,12.0,80.4,K8,1.1
+Shelby County Schools,2129,Rozelle Elementary,38114,-89.98543,35.101525,239.0,20,6.0,87.0,K8,1.8
+Shelby County Schools,2130,Scenic Hills Elementary,38128,-89.92588,35.219882,288.0,27,14.5,51.5,K8,2.0
+Shelby County Schools,2131,Sea Isle Elementary,38117,-89.90389,35.112929,441.0,42,11.1,93.0,K8,2.5
+Shelby County Schools,2132,Shady Grove Elementary,38120,-89.86562,35.124818,375.0,29,12.9,84.8,K8,2.0
+Shelby County Schools,2133,Sharpe Elementary,38111,-89.94363,35.10935,298.0,27,12.9,83.3,K8,1.3
+Shelby County Schools,2134,Sheffield Elementary,38118,-89.92426,35.048455,581.0,46,18.9,48.8,K8,3.0
+Shelby County Schools,2135,Sheffield High,38118,-89.92426,35.048455,668.0,45,32.3,72.2,HS,1.8
+Shelby County Schools,2136,Sherwood Elementary,38111,-89.94363,35.10935,600.0,46,16.3,81.1,K8,1.3
+Shelby County Schools,2137,Sherwood Middle,38111,-89.94363,35.10935,792.0,55,28.5,56.7,K8,0.9
+Shelby County Schools,2138,Shelby Oaks Elementary,38134,-89.86559,35.193046,833.0,59,10.5,86.4,K8,1.2
+Shelby County Schools,2139,Snowden Elementary/Middle,38112,-89.97479,35.148605,1291.0,88,7.8,76.0,K8,1.8
+Shelby County Schools,2140,Oak Forest Elementary,38119,-89.84892,35.082936,426.0,33,4.9,88.6,K8,2.0
+Shelby County Schools,2141,South Park Elementary,38111,-89.94363,35.10935,515.0,50,12.5,81.5,K8,3.1
+Shelby County Schools,2142,Treadwell Elementary,38122,-89.92315,35.155589,690.0,56,18.7,66.7,K8,0.1
+Shelby County Schools,2143,Riverwood Elementary School,38016,-89.776835,35.177475,958.0,64,5.2,78.4,K8,3.9
+Shelby County Schools,2144,Treadwell Middle School,38122,-89.92315,35.155589,484.0,31,23.7,70.6,K8,2.0
+Shelby County Schools,2145,Trezevant High,38127,-90.00646,35.223796,554.0,37,60.9,73.1,HS,0.9
+Shelby County Schools,2146,Vollentine Elementary,38107,-90.02224,35.167515,339.0,28,8.0,80.0,K8,2.8
+Shelby County Schools,2147,A. Maceo Walker Middle,38116,-90.01128,35.03319,740.0,41,32.6,73.9,K8,1.2
+Shelby County Schools,2148,Wells Station Elementary,38108,-89.96028,35.174165,736.0,63,13.5,84.6,K8,1.0
+Shelby County Schools,2149,Westwood High,38109,-90.07523,35.050286,373.0,32,58.0,52.5,HS,2.0
+Shelby County Schools,2150,White Station Elementary,38117,-89.90389,35.112929,641.0,48,2.4,86.3,K8,3.7
+Shelby County Schools,2151,White Station High,38117,-89.90389,35.112929,2144.0,131,17.9,89.9,HS,3.4
+Shelby County Schools,2152,White Station Middle,38120,-89.86562,35.124818,1287.0,78,4.6,84.8,K8,3.3
+Shelby County Schools,2153,Whitehaven Elementary,38116,-90.01128,35.03319,470.0,42,15.2,75.8,K8,1.0
+Shelby County Schools,2154,Whitehaven High,38116,-90.01128,35.03319,1652.0,94,35.9,83.7,HS,2.6
+Shelby County Schools,2155,Willow Oaks Elementary,38117,-89.90389,35.112929,723.0,52,12.6,69.2,K8,2.0
+Shelby County Schools,2156,Winchester Elementary,38116,-90.01128,35.03319,605.0,42,30.2,61.4,K8,1.4
+Shelby County Schools,2157,Winridge Elementary,38115,-89.86291,35.057311,507.0,35,14.0,73.2,K8,1.4
+Shelby County Schools,2158,Wooddale High,38118,-89.92426,35.048455,597.0,49,30.8,58.8,HS,1.1
+Shelby County Schools,2159,Northwest Prep Academy,38104,-90.00463,35.133825,157.0,19,89.3,58.3,HS,0.0
+Shelby County Schools,2160,Grandview Heights Middle School,38127,-90.00646,35.223796,493.0,35,30.3,62.2,K8,1.1
+Shelby County Schools,2161,Maxine Smith STEAM Academy,38104,-90.00463,35.133825,357.0,23,1.1,62.5,K8,4.0
+Shelby County Schools,2162,Westhaven Elementary,38109,-90.07523,35.050286,802.0,45,21.3,80.0,K8,2.3
+Shelby County Schools,2163,DuBois Middle of Leadership  Public Policy,38106,-90.04017,35.103019,127.0,9,16.1,62.5,K8,3.0
+Shelby County Schools,2164,DuBois Middle School of Arts  Technology,38116,-90.01128,35.03319,129.0,7,9.6,23.1,K8,2.0
+Shelby County Schools,2165,DuBois Elementary School of Entrepreneurship,38125,-89.80329,35.035466,239.0,9,20.3,38.5,K8,2.4
+Shelby County Schools,2166,DuBois Elementary School of Arts  Technology,38116,-90.01128,35.03319,205.0,13,17.3,66.7,K8,1.8
+Shelby County Schools,2167,Circles Of Success Learning Academy,38106,-90.04017,35.103019,239.0,14,11.3,92.9,K8,2.0
+Shelby County Schools,2168,KIPP Memphis Collegiate High School,38108,-89.96028,35.174165,488.0,28,31.2,75.0,HS,1.9
+Shelby County Schools,2169,City University School Of Liberal Arts,38106,-90.04017,35.103019,269.0,14,20.3,27.3,HS,3.0
+Shelby County Schools,2170,Memphis Academy Of Science  Engineering Middle/High,38104,-90.00463,35.133825,605.0,40,53.3,83.3,HS,1.0
+Shelby County Schools,2171,Power Center Academy High School,38115,-89.86291,35.057311,581.0,27,15.4,33.3,HS,1.9
+Shelby County Schools,2172,Memphis Business Academy Elementary School,38127,-90.00646,35.223796,305.0,18,16.0,66.7,K8,2.9
+Shelby County Schools,2173,Memphis Academy Of Health Sciences,38128,-89.92588,35.219882,311.0,16,10.0,62.5,K8,1.0
+Shelby County Schools,2174,Memphis Academy of Health Sciences High School,38107,-90.02224,35.167515,423.0,25,51.6,66.7,HS,2.0
+Shelby County Schools,2175,Memphis Business Academy Middle,38134,-89.86559,35.193046,479.0,22,24.6,65.2,K8,1.1
+Shelby County Schools,2176,Memphis Business Academy High School,38127,-90.00646,35.223796,467.0,26,44.7,55.6,HS,1.2
+Shelby County Schools,2177,Power Center Academy Middle,38115,-89.86291,35.057311,432.0,41,8.0,55.6,K8,2.2
+Shelby County Schools,2178,Promise Academy,38108,-89.96028,35.174165,365.0,20,4.1,71.0,K8,2.2
+Shelby County Schools,2179,Southern Avenue Charter School Of Academic Excellence  Creative Arts,38132,-89.99788,35.073545,364.0,22,26.0,50.0,K8,1.2
+Shelby County Schools,2180,Star Academy,38108,-89.96028,35.174165,277.0,15,11.0,53.3,K8,0.0
+Shelby County Schools,2181,Soulsville Charter School,38106,-90.04017,35.103019,658.0,38,17.3,74.4,HS,1.8
+Shelby County Schools,2182,Freedom Preparatory Academy,38109,-90.07523,35.050286,672.0,20,7.2,37.2,HS,1.4
+Shelby County Schools,2183,KIPP Memphis Collegiate Middle,38108,-89.96028,35.174165,323.0,18,30.8,45.8,K8,1.1
+Shelby County Schools,2184,Memphis College Preparatory,38106,-90.04017,35.103019,252.0,18,25.9,61.1,K8,2.0
+Shelby County Schools,2185,Memphis School of Excellence,38118,-89.92426,35.048455,522.0,33,10.5,52.1,HS,1.9
+Shelby County Schools,2186,Veritas College Preparatory,38106,-90.04017,35.103019,142.0,11,39.6,80.0,K8,3.0
+Shelby County Schools,2187,Aurora Collegiate Academy,38122,-89.92315,35.155589,335.0,21,7.8,60.0,K8,3.9
+Shelby County Schools,2188,KIPP Memphis Middle Academy,38108,-89.96028,35.174165,340.0,19,30.5,55.2,K8,1.0
+Shelby County Schools,2189,Memphis Grizzlies Preparatory Charter School,38103,-90.0534,35.146131,346.0,18,8.4,61.1,K8,1.3
+Shelby County Schools,2190,KIPP Memphis Collegiate Elementary,38107,-90.02224,35.167515,438.0,22,22.9,56.7,K8,0.2
+Shelby County Schools,2191,Vision Preparatory Charter School,38109,-90.07523,35.050286,363.0,22,24.6,94.4,K8,1.0
+Shelby County Schools,2192,Power Center Academy Elementary School,38115,-89.86291,35.057311,639.0,14,16.6,38.5,K8,0.0
+Shelby County Schools,2193,Granville T. Woods Academy of Innovation Charter School,38128,-89.92588,35.219882,417.0,25,24.2,70.4,K8,2.8
+Shelby County Schools,2194,Leadership Preparatory Charter School,38111,-89.94363,35.10935,266.0,18,13.3,80.0,K8,2.0
+Shelby County Schools,2195,Kaleidoscope School of Memphis,38103,-90.0534,35.146131,69.0,4,8.6,0.0,K8,1.0
+Shelby County Schools,2196,Southwest Early College High School,38103,-90.0534,35.146131,178.0,15,11.6,66.7,K8,2.0
+Arlington Municipal School District,2197,Arlington High,38002,-89.71198,35.272386,2071.0,114,5.2,92.1,HS,2.7
+Arlington Municipal School District,2198,Arlington Elementary,38002,-89.71198,35.272386,787.0,59,2.3,91.5,K8,4.0
+Arlington Municipal School District,2199,Arlington Middle,38002,-89.71198,35.272386,962.0,52,3.6,82.8,K8,3.4
+Arlington Municipal School District,2200,Donelson Elementary,38002,-89.71198,35.272386,853.0,57,2.3,77.6,K8,4.0
+Bartlett Municipal School District,2201,Altruria Elementary,38134,-89.86559,35.193046,816.0,53,4.5,91.7,K8,3.7
+Bartlett Municipal School District,2202,Appling Middle School,38133,-89.80518,35.208709,700.0,39,9.7,75.5,K8,3.7
+Bartlett Municipal School District,2203,Bartlett Elementary School,38135,-89.85214,35.232085,670.0,50,5.4,94.4,K8,4.0
+Bartlett Municipal School District,2204,Bartlett High School,38134,-89.86559,35.193046,2734.0,152,8.8,91.1,HS,3.0
+Bartlett Municipal School District,2205,Bon Lin Elementary School,38134,-89.86559,35.193046,832.0,55,5.9,85.2,K8,3.7
+Bartlett Municipal School District,2206,Bon Lin Middle School,38133,-89.80518,35.208709,767.0,44,8.3,80.0,K8,3.2
+Bartlett Municipal School District,2207,Ellendale Elementary,38135,-89.85214,35.232085,509.0,35,5.4,86.5,K8,3.6
+Bartlett Municipal School District,2208,Elmore Park Middle School,38134,-89.86559,35.193046,823.0,44,11.4,80.4,K8,2.4
+Bartlett Municipal School District,2209,Oak Elementary,38134,-89.86559,35.193046,635.0,47,5.4,84.9,K8,3.5
+Bartlett Municipal School District,2210,Rivercrest Elementary,38135,-89.85214,35.232085,531.0,36,7.2,92.9,K8,3.6
+Collierville Municipal School District,2211,Bailey Station Elementary School,38017,-89.67417,35.057224,784.0,57,2.8,92.1,K8,3.9
+Collierville Municipal School District,2212,Collierville Elementary School,38017,-89.67417,35.057224,839.0,64,5.9,87.9,K8,3.5
+Collierville Municipal School District,2213,Collierville High School,38017,-89.67417,35.057224,2773.0,141,14.3,83.8,HS,3.6
+Collierville Municipal School District,2214,Collierville Middle School,38017,-89.67417,35.057224,890.0,55,5.5,86.2,K8,3.2
+Collierville Municipal School District,2215,Crosswind Elementary School,38017,-89.67417,35.057224,784.0,55,4.3,88.1,K8,3.8
+Collierville Municipal School District,2216,West Collierville Middle School,38017,-89.67417,35.057224,1237.0,69,5.3,89.9,K8,3.6
+Collierville Municipal School District,2217,Sycamore Elementary School,38017,-89.67417,35.057224,514.0,44,3.0,67.6,K8,3.9
+Collierville Municipal School District,2218,Tara Oaks Elementary School,38017,-89.67417,35.057224,643.0,51,3.3,90.0,K8,4.0
+Germantown Municipal School District,2219,Dogwood Elementary School,38139,-89.7615,35.087468,943.0,60,1.2,87.3,K8,4.0
+Germantown Municipal School District,2220,Farmington Elementary School,38138,-89.80677,35.088885,818.0,57,2.9,89.6,K8,3.6
+Germantown Municipal School District,2221,Houston Middle School,38139,-89.7615,35.087468,961.0,53,2.3,82.0,K8,3.5
+Germantown Municipal School District,2222,Houston High School,38139,-89.7615,35.087468,1906.0,107,5.2,88.0,HS,3.3
+Germantown Municipal School District,2223,Riverdale Elementary School,38138,-89.80677,35.088885,1427.0,86,3.6,88.4,K8,3.4
+Millington Municipal School District,2224,E.A. Harrold Elementary School,38053,-89.90668,35.347965,338.0,24,17.3,79.3,K8,2.8
+Millington Municipal School District,2225,Millington Elementary School,38053,-89.90668,35.347965,756.0,61,15.5,95.4,K8,1.9
+Millington Municipal School District,2226,Millington Central High School,38053,-89.90668,35.347965,833.0,54,16.1,80.9,HS,2.5
+Millington Municipal School District,2227,Millington Middle School,38053,-89.90668,35.347965,560.0,32,13.7,64.9,K8,1.9
+Smith County School District,2228,Carthage Elementary,37030,-85.94893,36.264959,340.0,24,5.2,68.8,K8,2.6
+Smith County School District,2229,Defeated Elementary,37030,-85.94893,36.264959,230.0,19,2.6,85.7,K8,2.6
+Smith County School District,2230,Forks River Elementary,38560,-85.88908,36.236398,180.0,13,7.4,80.0,K8,3.0
+Smith County School District,2231,Gordonsville High School,38563,-85.9832,36.182334,465.0,31,7.8,88.2,HS,2.6
+Smith County School District,2232,Gordonsville Elementary School,38563,-85.9832,36.182334,317.0,19,3.1,95.8,K8,3.6
+Smith County School District,2233,Smith County High School,37030,-85.94893,36.264959,599.0,46,9.8,91.7,HS,2.7
+Smith County School District,2234,Smith County Middle School,37030,-85.94893,36.264959,319.0,18,8.5,78.3,K8,2.6
+Stewart County Schools,2235,Stewart County Middle School,37058,-87.85877,36.477136,514.0,26,7.0,87.1,K8,2.2
+Stewart County Schools,2236,Dover Elementary,37058,-87.85877,36.477136,446.0,31,6.6,84.2,K8,4.0
+Stewart County Schools,2237,North Stewart Elementary,37023,-87.79018,36.574224,363.0,27,10.7,96.7,K8,2.2
+Stewart County Schools,2238,Stewart Co High School,37058,-87.85877,36.477136,667.0,42,9.1,86.7,HS,2.0
+Sullivan County Schools,2239,Blountville Elementary,37617,-82.37229,36.534729,284.0,25,11.2,82.1,K8,2.0
+Sullivan County Schools,2240,Blountville Middle School,37617,-82.37229,36.534729,330.0,23,13.1,88.5,K8,1.2
+Sullivan County Schools,2241,Bluff City Elementary,37618,-82.22998,36.469605,494.0,34,11.5,90.2,K8,2.0
+Sullivan County Schools,2242,Bluff City Middle School,37618,-82.22998,36.469605,443.0,30,12.9,88.6,K8,2.0
+Sullivan County Schools,2243,Central Heights Elementary,37617,-82.37229,36.534729,223.0,17,3.9,90.0,K8,3.4
+Sullivan County Schools,2244,Sullivan Central High School,37617,-82.37229,36.534729,854.0,60,22.7,85.9,HS,2.0
+Sullivan County Schools,2245,Colonial Heights Middle,37663,-82.49765,36.468953,348.0,24,8.9,89.7,K8,2.8
+Sullivan County Schools,2246,Sullivan East High School,37618,-82.22998,36.469605,842.0,62,16.5,90.5,HS,1.6
+Sullivan County Schools,2247,Emmett Elementary,37620,-82.16869,36.561341,316.0,28,11.9,72.7,K8,1.6
+Sullivan County Schools,2248,Holston Elementary,37617,-82.37229,36.534729,330.0,28,6.6,83.9,K8,3.6
+Sullivan County Schools,2249,Holston Valley Middle School,37620,-82.16869,36.561341,180.0,12,10.6,87.5,K8,1.6
+Sullivan County Schools,2250,Indian Springs Elementary,37664,-82.51162,36.522968,376.0,25,7.2,89.3,K8,2.2
+Sullivan County Schools,2251,Mary Hughes School,37686,-82.33344,36.430799,454.0,27,18.0,93.9,K8,1.8
+Sullivan County Schools,2252,Miller Perry Elementary,37663,-82.49765,36.468953,330.0,21,9.0,84.6,K8,3.6
+Sullivan County Schools,2253,Sullivan Gardens K-8,37660,-82.55408,36.547133,411.0,33,12.4,80.0,K8,2.0
+Sullivan County Schools,2254,Sullivan North High School,37660,-82.55408,36.547133,441.0,38,24.2,82.2,HS,1.0
+Sullivan County Schools,2255,Sullivan South High School,37664,-82.51162,36.522968,828.0,52,15.9,91.8,HS,3.0
+Sullivan County Schools,2256,Ketron Elementary School,37660,-82.55408,36.547133,600.0,43,21.0,81.6,K8,3.6
+Sullivan County Schools,2257,Innovation Academy,37660,-82.55408,36.547133,146.0,7,6.4,100.0,K8,4.0
+Bristol City Schools,2258,Anderson Elementary,37620,-82.16869,36.561341,338.0,31,11.3,82.4,K8,2.4
+Bristol City Schools,2259,Avoca Elementary,37620,-82.16869,36.561341,444.0,29,4.4,96.8,K8,3.6
+Bristol City Schools,2260,Fairmount Elementary,37620,-82.16869,36.561341,471.0,37,8.1,85.7,K8,1.9
+Bristol City Schools,2261,Haynesfield Elementary,37620,-82.16869,36.561341,460.0,28,5.0,87.5,K8,4.0
+Bristol City Schools,2262,Holston View Elementary,37620,-82.16869,36.561341,385.0,27,4.4,96.4,K8,3.2
+Bristol City Schools,2263,Vance Middle School,37620,-82.16869,36.561341,602.0,39,7.5,85.4,K8,2.6
+Bristol City Schools,2264,Tennessee High School,37620,-82.16869,36.561341,1145.0,77,16.2,88.7,HS,2.7
+Bristol City Schools,2265,Tennessee Online Public School,37620,-82.16869,36.561341,216.0,3,15.9,40.0,HS,4.0
+Kingsport City Schools,2266,Dobyns - Bennett High School,37664,-82.51162,36.522968,2287.0,155,16.9,91.9,HS,3.6
+Kingsport City Schools,2267,Thomas Jefferson Elementary School,37664,-82.51162,36.522968,456.0,31,7.2,86.1,K8,3.6
+Kingsport City Schools,2268,Andrew Johnson Elementary School,37664,-82.51162,36.522968,565.0,37,7.1,89.7,K8,3.4
+Kingsport City Schools,2269,John F. Kennedy Elementary School,37660,-82.55408,36.547133,268.0,22,11.4,85.2,K8,3.6
+Kingsport City Schools,2270,Abraham Lincoln Elementary School,37664,-82.51162,36.522968,424.0,33,13.7,91.4,K8,2.9
+Kingsport City Schools,2271,John Adams Elementary School,37664,-82.51162,36.522968,485.0,33,7.0,84.8,K8,3.2
+Kingsport City Schools,2272,Ross N. Robinson Middle School,37664,-82.51162,36.522968,974.0,55,13.7,92.1,K8,3.2
+Kingsport City Schools,2273,John Sevier Middle School,37660,-82.55408,36.547133,824.0,52,19.3,85.5,K8,2.6
+Kingsport City Schools,2274,George Washington Elementary School,37660,-82.55408,36.547133,463.0,34,7.4,89.2,K8,3.4
+Kingsport City Schools,2275,Theodore Roosevelt Elementary School,37660,-82.55408,36.547133,264.0,24,20.5,75.0,K8,2.8
+Sumner County Schools,2276,Jack Anderson Elementary,37075,-86.61173,36.311047,847.0,52,3.4,86.2,K8,4.0
+Sumner County Schools,2277,Beech Elementary,37075,-86.61173,36.311047,418.0,32,4.2,88.9,K8,3.6
+Sumner County Schools,2278,Beech Sr High School,37075,-86.61173,36.311047,1386.0,88,13.1,87.6,HS,2.7
+Sumner County Schools,2279,Bethpage Elementary,37022,-86.3,36.501049,296.0,23,7.4,84.6,K8,3.6
+Sumner County Schools,2280,Robert E Ellis Middle,37075,-86.61173,36.311047,673.0,42,4.6,82.2,K8,3.9
+Sumner County Schools,2281,Gallatin Senior High School,37066,-86.4548,36.388997,1628.0,101,14.2,87.4,HS,2.1
+Sumner County Schools,2282,Guild Elementary,37066,-86.4548,36.388997,703.0,53,10.2,86.0,K8,2.1
+Sumner County Schools,2283,Gene W. Brown Elementary,37075,-86.61173,36.311047,450.0,30,7.6,76.3,K8,2.6
+Sumner County Schools,2284,Hendersonville High School,37075,-86.61173,36.311047,1511.0,97,10.4,84.1,HS,3.1
+Sumner County Schools,2285,Howard Elementary,37066,-86.4548,36.388997,568.0,41,10.5,80.4,K8,2.6
+Sumner County Schools,2286,T. W. Hunter Middle School,37075,-86.61173,36.311047,651.0,43,2.4,86.3,K8,3.7
+Sumner County Schools,2287,Indian Lake Elementary,37075,-86.61173,36.311047,596.0,38,1.5,85.7,K8,4.0
+Sumner County Schools,2288,Merrol Hyde Magnet School,37075,-86.61173,36.311047,662.0,44,1.2,88.2,HS,4.0
+Sumner County Schools,2289,J W Wiseman Elementary,37148,-86.51355,36.576137,415.0,35,4.9,65.8,K8,2.7
+Sumner County Schools,2290,Lakeside Park Elementary,37075,-86.61173,36.311047,323.0,27,7.2,89.7,K8,4.0
+Sumner County Schools,2291,Station Camp Middle School,37066,-86.4548,36.388997,975.0,52,5.7,88.3,K8,3.9
+Sumner County Schools,2292,Madison Creek Elementary,37072,-86.71879,36.35465,660.0,45,3.3,80.9,K8,3.8
+Sumner County Schools,2293,Millersville Elementary,37072,-86.71879,36.35465,267.0,21,8.8,76.0,K8,2.6
+Sumner County Schools,2294,Nannie Berry Elementary,37075,-86.61173,36.311047,539.0,38,4.6,88.4,K8,3.6
+Sumner County Schools,2295,Watt Hardison Elementary,37148,-86.51355,36.576137,412.0,30,4.5,80.0,K8,2.6
+Sumner County Schools,2296,North Sumner Elementary,37022,-86.3,36.501049,213.0,18,18.9,86.4,K8,3.0
+Sumner County Schools,2297,Portland High School,37148,-86.51355,36.576137,1081.0,75,15.1,93.9,HS,1.4
+Sumner County Schools,2298,Portland East Middle School,37148,-86.51355,36.576137,399.0,25,9.6,86.7,K8,2.6
+Sumner County Schools,2299,E B Wilson,37066,-86.4548,36.388997,88.0,4,0.0,100.0,HS,2.0
+Sumner County Schools,2300,Clyde Riggs Elementary,37148,-86.51355,36.576137,257.0,18,11.4,90.9,K8,4.0
+Sumner County Schools,2301,Joe Shafer Middle School,37066,-86.4548,36.388997,664.0,45,8.6,77.8,K8,2.2
+Sumner County Schools,2302,Rucker Stewart Middle,37066,-86.4548,36.388997,816.0,48,13.3,76.4,K8,1.7
+Sumner County Schools,2303,Station Camp Elementary,37066,-86.4548,36.388997,1032.0,62,2.6,88.1,K8,3.8
+Sumner County Schools,2304,Station Camp High School,37066,-86.4548,36.388997,1469.0,93,12.1,88.6,HS,3.3
+Sumner County Schools,2305,Benny C. Bills Elementary School,37066,-86.4548,36.388997,696.0,55,8.3,81.4,K8,2.0
+Sumner County Schools,2306,Union Elementary School,37066,-86.4548,36.388997,516.0,30,3.3,82.9,K8,3.6
+Sumner County Schools,2307,V G Hawkins Middle School,37075,-86.61173,36.311047,485.0,37,7.5,82.9,K8,2.3
+Sumner County Schools,2308,Vena Stuart Elementary,37066,-86.4548,36.388997,673.0,52,13.9,71.4,K8,2.8
+Sumner County Schools,2309,Walton Ferry Elementary,37075,-86.61173,36.311047,459.0,32,4.4,81.1,K8,3.9
+Sumner County Schools,2310,George A Whitten Elementary,37075,-86.61173,36.311047,400.0,31,6.7,86.8,K8,2.5
+Sumner County Schools,2311,Westmoreland Elementary,37186,-86.23954,36.579247,524.0,37,10.0,73.7,K8,3.6
+Sumner County Schools,2312,Westmoreland Middle School,37186,-86.23954,36.579247,424.0,28,7.8,81.8,K8,2.2
+Sumner County Schools,2313,Westmoreland High School,37186,-86.23954,36.579247,488.0,41,14.3,87.5,HS,3.0
+Sumner County Schools,2314,White House High School,37188,-86.66941,36.467624,836.0,56,12.7,79.7,HS,2.7
+Sumner County Schools,2315,White House Middle School,37188,-86.66941,36.467624,786.0,51,7.1,84.5,K8,3.2
+Sumner County Schools,2316,Knox Doss Middle School at Drakes Creek,37075,-86.61173,36.311047,603.0,42,8.7,97.8,K8,3.5
+Sumner County Schools,2317,Portland West Middle School,37148,-86.51355,36.576137,572.0,37,6.4,90.7,K8,2.6
+Sumner County Schools,2318,Harold B. Williams Elementary School,37188,-86.66941,36.467624,656.0,44,5.7,89.8,K8,3.6
+Sumner County Schools,2319,Portland Gateview Elementary School,37148,-86.51355,36.576137,541.0,42,7.3,67.3,K8,2.7
+Sumner County Schools,2320,Dr. William Burrus Elementary at Drakes Creek,37075,-86.61173,36.311047,503.0,37,2.2,82.9,K8,3.8
+Tipton County Schools,2321,Austin Peay Elementary School,38019,-89.64201,35.560622,466.0,45,4.4,86.0,K8,2.9
+Tipton County Schools,2322,Atoka Elementary School,38004,-89.80806,35.422035,879.0,55,4.1,88.1,K8,3.7
+Tipton County Schools,2323,Brighton Elementary,38011,-89.72344,35.474694,738.0,52,5.9,87.7,K8,3.6
+Tipton County Schools,2324,Brighton High School,38011,-89.72344,35.474694,1241.0,76,6.5,88.0,HS,2.6
+Tipton County Schools,2325,Brighton Middle School,38011,-89.72344,35.474694,948.0,50,8.4,87.5,K8,3.3
+Tipton County Schools,2326,Crestview Middle School,38019,-89.64201,35.560622,526.0,30,9.1,85.7,K8,1.9
+Tipton County Schools,2327,Covington Integrated Arts Academy,38019,-89.64201,35.560622,456.0,40,10.3,75.6,K8,2.0
+Tipton County Schools,2328,Covington High School,38019,-89.64201,35.560622,757.0,45,11.3,90.9,HS,2.7
+Tipton County Schools,2329,Crestview Elementary,38019,-89.64201,35.560622,821.0,57,8.3,88.1,K8,1.9
+Tipton County Schools,2330,Drummonds Elementary,38023,-89.94754,35.489296,682.0,48,8.5,84.9,K8,2.3
+Tipton County Schools,2331,Munford Elementary,38058,-89.80845,35.451159,765.0,52,7.4,80.7,K8,3.7
+Tipton County Schools,2332,Munford Middle School,38058,-89.80845,35.451159,905.0,51,5.3,96.4,K8,3.6
+Tipton County Schools,2333,Munford High School,38058,-89.80845,35.451159,1255.0,70,7.7,90.0,HS,3.5
+Trousdale County Schools,2334,Trousdale Co Elementary,37074,-86.15305,36.407653,563.0,42,7.0,80.9,K8,3.7
+Trousdale County Schools,2335,Trousdale Co High School,37074,-86.15305,36.407653,360.0,28,9.0,84.4,HS,3.2
+Trousdale County Schools,2336,Jim Satterfield Middle School,37074,-86.15305,36.407653,337.0,19,4.6,78.3,K8,3.3
+Unicoi County Schools,2337,Unicoi Co Middle School,37650,-82.4273,36.128301,558.0,36,23.1,89.7,K8,1.7
+Unicoi County Schools,2338,Love Chapel Elementary,37650,-82.4273,36.128301,370.0,26,11.4,93.1,K8,3.4
+Unicoi County Schools,2339,Temple Hill Elementary,37650,-82.4273,36.128301,91.0,9,5.6,81.8,K8,3.0
+Unicoi County Schools,2340,Unicoi Co High School,37650,-82.4273,36.128301,787.0,54,25.7,88.5,HS,1.3
+Unicoi County Schools,2341,Unicoi Elementary,37692,-82.31214,36.20493,276.0,26,16.1,90.3,K8,2.0
+Union County Schools,2342,H Maynard Middle School,37807,-83.82558,36.251265,661.0,43,12.2,88.0,K8,2.0
+Union County Schools,2343,Luttrell Elementary,37779,-83.75046,36.20423,295.0,23,10.3,88.9,K8,2.0
+Union County Schools,2344,Maynardville Elementary,37807,-83.82558,36.251265,356.0,25,10.3,92.3,K8,1.0
+Union County Schools,2345,Sharps Chapel Elementary,37866,-83.82637,36.355257,129.0,11,8.4,84.6,K8,2.6
+Union County Schools,2346,Union County High School,37807,-83.82558,36.251265,831.0,53,22.8,85.2,HS,2.4
+Union County Schools,2347,Paulette Elementary School,37807,-83.82558,36.251265,381.0,26,8.2,88.5,K8,1.0
+Union County Schools,2348,Tennessee Virtual Academy,37807,-83.82558,36.251265,1348.0,64,7.8,68.1,K8,0.4
+Van Buren County Schools,2349,Spencer Elementary,38585,-85.41146,35.69653,314.0,26,6.4,78.8,K8,3.4
+Van Buren County Schools,2350,Van Buren Co High School,38585,-85.41146,35.69653,406.0,33,11.3,94.6,HS,2.2
+Warren County School District,2351,Centertown Elementary,37110,-85.787,35.687286,507.0,35,8.2,97.4,K8,2.6
+Warren County School District,2352,Dibrell Elementary,37110,-85.787,35.687286,443.0,32,5.3,94.3,K8,0.9
+Warren County School District,2353,Eastside Elementary,38581,-85.63943,35.751554,388.0,32,8.3,87.9,K8,1.8
+Warren County School District,2354,Hickory Creek School,37110,-85.787,35.687286,641.0,53,12.4,91.2,K8,2.6
+Warren County School District,2355,Irving College Elementary,37110,-85.787,35.687286,256.0,19,7.7,95.7,K8,2.0
+Warren County School District,2356,Morrison Elementary,37357,-85.92275,35.596484,398.0,29,6.8,88.9,K8,2.1
+Warren County School District,2357,Bobby Ray Memorial,37110,-85.787,35.687286,507.0,41,10.7,76.1,K8,1.2
+Warren County School District,2358,Warren County Middle School,37110,-85.787,35.687286,804.0,58,5.7,95.5,K8,1.5
+Warren County School District,2359,Warren County High School,37110,-85.787,35.687286,1934.0,115,20.2,83.9,HS,2.5
+Washington County Schools,2360,Boones Creek Elementary,37615,-82.44593,36.405338,336.0,28,16.5,73.7,K8,2.4
+Washington County Schools,2361,Boones Creek Middle School,37601,-82.3386,36.331006,332.0,20,13.8,84.6,K8,3.4
+Washington County Schools,2362,Daniel Boone High School,37615,-82.44593,36.405338,1256.0,78,15.6,88.6,HS,3.0
+Washington County Schools,2363,David Crockett High School,37659,-82.49704,36.293805,1208.0,72,23.4,84.0,HS,2.7
+Washington County Schools,2364,Fall Branch Elementary,37659,-82.49704,36.293805,213.0,19,12.0,87.0,K8,2.0
+Washington County Schools,2365,Grandview Elementary School,37690,-82.55708,36.254547,621.0,44,9.4,80.9,K8,2.6
+Washington County Schools,2366,Gray Elementary School,37615,-82.44593,36.405338,540.0,35,6.7,81.4,K8,3.8
+Washington County Schools,2367,Jonesborough Elementary,37659,-82.49704,36.293805,506.0,39,9.0,84.1,K8,2.4
+Washington County Schools,2368,Jonesborough Middle School,37659,-82.49704,36.293805,412.0,28,17.6,80.6,K8,3.6
+Washington County Schools,2369,Lamar Elementary,37659,-82.49704,36.293805,466.0,36,17.5,82.5,K8,2.8
+Washington County Schools,2370,Ridgeview Elementary School,37615,-82.44593,36.405338,789.0,48,6.7,88.9,K8,3.2
+Washington County Schools,2371,South Central Elementary,37641,-82.6744,36.21503,211.0,20,12.1,66.7,K8,1.8
+Washington County Schools,2372,Sulphur Springs Elementary,37659,-82.49704,36.293805,366.0,31,12.9,77.1,K8,3.6
+Washington County Schools,2373,University School,37614,-82.36984,36.302479,597.0,35,6.4,97.4,HS,4.0
+Washington County Schools,2374,West View School,37681,-82.62095,36.246547,418.0,30,10.5,73.0,K8,3.0
+Johnson City Schools,2375,Fairmont Elementary,37601,-82.3386,36.331006,506.0,37,5.7,88.1,K8,3.9
+Johnson City Schools,2376,Indian Trail Intermediate School,37601,-82.3386,36.331006,1228.0,73,7.8,79.5,K8,3.6
+Johnson City Schools,2377,Lake Ridge Elementary,37601,-82.3386,36.331006,527.0,36,3.9,86.5,K8,3.6
+Johnson City Schools,2378,Liberty Bell Middle School,37604,-82.3802,36.312633,1206.0,66,15.8,82.4,K8,3.2
+Johnson City Schools,2379,North Side Elementary,37601,-82.3386,36.331006,235.0,27,8.5,81.3,K8,2.4
+Johnson City Schools,2380,Science Hill High School,37604,-82.3802,36.312633,2280.0,146,19.3,89.4,HS,3.2
+Johnson City Schools,2381,Towne Acres Elementary,37604,-82.3802,36.312633,402.0,28,2.5,93.8,K8,4.0
+Wayne County Schools,2382,Collinwood Elementary,38450,-87.77263,35.187869,315.0,30,17.8,91.9,K8,1.8
+Wayne County Schools,2383,Collinwood High School,38450,-87.77263,35.187869,286.0,18,29.4,75.0,HS,2.0
+Wayne County Schools,2384,Collinwood Middle School,38450,-87.77263,35.187869,267.0,22,19.0,91.3,K8,2.4
+Wayne County Schools,2385,Frank Hughes School,38425,-87.97188,35.401188,302.0,31,14.7,88.2,HS,1.0
+Wayne County Schools,2386,Wayne County High School,38485,-87.75739,35.343716,305.0,20,14.3,84.6,HS,3.0
+Wayne County Schools,2387,Waynesboro Elementary,38485,-87.75739,35.343716,371.0,32,12.9,97.0,K8,2.2
+Wayne County Schools,2388,Waynesboro Middle School,38485,-87.75739,35.343716,271.0,20,18.5,95.8,K8,2.4
+Weakley County Schools,2389,Dresden Elementary,38225,-88.6869,36.305305,457.0,30,8.4,88.6,K8,4.0
+Weakley County Schools,2390,Dresden Middle School,38225,-88.6869,36.305305,366.0,23,9.8,96.0,K8,2.6
+Weakley County Schools,2391,Dresden High School,38225,-88.6869,36.305305,343.0,24,11.7,86.2,HS,1.8
+Weakley County Schools,2392,Gleason School,38229,-88.60614,36.223573,433.0,33,6.4,89.7,HS,2.0
+Weakley County Schools,2393,Greenfield School,38230,-88.76867,36.154281,473.0,39,13.6,79.1,HS,2.6
+Weakley County Schools,2394,Martin Elementary,38237,-88.84191,36.353928,415.0,27,3.1,89.3,K8,3.6
+Weakley County Schools,2395,Westview High School,38237,-88.84191,36.353928,546.0,39,8.4,83.0,HS,3.9
+Weakley County Schools,2396,Martin Middle School,38237,-88.84191,36.353928,377.0,24,6.7,86.2,K8,3.0
+Weakley County Schools,2397,Sharon School,38255,-88.83586,36.236377,162.0,20,15.9,79.2,K8,2.6
+White County Schools,2398,Bon De Croft Elementary,38583,-85.45113,35.943026,166.0,14,5.9,78.6,K8,2.0
+White County Schools,2399,Cassville Elementary,38583,-85.45113,35.943026,213.0,18,7.0,94.7,K8,3.0
+White County Schools,2400,Doyle Elementary,38559,-85.51921,35.833271,231.0,18,10.4,81.0,K8,2.2
+White County Schools,2401,Findlay Elementary,38583,-85.45113,35.943026,376.0,30,1.4,85.3,K8,4.0
+White County Schools,2402,Northfield Elementary School,38583,-85.45113,35.943026,265.0,21,7.9,81.8,K8,2.6
+White County Schools,2403,White County High School,38583,-85.45113,35.943026,1158.0,66,10.2,90.8,HS,2.7
+White County Schools,2404,White Co Middle School,38583,-85.45113,35.943026,916.0,53,7.7,86.2,K8,1.7
+White County Schools,2405,Woodland Park Elementary,38583,-85.45113,35.943026,450.0,35,9.8,73.7,K8,1.4
+Williamson County Schools,2406,Allendale Elementary School,37174,-86.91144,35.73062,746.0,54,3.0,65.3,K8,4.0
+Williamson County Schools,2407,Bethesda Elementary,37179,-86.90734,35.79867,539.0,40,2.8,63.9,K8,4.0
+Williamson County Schools,2408,Brentwood High School,37027,-86.79121,36.007373,1781.0,95,12.9,85.2,HS,3.6
+Williamson County Schools,2409,Centennial High School,37067,-86.7952,35.921811,1696.0,102,9.6,78.1,HS,3.7
+Williamson County Schools,2410,College Grove Elementary,37046,-86.72272,35.7557,598.0,41,2.5,74.4,K8,4.0
+Williamson County Schools,2411,Clovercroft Elementary School,37067,-86.7952,35.921811,756.0,49,0.8,75.8,K8,4.0
+Williamson County Schools,2412,Chapman's Retreat Elementary,37174,-86.91144,35.73062,720.0,49,2.5,78.2,K8,3.6
+Williamson County Schools,2413,Edmondson Elementary,37027,-86.79121,36.007373,773.0,54,0.6,83.9,K8,4.0
+Williamson County Schools,2414,Crockett Elementary,37027,-86.79121,36.007373,641.0,57,1.9,70.8,K8,4.0
+Williamson County Schools,2415,Fairview Middle School,37062,-87.14128,35.976983,537.0,36,4.7,77.6,K8,3.6
+Williamson County Schools,2416,Fairview High School,37062,-87.14128,35.976983,747.0,58,10.8,80.0,HS,2.1
+Williamson County Schools,2417,Franklin High School,37064,-86.89919,35.893823,1795.0,110,10.5,89.9,HS,3.6
+Williamson County Schools,2418,Fred J Page Middle School,37064,-86.89919,35.893823,1163.0,72,2.5,81.8,K8,3.4
+Williamson County Schools,2419,Fred J Page High School,37064,-86.89919,35.893823,1156.0,69,5.7,81.0,HS,3.6
+Williamson County Schools,2420,Grassland Elementary,37027,-86.79121,36.007373,567.0,39,1.6,93.0,K8,4.0
+Williamson County Schools,2421,Grassland Middle School,37064,-86.89919,35.893823,993.0,60,2.0,72.5,K8,4.0
+Williamson County Schools,2422,Heritage Elementary,37179,-86.90734,35.79867,598.0,44,2.7,85.5,K8,3.6
+Williamson County Schools,2423,Hillsboro Elementary/ Middle School,37064,-86.89919,35.893823,616.0,52,3.4,68.4,K8,3.8
+Williamson County Schools,2424,Independence High School,37179,-86.90734,35.79867,1847.0,108,9.2,86.6,HS,3.6
+Williamson County Schools,2425,Spring Station Middle School,37174,-86.91144,35.73062,1000.0,62,2.7,75.7,K8,3.6
+Williamson County Schools,2426,Hunters Bend Elementary,37069,-86.89653,35.97706,481.0,37,1.2,58.7,K8,4.0
+Williamson County Schools,2427,Kenrose Elementary,37027,-86.79121,36.007373,729.0,54,2.9,54.7,K8,4.0
+Williamson County Schools,2428,Lipscomb Elementary,37027,-86.79121,36.007373,693.0,45,1.4,74.6,K8,4.0
+Williamson County Schools,2429,Longview Elementary School,37174,-86.91144,35.73062,846.0,66,3.0,75.0,K8,3.4
+Williamson County Schools,2430,Renaissance High School,37064,-86.89919,35.893823,166.0,13,11.3,75.0,HS,4.0
+Williamson County Schools,2431,Pearre Creek Elementary School,37064,-86.89919,35.893823,643.0,55,2.1,83.6,K8,4.0
+Williamson County Schools,2432,Nolensville Elementary,37135,-86.6686,35.940383,558.0,43,1.4,76.1,K8,4.0
+Williamson County Schools,2433,Nolensville High School,37135,-86.6686,35.940383,1082.0,63,8.7,80.7,K8,3.6
+Williamson County Schools,2434,Brentwood Middle School,37027,-86.79121,36.007373,1327.0,72,1.7,81.0,K8,4.0
+Williamson County Schools,2435,Oak View Elem School,37064,-86.89919,35.893823,831.0,55,1.0,90.8,K8,2.4
+Williamson County Schools,2436,Mill Creek Elementary School,37135,-86.6686,35.940383,861.0,57,1.3,83.9,K8,4.0
+Williamson County Schools,2437,Mill Creek Middle School,37135,-86.6686,35.940383,701.0,43,2.4,81.6,K8,3.6
+Williamson County Schools,2438,Ravenwood High School,37027,-86.79121,36.007373,1667.0,91,10.9,80.2,HS,4.0
+Williamson County Schools,2439,Scales Elementary,37027,-86.79121,36.007373,820.0,53,2.2,79.7,K8,4.0
+Williamson County Schools,2440,Sunset Elementary School,37027,-86.79121,36.007373,730.0,50,1.4,82.5,K8,4.0
+Williamson County Schools,2441,Sunset Middle School,37027,-86.79121,36.007373,519.0,32,0.9,85.7,K8,4.0
+Williamson County Schools,2442,Summit High School,37174,-86.91144,35.73062,1533.0,93,12.6,78.1,HS,3.4
+Williamson County Schools,2443,Trinity Elementary,37067,-86.7952,35.921811,767.0,55,2.0,93.3,K8,4.0
+Williamson County Schools,2444,Walnut Grove Elementary,37069,-86.89653,35.97706,602.0,43,1.5,82.0,K8,3.6
+Williamson County Schools,2445,Woodland Middle School,37027,-86.79121,36.007373,1013.0,60,1.9,84.6,K8,4.0
+Williamson County Schools,2446,Westwood Elementary School,37062,-87.14128,35.976983,534.0,40,4.6,78.8,K8,4.0
+Williamson County Schools,2447,Winstead Elementary School,37064,-86.89919,35.893823,593.0,47,2.0,83.0,K8,3.2
+Franklin Special School District,2448,Johnson Elementary,37064,-86.89919,35.893823,303.0,34,6.1,83.7,K8,4.0
+Franklin Special School District,2449,Franklin Elementary,37064,-86.89919,35.893823,296.0,35,5.9,86.0,K8,3.6
+Franklin Special School District,2450,Freedom Intermediate,37064,-86.89919,35.893823,579.0,47,4.1,86.0,K8,3.6
+Franklin Special School District,2451,Freedom Middle School,37064,-86.89919,35.893823,585.0,46,5.2,85.7,K8,3.1
+Franklin Special School District,2452,Moore Elementary,37064,-86.89919,35.893823,488.0,46,2.7,86.3,K8,4.0
+Franklin Special School District,2453,Poplar Grove K-4,37064,-86.89919,35.893823,364.0,36,2.4,95.3,K8,2.6
+Franklin Special School District,2454,Poplar Grove 5-8,37064,-86.89919,35.893823,366.0,35,3.5,92.9,K8,3.2
+Wilson County School District,2455,Carroll Oakland Elementary,37087,-86.29271,36.240331,682.0,48,6.6,87.5,K8,1.6
+Wilson County School District,2456,Gladeville Elementary,37071,-86.304922,36.156231,700.0,46,4.8,85.7,K8,2.6
+Wilson County School District,2457,Springdale Elementary School,37122,-86.49732,36.195016,596.0,44,3.4,84.8,K8,4.0
+Wilson County School District,2458,Lakeview Elementary School,37122,-86.49732,36.195016,560.0,37,4.8,90.0,K8,3.8
+Wilson County School District,2459,Lebanon High School,37087,-86.29271,36.240331,1895.0,127,21.6,85.0,HS,2.5
+Wilson County School District,2460,Mt. Juliet High School,37122,-86.49732,36.195016,2220.0,127,12.6,88.5,HS,3.3
+Wilson County School District,2461,Mt. Juliet Middle School,37122,-86.49732,36.195016,1624.0,90,10.2,79.6,K8,3.8
+Wilson County School District,2462,West Wilson Middle School,37122,-86.49732,36.195016,1408.0,80,9.2,74.7,K8,3.2
+Wilson County School District,2463,Mt. Juliet Elementary,37122,-86.49732,36.195016,678.0,42,6.0,82.2,K8,3.4
+Wilson County School District,2464,Rutland Elementary,37122,-86.49732,36.195016,1124.0,73,4.2,92.1,K8,3.9
+Wilson County School District,2465,Stoner Creek Elementary,37122,-86.49732,36.195016,490.0,40,5.9,74.3,K8,3.4
+Wilson County School District,2466,Tuckers Crossroads Elementary,37087,-86.29271,36.240331,393.0,36,7.5,90.0,K8,2.0
+Wilson County School District,2467,Watertown High School,37184,-86.13715,36.096166,571.0,42,14.9,93.5,HS,2.3
+Wilson County School District,2468,Watertown Elementary,37184,-86.13715,36.096166,561.0,48,10.0,82.4,K8,3.2
+Wilson County School District,2469,Wilson Central High School,37090,-86.31061,36.147433,1935.0,123,15.0,81.3,HS,3.9
+Wilson County School District,2470,W A Wright Elementary,37122,-86.49732,36.195016,545.0,41,6.8,88.9,K8,3.7
+Wilson County School District,2471,Tennessee Virtual On-Line School,37087,-86.29271,36.240331,75.0,7,9.6,37.5,K8,2.0
+Wilson County School District,2472,Elzie D Patton Elementary School,37122,-86.49732,36.195016,486.0,37,3.9,80.0,K8,3.2
+Wilson County School District,2473,Watertown Middle School,37184,-86.13715,36.096166,300.0,23,7.8,80.8,K8,0.8
+Lebanon Special School District,2474,Byars Dowdy Elementary,37087,-86.29271,36.240331,549.0,45,7.0,90.2,K8,2.9
+Lebanon Special School District,2475,Coles Ferry Elementary,37087,-86.29271,36.240331,657.0,45,6.9,87.8,K8,2.6
+Lebanon Special School District,2476,Walter J. Baird Middle School,37087,-86.29271,36.240331,575.0,34,9.1,86.8,K8,3.5
+Lebanon Special School District,2477,Castle Heights Elementary,37087,-86.29271,36.240331,695.0,48,8.6,91.8,K8,3.3
+Lebanon Special School District,2478,Winfree Bryant Middle School,37087,-86.29271,36.240331,644.0,41,10.5,82.6,K8,1.7
+Alvin C York Institute,2479,Alvin C. York Institute,38556,-84.93393,36.409385,516.0,44,14.0,89.8,HS,3.0
+Achievement School District,2480,Corning Achievement Elementary,38127,-90.00646,35.223796,124.0,4,37.4,14.3,K8,3.0
+Achievement School District,2481,Westside Middle School,38127,-90.00646,35.223796,296.0,16,34.8,22.7,K8,0.4
+Achievement School District,2482,Frayser Achievement Elementary,38127,-90.00646,35.223796,246.0,18,34.4,52.9,K8,1.8
+Achievement School District,2483,Whitney Achievement Elementary School,38127,-90.00646,35.223796,275.0,18,13.6,31.0,K8,2.2
+Achievement School District,2484,Georgian Hills Achievement Elementary School,38127,-90.00646,35.223796,282.0,18,3.0,63.6,K8,1.0
+Achievement School District,2485,Pathways in Education - TN,38127,-90.00646,35.223796,174.0,4,0.7,50.0,HS,2.0
+Achievement School District,2486,Pathways in Education - Whitehaven,38116,-90.01128,35.03319,173.0,11,2.7,80.0,HS,1.0
+Achievement School District,2487,Brick Church: A LEAD Public School,37207,-86.77317,36.215535,305.0,18,21.9,46.7,K8,1.3
+Achievement School District,2488,Cornerstone Prep - Lester Campus,38112,-89.97479,35.148605,375.0,33,27.3,56.8,K8,0.0
+Achievement School District,2489,Humes Preparatory Academy Middle  School,38107,-90.02224,35.167515,236.0,17,25.2,53.8,K8,1.0
+Achievement School District,2490,KIPP Memphis Preparatory Middle,38106,-90.04017,35.103019,296.0,13,27.8,44.4,K8,1.0
+Achievement School District,2491,Aspire Hanley Middle School,38114,-89.98543,35.101525,239.0,6,34.0,33.3,K8,2.3
+Achievement School District,2492,Aspire Hanley Elementary,38114,-89.98543,35.101525,544.0,23,32.3,54.2,K8,1.4
+Achievement School District,2493,KIPP Memphis Academy Elementary,38108,-89.96028,35.174165,339.0,14,43.3,28.6,K8,1.2
+Achievement School District,2494,Aspire Coleman,38128,-89.92588,35.219882,612.0,35,22.3,73.9,K8,0.0
+Achievement School District,2495,Fairley High School,38109,-90.07523,35.050286,520.0,22,56.7,55.2,HS,0.9
+Achievement School District,2496,Promise Academy - Spring Hill,38128,-89.92588,35.219882,412.0,25,9.1,73.1,K8,0.0
+Achievement School District,2497,Martin Luther King Preparatory High School,38127,-90.00646,35.223796,513.0,37,56.0,56.5,HS,1.1
+Achievement School District,2498,Lester Prep,38112,-89.97479,35.148605,246.0,23,25.8,68.2,K8,1.0
+Achievement School District,2499,Neely's Bend: A LEAD Public School,37115,-86.70566,36.264069,499.0,28,17.0,44.4,K8,1.1
+Achievement School District,2500,Libertas School,38127,-90.00646,35.223796,286.0,23,20.4,70.0,K8,2.0
+Achievement School District,2501,Wooddale Middle School,38118,-89.92426,35.048455,398.0,25,15.6,82.8,K8,1.0
+Achievement School District,2502,KIPP Memphis Preparatory Elementary,38106,-90.04017,35.103019,412.0,19,21.7,90.9,K8,1.0
+Achievement School District,2503,Cornerstone Prep Denver Campus,38127,-90.00646,35.223796,590.0,40,26.1,55.0,K8,2.7
+Achievement School District,2504,Memphis Scholars Florida Kansas,38106,-90.04017,35.103019,244.0,15,28.1,22.7,K8,1.8
+Achievement School District,2505,Memphis Scholars Caldwell-Guthrie,38107,-90.02224,35.167515,460.0,29,43.0,59.4,K8,1.2
+Achievement School District,2506,Memphis Scholars Raleigh-Egypt,38106,-90.04017,35.103019,103.0,6,37.5,0.0,K8,1.0
+Achievement School District,2507,Kirby Middle School,38115,-89.86291,35.057311,384.0,19,25.1,77.8,K8,1.1
+Achievement School District,2508,Hillcrest High School,38116,-90.01128,35.03319,461.0,26,42.1,51.1,HS,1.1
+Tennessee State Board of Education,2509,Bluff City High School,38115,-89.86291,35.057311,305.0,13,29.9,66.7,K8,1.7
