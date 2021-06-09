@@ -84,31 +84,23 @@ local_fig
 st.write('''# Schools with the highest achievement score from 2019 by county:''')
 achieve_fig = px.histogram(df_selected_school.sort_values('score_achievement'), x="score_achievement",y='school_name',
                     color="district_name",title="The schools achievement",
-                    hover_data=df_selected_school.columns,
+                    hover_data=['zipcode','district_name','score_achievement'],
 labels={'school_name':'SCHOOLS','score_achievement':'Score achievement  by county'})
 achieve_fig
 
 st.write('''# Number of School Teachers and Teacher Retention by Schools: ''')
 teacher_fig = px.treemap(df_selected_school, path=['district_name','pool','school_name'], values='percent_retained',
-                    color='district_name',hover_data=['zipcode','district_name'],title="Teacher retention by county")
+                    color='district_name',hover_data=['zipcode','district_name','score_achievement'],title="Teacher retention by county")
 
 teacher_fig
-#color_continuous_midpoint=np.average(df_selected_school['score_achievement'], weights=df_selected_school['percent_ca']),
-#fig = px.sunburst(df_selected_school, path=['district_name', 'school_name'], values='percent_retained',
-                  #color='district_name', hover_data=["score_achievement","zipcode"],
-                  #color_continuous_scale='RdBu')
-
-#fig
 
 
 
-
-
-
-
-st.write('''# Schools with highest percentage of students absent: ''')
+st.write('''# Schools with highest percentage of absent students : ''')
 student_fig = px.bar(school_selected_df.sort_values('students_enrolled'), x='students_enrolled', y='school_name',
-              color='percent_ca',hover_data=['students_enrolled','score_achievement','percent_ca','district_name','number_of_teachers'],title="Chronically Absent per school",
+              color='percent_ca',hover_data=['students_enrolled','score_achievement','percent_ca','district_name','number_of_teachers','percent_retained'],title="Chronically Absent per school",
               labels={'school_name':'SCHOOLS','students_enrolled':'STUDENT ENROLLMENT','percent_ca2019':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'}, color_continuous_scale='Bluered')
              # height=400)
 student_fig
+
+#st.info(df_selected_school.shape)
