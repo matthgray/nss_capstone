@@ -99,7 +99,7 @@ st.write('''# Schools with the highest achievement score from 2019 by county:'''
 
 fig = px.treemap(df_selected_school.sort_values('score_achievement'),path =('district_name','pool','school_name'),values = 'score_achievement',
 color = 'district_name',hover_data=['zipcode','district_name','score_achievement','percent_retained'],title="The color shows the district, the size of square is the schools achvievment scores",
-                   labels={'score_achievement':'Achievement Score','district_name':'District','score_achievement':'Achievement Score'})
+                   labels={'score_achievement':'Achievement Score','district_name':'District','score_achievement':'Achievement Score'},hover_name="school_name")
 fig
 
 
@@ -108,7 +108,7 @@ st.write('''# Achievement score by teacher retention with size of the circle as 
 teacher_fig=px.scatter(school_selected_df.sort_values('school_name'), x="percent_retained",y='score_achievement',size='student_teacher_ratio',
                     title="Achievement score by teacher retention with size of the circle as number of teachers at the school",
                     labels={'percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score','school_name':'School'},
-                    color="school_name",hover_data=['percent_ca','percent_retained'])
+                    color="school_name",hover_data=['percent_ca','percent_retained','district_name'],hover_name="district_name")
 
 teacher_fig
 
@@ -135,7 +135,7 @@ if st.button("RECAP"):
 # final
 if st.button("WHICH COUNTY HAS THE BEST SCHOOLS?"):
     with st.spinner('Wait for it...'):
-        time.sleep(2)
+        time.sleep(1)
     st.balloons()
     st.success("CONGRATS!")
-    st.write("# WILLIAMSON COUNTY")
+    st.write("# WILLIAMSON COUNTY IS OUR WINNER!")
