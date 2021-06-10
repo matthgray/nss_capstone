@@ -9,6 +9,7 @@ import seaborn as sns
 import numpy as np
 import time
 # read data
+
 finance_url ='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/data/clean_data/tn_finance_data.csv'
 achievement_url='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/data/clean_data/tn_grade_data.csv'
 # data for achievement scores, teacher Retention,etc
@@ -42,20 +43,20 @@ st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/d
 # filters
 # filter by county
 sorted_county = sorted(tn_data.district_name.unique())
-selected_from_county =st.sidebar.multiselect('filter by county',sorted_county,
+selected_from_county =st.sidebar.multiselect('Filter by county for chart 2',sorted_county,
 default=['Metro Nashville Public Schools','Achievement School District','Rutherford County Schools','Williamson County Schools','Wilson County School District','Sumner County Schools','Trousdale County Schools'])
 #county_selected = tn_data[(tn_data.district_name.isin(selected_from_county))]
 
 #select high school or k8
 sort_grade = sorted(tn_data.pool.unique())
-selected_from_grade= st.sidebar.multiselect('filter by grade',sort_grade,'K8')
+selected_from_grade= st.sidebar.multiselect('Filter by grade for chart 2',sort_grade,'K8')
 
 
 
 #select_df=county_selected[(county_selected)&(tn_data[(tn_data.district_name.isin(selected_from_county)))]
 
 sort_school = sorted(tn_data.school_name.unique())
-selected_from_school= st.sidebar.multiselect('filter by school',sort_school,
+selected_from_school= st.sidebar.multiselect('Filter by school for charts 3 and 4',sort_school,
 default=['Trousdale Co Elementary','Harpeth Valley Elementary','Springdale Elementary School',
 'Lipscomb Elementary','Lakeside Park Elementary','McFadden School Of Excellence','Corning Achievement Elementary'])
 #'Oak View Elem School','Rucker Stewart Middle','Whitworth-Buchanan Middle School','Watertown Middle School','Stratton Elementary
@@ -77,7 +78,7 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 # graphs
 
 
-st.write('''# Score achievement is the color and local spending is the size of the circle:''')
+st.write('''# 1) Average achievement score by county and percentage of PPE funded locally:''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement',
                   size="local_funding_percent",
                   title="The size of the circle is the percentage of per pupil expenditure that is locally funded and the color is the achievement score",
@@ -89,7 +90,7 @@ local_fig
 
 
 
-st.write('''# Schools with the highest achievement score from 2019 by county:''')
+st.write('''# 2) Schools with the highest achievement score from 2019 by county:''')
 #achieve_fig = px.histogram(df_selected_school.sort_values('score_achievement'), x="score_achievement",y='school_name',
 #                    color="district_name",title="Colors are the districts,x axis is the achievement score of the class, and y axis are the schools in the district",
 #                    hover_data=['zipcode','district_name','score_achievement'],
@@ -98,21 +99,23 @@ st.write('''# Schools with the highest achievement score from 2019 by county:'''
 
 fig = px.treemap(df_selected_school.sort_values('score_achievement'),path =('district_name','pool','school_name'),values = 'score_achievement',
 color = 'district_name',hover_data=['zipcode','district_name','score_achievement','percent_retained'],title="The color shows the district, the size of square is the schools achvievment scores",
-                   labels={'score_achievement':'Achievement Score','district_name':'District','score_achievement':'Achievement Score'},hover_name="school_name")
+                   labels={'score_achievement':'Achievement Score','district_name':'District',
+                   'percent_retained':'Percentage of teacher retained','score_achievement':'Achievement Score'},hover_name="school_name")
 fig
 
 
-st.write('''# Achievement score by teacher retention with size of the circle as number of teachers at the school: ''')
+st.write('''# 3) Achievement score, teacher retention, and student to teacher ratio by school: ''')
 
 teacher_fig=px.scatter(school_selected_df.sort_values('school_name'), x="percent_retained",y='score_achievement',size='student_teacher_ratio',
-                    title="Achievement score by teacher retention with size of the circle as number of teachers at the school",
-                    labels={'percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score','school_name':'School'},
+                    title="Achievement score on the y and teacher retention on the x with the size of the circle as the student to teacher ratio",
+                    labels={'percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score','district_name':'District',
+                    'school_name':'School','student_teacher_ratio':'Student to teacher ratio','percent_ca':'Percent of students who are chronically absent'},
                     color="school_name",hover_data=['percent_ca','percent_retained','district_name'],hover_name="district_name")
 
 teacher_fig
 
 
-st.write('''# Achievement score by chronically absent students with size of the circle as student enrollment: ''')
+st.write('''# 4) Achievement score, chronically absent students, and student enrollment by school:''')
 #student_fig = px.bar(school_selected_df.sort_values('students_enrolled'), x='students_enrolled', y='school_name',
 #              color='percent_ca',hover_data=['students_enrolled','score_achievement','percent_ca','district_name','number_of_teachers','percent_retained'],title="Chronically Absent per school",
 #              labels={'school_name':'SCHOOLS','students_enrolled':'STUDENT ENROLLMENT','percent_ca':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'}, color_continuous_scale='rdylgn')
@@ -121,7 +124,9 @@ st.write('''# Achievement score by chronically absent students with size of the 
 #school_selected_df.sort_values('percent_ca')
 student_fig = px.scatter(school_selected_df.sort_values('school_name'), x="percent_ca", y="score_achievement",
 	         size="students_enrolled", color="school_name",title="Achievement score by chronically absent students with size of the circle as student enrollment",
-             labels={'school_name':'School','percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score','students_enrolled':'STUDENT ENROLLMENT','percent_ca':'PERCENTAGE OF STUDENT CHRONICALLY ABSENT'},
+             labels={'school_name':'School','percent_retained':'Percentage of teacher retention',
+
+             'score_achievement':'Achievement Score','students_enrolled':'STUDENT ENROLLMENT','percent_ca':'PERCENTAGE OF STUDENTSX  CHRONICALLY ABSENT'},
                  hover_name="district_name", log_x=True, size_max=60)
 student_fig
 #st.info(df_selected_school.shape)
@@ -131,8 +136,10 @@ student_fig
 if st.button("RECAP"):
     st.write("# TROUSDALE, SUMNER, WILSON, WILLIAMSON,and RUTHERFORD ARE COMPETING WITH NASHVILLE")
     st.write("# TROUSDALE IS SPENDING THE LOWEST AND ACHIEVING THE MOST IN MIDDLE TN")
+
 # final
-if st.button("WHICH MIDDLE TN COUNTY HAS THE BEST SCHOOLS?"):
+
+if st.button("WHICH MIDDLE TN COUNTY HAS THE BEST ELEMENTARY SCHOOLS?"):
     with st.spinner('Wait for it...'):
         time.sleep(1)
     st.balloons()
