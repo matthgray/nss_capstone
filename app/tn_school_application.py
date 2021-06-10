@@ -83,7 +83,8 @@ local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",colo
                   size="local_funding_percent",
                   title="The size of the circle is the percentage of per pupil expenditure that is locally funded and the color is the achievement score",
                   hover_data=["district_ppe"], size_max=15, zoom=5,hover_name="district_name",
-                  mapbox_style="carto-positron", color_continuous_scale='spectral',labels={'score_achievement':'Average Score Achievement by District'})
+                  mapbox_style="carto-positron", color_continuous_scale='spectral',
+                  labels={'score_achievement':'Average Score Achievement by District','local_funding_percent':'Percent locally funded'})
 
 local_fig
 
