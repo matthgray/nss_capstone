@@ -15,6 +15,9 @@ achievement_url='https://raw.githubusercontent.com/matthgray/nss_capstone/omega/
 # data for achievement scores, teacher Retention,etc
 finance_data = pd.read_csv(finance_url)
 finance_data['score_achievement']=finance_data['score_achievement'].round(decimals=2)
+finance_data['local_ppe']=finance_data['district_ppe'] * finance_data['local_funding_percent']
+finance_data['local_ppe'] =finance_data['local_ppe']/100
+finance_data['local_ppe']=finance_data['local_ppe'].round(decimals=2)
 # data for ppe and budgets
 tn_data = pd.read_csv(achievement_url)
 # creat a student to teacher ratio column
@@ -41,7 +44,14 @@ st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/d
 #sort_finance_df=finance_data[(finance_data.district_name.isin(sected_from_finance))]
 
 # filters
-# filter by county
+sorted_district= sorted(finance_data.district_name.unique())
+selected_from_district=st.sidebar.multiselect('Filter by district for charts 1',sorted_district,
+default=['Metro Nashville Public Schools','Achievement School District','Rutherford County Schools','Williamson County Schools','Wilson County School District','Sumner County Schools','Trousdale County Schools'])
+
+
+
+
+# filter by county for charts
 sorted_county = sorted(tn_data.district_name.unique())
 selected_from_county =st.sidebar.multiselect('Filter by county for chart 2',sorted_county,
 default=['Metro Nashville Public Schools','Achievement School District','Rutherford County Schools','Williamson County Schools','Wilson County School District','Sumner County Schools','Trousdale County Schools'])
@@ -66,7 +76,7 @@ default=['Trousdale Co Elementary','Harpeth Valley Elementary','Springdale Eleme
 
 school_selected_df= tn_data[(tn_data.school_name.isin(selected_from_school))]
 df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) & (tn_data.pool.isin(selected_from_grade))]
-
+dristric_df=finance_data[(finance_data.district_name.isin(selected_from_district))]
 
 # handle counties with not HS or K8
 #if df_selected_school.pool = NaN:
@@ -76,17 +86,23 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 
 #------------------------------------------------------------------#
 # graphs
-
+#st.dataframe(finance_data)
 st.write('''# 1) Average achievement score by county and percentage of PPE funded locally:''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement',
                   size="local_funding_percent",
                   title="The size of the circle is the percentage of per pupil expenditure that is locally funded and the color is the achievement score",
-                  hover_data=["district_ppe"], size_max=15, zoom=5,hover_name="district_name",
+                  hover_data=["district_ppe","state_funding_percent"], size_max=15, zoom=5,hover_name="district_name",
                   mapbox_style="carto-positron", color_continuous_scale='spectral',
                   labels={'score_achievement':'Average Score Achievement by District','local_funding_percent':'Percent locally funded'})
 
 local_fig
+fig=px.scatter(dristric_df.sort_values('district_name'), x="local_ppe",y='score_achievement',size='district_ppe',
+                    title="Achievement score on the y and local PPE on the x with the size of the circle as the total PPE for the county",
+                    labels={'percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score','district_name':'District',
+                    'school_name':'School','district_ppe':'PPE','percent_ca':'Percent of students who are chronically absent','Local_ppe':'local PPE '},
+                    color="district_name",hover_data=['district_name','district_ppe'],hover_name="district_name")
 
+fig
 
 
 
@@ -103,10 +119,13 @@ color = 'district_name',hover_data=['zipcode','district_name','score_achievement
                    'percent_retained':'Percentage of teacher retained','score_achievement':'Achievement Score'},hover_name="school_name")
 fig_tscore
 
+
 fig_bscore = px.box(df_selected_school, x="district_name", y="score_achievement",
 title="Box plot of different counties distributions of achievement scores",
 labels={'score_achievement': 'Achievement Score','district_name':'District'})
 fig_bscore
+
+
 #,hover_name="district_name")
 #labels={'score_achievement':'Achievement Score','district_name':'District'}
 
@@ -140,12 +159,12 @@ student_fig
 # recap
 #st.dataframe(df_selected_school)
 if st.button("RECAP"):
-    st.write("# TROUSDALE, SUMNER, WILSON, WILLIAMSON,and RUTHERFORD ARE COMPETING WITH NASHVILLE")
-    st.write("# TROUSDALE IS SPENDING THE LOWEST AND ACHIEVING THE MOST IN MIDDLE TN")
+    st.write("# TROUSDALE, SUMNER, WILSON, WILLIAMSON,and RUTHERFORD ARE SPENDING LESS THAN NASHVILLE ON LOCAL PPE")
+    st.write("# TROUSDALE IS SPENDING THE LOWEST AND HAS A HIGH Achievement score IN MIDDLE TN")
 
 # final
 
-if st.button("WHICH MIDDLE TN COUNTY HAS THE BEST ELEMENTARY SCHOOLS?"):
+if st.button("WHICH MIDDLE TN DISTRICT HAS THE BEST ELEMENTARY SCHOOLS?"):
     with st.spinner('Wait for it...'):
         time.sleep(1)
     st.balloons()
