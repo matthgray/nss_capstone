@@ -137,4 +137,11 @@ if st.button("WHICH MIDDLE TN COUNTY HAS THE BEST SCHOOLS?"):
         time.sleep(1)
     st.balloons()
     st.success("CONGRATS!")
-    st.write("# WILLIAMSON COUNTY IS OUR WINNER!")
+    st.markdown("""
+        <style>
+        .big-font {
+        font-size:150px !important;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    st.markdown('<p class="big-font">WILLIAMSON COUNTY!!</p>', unsafe_allow_html=True)
