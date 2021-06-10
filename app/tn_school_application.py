@@ -132,7 +132,7 @@ if st.button("RECAP"):
     st.write("# TROUSDALE, SUMNER, WILSON, WILLIAMSON,and RUTHERFORD ARE COMPETING WITH NASHVILLE")
     st.write("# TROUSDALE IS SPENDING THE LOWEST AND ACHIEVING THE MOST IN MIDDLE TN")
 # final
-if st.button("WHICH COUNTY HAS THE BEST SCHOOLS?"):
+if st.button("WHICH MIDDLE TN COUNTY HAS THE BEST SCHOOLS?"):
     with st.spinner('Wait for it...'):
         time.sleep(1)
     st.balloons()
