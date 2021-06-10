@@ -3,7 +3,6 @@
 # needed packages
 import streamlit as st
 import pandas as pd
-import base64
 import matplotlib.pyplot as plt
 import plotly.express as px
 import seaborn as sns
@@ -28,7 +27,7 @@ tn_data['student_teacher_ratio']=tn_data['student_teacher_ratio'].round(decimals
 #----------------------------------------------------------------#
 # Titles
 #st.dataframe(tn_data)
-st.markdown('''# TN SCHOOLS ANALYSIS''')
+st.markdown('''# TN SCHOOLS ANALYSIS FOR 2019''')
 st.markdown("""**DATA SOURCE:** [TN.gov](https://www.tn.gov/education/data/data-downloads.html) """)
 st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/dam/tn/education/data/data_definitions.pdf)""")
 #st.dataframe(finance_data)

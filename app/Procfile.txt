@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run tn_school_application.py
