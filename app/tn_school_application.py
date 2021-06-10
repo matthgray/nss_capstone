@@ -77,7 +77,6 @@ df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) 
 #------------------------------------------------------------------#
 # graphs
 
-
 st.write('''# 1) Average achievement score by county and percentage of PPE funded locally:''')
 local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",color='score_achievement',
                   size="local_funding_percent",
@@ -98,12 +97,18 @@ st.write('''# 2) Schools with the highest achievement score from 2019 by county:
 #labels={'school_name':'SCHOOLS','score_achievement':'Score achievement  by District','district_name':'District'})
 #achieve_fig
 
-fig = px.treemap(df_selected_school.sort_values('score_achievement'),path =('district_name','pool','school_name'),values = 'score_achievement',
+fig_tscore = px.treemap(df_selected_school.sort_values('score_achievement'),path =('district_name','pool','school_name'),values = 'score_achievement',
 color = 'district_name',hover_data=['zipcode','district_name','score_achievement','percent_retained'],title="The color shows the district, the size of square is the schools achvievment scores",
                    labels={'score_achievement':'Achievement Score','district_name':'District',
                    'percent_retained':'Percentage of teacher retained','score_achievement':'Achievement Score'},hover_name="school_name")
-fig
+fig_tscore
 
+fig_bscore = px.box(df_selected_school, x="district_name", y="score_achievement",
+title="Box plot of different counties distributions of achievement scores",
+labels={'score_achievement': 'Achievement Score','district_name':'District'})
+fig_bscore
+#,hover_name="district_name")
+#labels={'score_achievement':'Achievement Score','district_name':'District'}
 
 st.write('''# 3) Achievement score, teacher retention, and student to teacher ratio by school: ''')
 
