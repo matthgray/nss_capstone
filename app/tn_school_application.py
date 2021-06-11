@@ -44,10 +44,6 @@ st.markdown("""**DEFINITIONS:**[TN.GOV/DEFINITIONS](https://www.tn.gov/content/d
 #sort_finance_df=finance_data[(finance_data.district_name.isin(sected_from_finance))]
 
 # filters
-sorted_district= sorted(finance_data.district_name.unique())
-selected_from_district=st.sidebar.multiselect('Filter by district for charts 1',sorted_district,
-default=['Metro Nashville Public Schools','Achievement School District','Rutherford County Schools','Williamson County Schools','Wilson County School District','Sumner County Schools','Trousdale County Schools'])
-
 
 
 
@@ -76,7 +72,7 @@ default=['Trousdale Co Elementary','Harpeth Valley Elementary','Springdale Eleme
 
 school_selected_df= tn_data[(tn_data.school_name.isin(selected_from_school))]
 df_selected_school = tn_data[(tn_data.district_name.isin(selected_from_county)) & (tn_data.pool.isin(selected_from_grade))]
-dristric_df=finance_data[(finance_data.district_name.isin(selected_from_district))]
+
 
 # handle counties with not HS or K8
 #if df_selected_school.pool = NaN:
@@ -96,13 +92,7 @@ local_fig = px.scatter_mapbox(finance_data, lat="latitude", lon="longitude",colo
                   labels={'score_achievement':'Average Score Achievement by District','local_funding_percent':'Percent locally funded'})
 
 local_fig
-fig=px.scatter(dristric_df.sort_values('district_name'), x="local_ppe",y='score_achievement',size='district_ppe',
-                    title="Achievement score on the y and local PPE on the x with the size of the circle as the total PPE for the county",
-                    labels={'percent_retained':'Percentage of teacher retention','score_achievement':'Achievement Score','district_name':'District',
-                    'school_name':'School','district_ppe':'PPE','percent_ca':'Percent of students who are chronically absent','Local_ppe':'local PPE '},
-                    color="district_name",hover_data=['district_name','district_ppe'],hover_name="district_name")
 
-fig
 
 
 
@@ -151,7 +141,7 @@ student_fig = px.scatter(school_selected_df.sort_values('school_name'), x="perce
 	         size="students_enrolled", color="school_name",title="Achievement score by chronically absent students with size of the circle as student enrollment",
              labels={'school_name':'School','percent_retained':'Percentage of teacher retention',
 
-             'score_achievement':'Achievement Score','students_enrolled':'STUDENT ENROLLMENT','percent_ca':'PERCENTAGE OF STUDENTSX  CHRONICALLY ABSENT'},
+             'score_achievement':'Achievement Score','students_enrolled':'STUDENT ENROLLMENT','percent_ca':'PERCENTAGE OF STUDENTS  CHRONICALLY ABSENT'},
                  hover_name="district_name", log_x=True, size_max=60)
 student_fig
 #st.info(df_selected_school.shape)
@@ -160,6 +150,8 @@ student_fig
 #st.dataframe(df_selected_school)
 if st.button("RECAP"):
     st.write("# TROUSDALE, SUMNER, WILSON, WILLIAMSON,and RUTHERFORD ARE SPENDING LESS THAN NASHVILLE ON LOCAL PPE")
+    st.write("# High scores don't always show a high teacher retention")
+    st.write("# High scores don't always show a low percentage of chronically absent students")
     st.write("# TROUSDALE IS SPENDING THE LOWEST AND HAS A HIGH Achievement score IN MIDDLE TN")
 
 # final
